@@ -9,64 +9,95 @@
 body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;background:#0f172a;color:#e2e8f0;min-height:100vh}
 #auth-screen{display:flex;align-items:center;justify-content:center;min-height:100vh;background:#0f172a}
 #auth-box{background:#1e293b;padding:40px;border-radius:12px;text-align:center;width:340px}
-#auth-box h2{color:#38bdf8;margin-bottom:8px}
+#auth-box img{height:36px;margin-bottom:16px}
+#auth-box h2{color:#38bdf8;margin-bottom:8px;font-size:16px}
 #auth-box p{color:#94a3b8;font-size:13px;margin-bottom:20px}
 #auth-box input{width:100%;padding:10px 14px;border:1px solid #334155;border-radius:8px;background:#0f172a;color:#e2e8f0;font-size:14px;margin-bottom:12px}
 #auth-box button{width:100%;padding:10px;background:#2563eb;color:#fff;border:none;border-radius:8px;font-size:14px;cursor:pointer}
 #auth-box button:hover{background:#1d4ed8}
 #auth-error{color:#f87171;font-size:12px;margin-top:8px;display:none}
 #app{display:none}
-header{background:#1e293b;border-bottom:1px solid #334155;padding:16px 24px;display:flex;justify-content:space-between;align-items:center}
-header h1{font-size:18px;color:#38bdf8}
-header .meta{color:#94a3b8;font-size:13px}
-.stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(160px,1fr));gap:12px;padding:20px 24px}
-.stat-card{background:#1e293b;border-radius:10px;padding:16px;border:1px solid #334155}
-.stat-card .label{font-size:11px;color:#94a3b8;text-transform:uppercase;letter-spacing:0.5px}
-.stat-card .value{font-size:28px;font-weight:700;color:#f8fafc;margin-top:4px}
-.stat-card .sub{font-size:12px;color:#64748b;margin-top:2px}
+header{background:#1e293b;border-bottom:1px solid #334155;padding:14px 24px;display:flex;justify-content:space-between;align-items:center}
+header .brand{display:flex;align-items:center;gap:12px}
+header .brand img{height:28px}
+header .brand h1{font-size:15px;color:#94a3b8;font-weight:400}
+header .meta{color:#64748b;font-size:12px}
+
+/* Report Type Tabs */
+.report-tabs{display:flex;gap:0;padding:0 24px;background:#1e293b;border-bottom:1px solid #334155}
+.report-tab{padding:12px 24px;color:#94a3b8;cursor:pointer;font-size:13px;font-weight:600;border-bottom:2px solid transparent;transition:all 0.2s}
+.report-tab:hover{color:#e2e8f0}
+.report-tab.active{color:#38bdf8;border-bottom-color:#38bdf8}
+.report-tab .count{background:#334155;padding:1px 7px;border-radius:10px;font-size:11px;margin-left:6px;font-weight:400}
+.report-tab.active .count{background:#1e3a5f;color:#38bdf8}
+
+/* Time Filters */
+.time-bar{display:flex;gap:8px;padding:16px 24px;align-items:center;flex-wrap:wrap;border-bottom:1px solid #1e293b}
+.time-btn{padding:6px 16px;border:1px solid #334155;border-radius:20px;background:transparent;color:#94a3b8;cursor:pointer;font-size:12px;transition:all 0.15s}
+.time-btn:hover{border-color:#475569;color:#e2e8f0}
+.time-btn.active{background:#2563eb;color:#fff;border-color:#2563eb}
+.time-sep{color:#334155;font-size:12px}
+.custom-range{display:none;align-items:center;gap:6px}
+.custom-range.show{display:flex}
+.custom-range input[type=date]{padding:5px 10px;border:1px solid #334155;border-radius:6px;background:#1e293b;color:#e2e8f0;font-size:12px}
+.custom-range button{padding:5px 12px;border:none;border-radius:6px;background:#2563eb;color:#fff;font-size:12px;cursor:pointer}
+
+/* Stats */
+.stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(140px,1fr));gap:12px;padding:16px 24px}
+.stat-card{background:#1e293b;border-radius:10px;padding:14px;border:1px solid #334155}
+.stat-card .label{font-size:10px;color:#94a3b8;text-transform:uppercase;letter-spacing:0.5px}
+.stat-card .value{font-size:26px;font-weight:700;color:#f8fafc;margin-top:2px}
+.stat-card .sub{font-size:11px;color:#64748b;margin-top:2px}
 .stat-card.green .value{color:#34d399}
 .stat-card.blue .value{color:#38bdf8}
 .stat-card.amber .value{color:#fbbf24}
-.stat-card.red .value{color:#f87171}
-.controls{padding:0 24px;display:flex;gap:10px;flex-wrap:wrap;align-items:center}
-.controls select,.controls input{padding:8px 12px;border:1px solid #334155;border-radius:8px;background:#1e293b;color:#e2e8f0;font-size:13px}
-.controls input[type=text]{width:220px}
-.controls .btn{padding:8px 16px;border:none;border-radius:8px;cursor:pointer;font-size:13px}
-.controls .btn-blue{background:#2563eb;color:#fff}
-.controls .btn-gray{background:#334155;color:#e2e8f0}
-table{width:100%;border-collapse:collapse;margin:16px 24px;width:calc(100% - 48px)}
-th{background:#1e293b;color:#94a3b8;font-size:11px;text-transform:uppercase;letter-spacing:0.5px;padding:10px 12px;text-align:left;border-bottom:1px solid #334155;cursor:pointer;user-select:none}
+.stat-card.purple .value{color:#a78bfa}
+
+/* Controls */
+.controls{padding:0 24px 12px;display:flex;gap:10px;flex-wrap:wrap;align-items:center}
+.controls input,.controls select{padding:7px 12px;border:1px solid #334155;border-radius:8px;background:#1e293b;color:#e2e8f0;font-size:12px}
+.controls input[type=text]{width:240px}
+.controls .btn{padding:7px 14px;border:none;border-radius:8px;cursor:pointer;font-size:12px;background:#334155;color:#e2e8f0}
+.controls .btn:hover{background:#475569}
+
+/* Table */
+.table-wrap{overflow-x:auto;padding:0 24px}
+table{width:100%;border-collapse:collapse}
+th{background:#0f172a;color:#64748b;font-size:10px;text-transform:uppercase;letter-spacing:0.5px;padding:8px 10px;text-align:left;border-bottom:1px solid #1e293b;cursor:pointer;user-select:none;white-space:nowrap;position:sticky;top:0}
 th:hover{color:#38bdf8}
-td{padding:10px 12px;border-bottom:1px solid #1e293b;font-size:13px;vertical-align:top}
-tr:hover{background:#1e293b}
-.tier-a{background:#065f46;color:#34d399;padding:2px 8px;border-radius:4px;font-size:11px;font-weight:600}
-.tier-b{background:#1e3a5f;color:#38bdf8;padding:2px 8px;border-radius:4px;font-size:11px;font-weight:600}
-.tier-c{background:#3b3316;color:#fbbf24;padding:2px 8px;border-radius:4px;font-size:11px;font-weight:600}
-.score{font-weight:700;font-size:14px}
+th .sort-arrow{font-size:9px;margin-left:2px;opacity:0.5}
+td{padding:9px 10px;border-bottom:1px solid #1e293b;font-size:12px;vertical-align:top}
+tr:hover td{background:#1e293b}
+.tier-a{background:#065f46;color:#34d399;padding:2px 8px;border-radius:4px;font-size:10px;font-weight:600}
+.tier-b{background:#1e3a5f;color:#38bdf8;padding:2px 8px;border-radius:4px;font-size:10px;font-weight:600}
+.score{font-weight:700;font-size:13px}
 .score-high{color:#34d399}
 .score-mid{color:#38bdf8}
 .score-low{color:#fbbf24}
-.expand-btn{background:none;border:none;color:#38bdf8;cursor:pointer;font-size:12px;padding:2px 6px}
+.email-link{color:#38bdf8;text-decoration:none;font-size:11px}
+.email-link:hover{text-decoration:underline;color:#7dd3fc}
+.no-email{color:#475569;font-size:10px;font-style:italic}
+.expand-btn{background:none;border:none;color:#38bdf8;cursor:pointer;font-size:11px;padding:2px 6px}
+.expand-btn:hover{color:#7dd3fc}
 .detail-row{display:none;background:#0f172a}
-.detail-row td{padding:16px 24px}
-.detail-content{display:grid;grid-template-columns:1fr 1fr;gap:16px}
-.detail-section{background:#1e293b;border-radius:8px;padding:14px;border:1px solid #334155}
-.detail-section h4{color:#38bdf8;font-size:12px;text-transform:uppercase;margin-bottom:8px}
-.detail-section pre{white-space:pre-wrap;font-size:12px;color:#cbd5e1;line-height:1.5;font-family:inherit}
-.week-nav{padding:12px 24px;display:flex;gap:8px;flex-wrap:wrap}
-.week-btn{padding:6px 14px;border:1px solid #334155;border-radius:6px;background:#1e293b;color:#94a3b8;cursor:pointer;font-size:12px}
-.week-btn.active{background:#2563eb;color:#fff;border-color:#2563eb}
+.detail-row td{padding:16px 20px}
+.detail-content{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+.detail-section{background:#1e293b;border-radius:8px;padding:12px;border:1px solid #334155}
+.detail-section h4{color:#38bdf8;font-size:11px;text-transform:uppercase;margin-bottom:6px}
+.detail-section pre{white-space:pre-wrap;font-size:11px;color:#cbd5e1;line-height:1.5;font-family:inherit}
 .empty-state{text-align:center;padding:60px 24px;color:#64748b}
 .empty-state h3{color:#94a3b8;margin-bottom:8px}
-@media(max-width:768px){.detail-content{grid-template-columns:1fr}.stats{grid-template-columns:repeat(2,1fr)}}
+.status-select{background:#1e293b;color:#e2e8f0;border:1px solid #334155;border-radius:4px;padding:3px 6px;font-size:11px}
+@media(max-width:768px){.detail-content{grid-template-columns:1fr}.stats{grid-template-columns:repeat(2,1fr)}.controls input[type=text]{width:160px}}
 </style>
 </head>
 <body>
 
 <div id="auth-screen">
   <div id="auth-box">
-    <h2>AITorch Sales Intelligence</h2>
-    <p>Internal dashboard - authorized access only</p>
+    <img src="logo.png" alt="AITorch">
+    <h2>Sales Intelligence Dashboard</h2>
+    <p>Internal - authorized access only</p>
     <input type="password" id="auth-input" placeholder="Enter access code" onkeydown="if(event.key==='Enter')checkAuth()">
     <button onclick="checkAuth()">Access Dashboard</button>
     <div id="auth-error">Incorrect access code</div>
@@ -75,27 +106,37 @@ tr:hover{background:#1e293b}
 
 <div id="app">
   <header>
-    <h1>AITorch Sales Intelligence</h1>
-    <div class="meta">
-      <span id="last-updated"></span> |
-      <span id="total-prospects"></span> prospects tracked
+    <div class="brand">
+      <img src="logo.png" alt="AITorch">
+      <h1>Sales Intelligence</h1>
     </div>
+    <div class="meta" id="header-meta"></div>
   </header>
+
+  <div class="report-tabs" id="report-tabs"></div>
+
+  <div class="time-bar" id="time-bar">
+    <button class="time-btn active" onclick="setTime('all')">All Time</button>
+    <button class="time-btn" onclick="setTime('today')">Today</button>
+    <button class="time-btn" onclick="setTime('week')">This Week</button>
+    <button class="time-btn" onclick="setTime('month')">This Month</button>
+    <button class="time-btn" onclick="setTime('custom')">Custom</button>
+    <div class="custom-range" id="custom-range">
+      <input type="date" id="date-from">
+      <span class="time-sep">to</span>
+      <input type="date" id="date-to">
+      <button onclick="applyCustomRange()">Apply</button>
+    </div>
+  </div>
 
   <div class="stats" id="stats-row"></div>
 
-  <div class="week-nav" id="week-nav"></div>
-
   <div class="controls">
-    <input type="text" id="search" placeholder="Search company, contact, service..." oninput="renderTable()">
+    <input type="text" id="search" placeholder="Search company, contact, email..." oninput="renderTable()">
     <select id="filter-tier" onchange="renderTable()">
       <option value="">All Tiers</option>
       <option value="A">Tier A</option>
       <option value="B">Tier B</option>
-      <option value="C">Tier C</option>
-    </select>
-    <select id="filter-service" onchange="renderTable()">
-      <option value="">All Services</option>
     </select>
     <select id="filter-status" onchange="renderTable()">
       <option value="">All Status</option>
@@ -104,215 +145,246 @@ tr:hover{background:#1e293b}
       <option value="replied">Replied</option>
       <option value="meeting">Meeting Booked</option>
     </select>
-    <button class="btn btn-gray" onclick="exportCSV()">Export CSV</button>
+    <button class="btn" onclick="exportCSV()">Export CSV</button>
   </div>
 
-  <table id="prospects-table">
+  <div class="table-wrap">
+  <table>
     <thead>
       <tr>
         <th onclick="sortBy('date')">Date</th>
         <th onclick="sortBy('company')">Company</th>
         <th onclick="sortBy('contact')">Contact</th>
+        <th onclick="sortBy('email')">Email</th>
         <th onclick="sortBy('score')">Score</th>
         <th onclick="sortBy('tier')">Tier</th>
-        <th onclick="sortBy('service_fit')">Service Fit</th>
-        <th onclick="sortBy('signal')">Signal</th>
+        <th onclick="sortBy('signal')">Signal / Fit</th>
         <th onclick="sortBy('status')">Status</th>
         <th>Details</th>
       </tr>
     </thead>
-    <tbody id="prospects-body"></tbody>
+    <tbody id="tbody"></tbody>
   </table>
+  </div>
 
   <div id="empty-state" class="empty-state" style="display:none">
     <h3>No prospects found</h3>
-    <p>Adjust your filters or wait for the next daily run.</p>
+    <p>Adjust your filters or wait for the next run.</p>
   </div>
 </div>
 
 <script>
-const ACCESS_HASH = "a]torcH$2026";
+const ACCESS_CODE = "a]torcH$2026";
 let DATA = [];
 let sortField = "date";
 let sortDir = -1;
-let activeWeek = "all";
+let activeType = "all";
+let activeTime = "all";
+let customFrom = "";
+let customTo = "";
 
 function checkAuth() {
-  const input = document.getElementById("auth-input").value;
-  if (input === ACCESS_HASH) {
+  if (document.getElementById("auth-input").value === ACCESS_CODE) {
     document.getElementById("auth-screen").style.display = "none";
     document.getElementById("app").style.display = "block";
-    sessionStorage.setItem("si_auth", "1");
     loadData();
   } else {
     document.getElementById("auth-error").style.display = "block";
   }
 }
 
-if (sessionStorage.getItem("si_auth") === "1") {
-  document.getElementById("auth-screen").style.display = "none";
-  document.getElementById("app").style.display = "block";
-  loadData();
-}
-
 async function loadData() {
   try {
     const res = await fetch("data.json?" + Date.now());
     DATA = await res.json();
-    populateFilters();
-    renderStats();
-    renderWeekNav();
-    renderTable();
-    document.getElementById("last-updated").textContent = "Updated: " + (DATA.length > 0 ? DATA[DATA.length-1].date : "N/A");
-    document.getElementById("total-prospects").textContent = DATA.length;
+    renderAll();
   } catch(e) {
     document.getElementById("empty-state").style.display = "block";
-    document.getElementById("empty-state").querySelector("h3").textContent = "No data yet";
-    document.getElementById("empty-state").querySelector("p").textContent = "The daily prospecting task will populate this dashboard automatically.";
   }
 }
 
-function populateFilters() {
-  const services = [...new Set(DATA.map(d => d.service_fit).filter(Boolean))];
-  const sel = document.getElementById("filter-service");
-  services.forEach(s => { const o = document.createElement("option"); o.value = s; o.textContent = s; sel.appendChild(o); });
+function renderAll() {
+  renderTabs();
+  renderTimeBar();
+  renderStats();
+  renderTable();
+  const dates = [...new Set(DATA.map(d=>d.date))].sort();
+  document.getElementById("header-meta").textContent = "Last updated: " + (dates.length ? dates[dates.length-1] : "N/A") + " | " + DATA.length + " total prospects";
 }
 
-function getWeek(dateStr) {
-  const d = new Date(dateStr);
-  const start = new Date(d.getFullYear(), 0, 1);
-  const diff = d - start;
-  const week = Math.ceil((diff / 86400000 + start.getDay() + 1) / 7);
-  return d.getFullYear() + "-W" + String(week).padStart(2, "0");
-}
-
-function renderWeekNav() {
-  const weeks = [...new Set(DATA.map(d => getWeek(d.date)))].sort().reverse();
-  const nav = document.getElementById("week-nav");
-  nav.innerHTML = '<button class="week-btn ' + (activeWeek === "all" ? "active" : "") + '" onclick="setWeek(\'all\')">All Time</button>';
-  weeks.forEach(w => {
-    nav.innerHTML += '<button class="week-btn ' + (activeWeek === w ? "active" : "") + '" onclick="setWeek(\'' + w + '\')">' + w + '</button>';
+/* ---- Tabs ---- */
+function renderTabs() {
+  const types = [...new Set(DATA.map(d => d.type || "sales"))];
+  const counts = {};
+  DATA.forEach(d => { const t = d.type || "sales"; counts[t] = (counts[t]||0)+1; });
+  const labels = {sales:"Sales Prospects", partner:"Partners", intent:"Intent Signals"};
+  let h = '<div class="report-tab'+(activeType==="all"?" active":"")+'" onclick="setType(\'all\')">All<span class="count">'+DATA.length+'</span></div>';
+  types.forEach(t => {
+    h += '<div class="report-tab'+(activeType===t?" active":"")+'" onclick="setType(\''+t+'\')">'+(labels[t]||t)+'<span class="count">'+(counts[t]||0)+'</span></div>';
   });
+  document.getElementById("report-tabs").innerHTML = h;
 }
 
-function setWeek(w) { activeWeek = w; renderWeekNav(); renderStats(); renderTable(); }
+function setType(t) { activeType = t; renderAll(); }
 
+/* ---- Time filters ---- */
+function renderTimeBar() {
+  document.querySelectorAll(".time-btn").forEach(b => b.classList.remove("active"));
+  const btns = document.querySelectorAll(".time-btn");
+  btns.forEach(b => { if(b.textContent.trim().toLowerCase().replace(/\s/g,"") === activeTime || (b.textContent.trim()==="All Time" && activeTime==="all")) b.classList.add("active"); });
+  document.getElementById("custom-range").classList.toggle("show", activeTime === "custom");
+}
+
+function setTime(t) {
+  activeTime = t;
+  if (t !== "custom") { customFrom = ""; customTo = ""; }
+  renderAll();
+}
+
+function applyCustomRange() {
+  customFrom = document.getElementById("date-from").value;
+  customTo = document.getElementById("date-to").value;
+  renderAll();
+}
+
+function dateInRange(dateStr) {
+  if (activeTime === "all") return true;
+  const d = new Date(dateStr + "T00:00:00");
+  const now = new Date();
+  const today = new Date(now.getFullYear(), now.getMonth(), now.getDate());
+  if (activeTime === "today") {
+    return d.getTime() === today.getTime();
+  }
+  if (activeTime === "week") {
+    const weekStart = new Date(today);
+    weekStart.setDate(today.getDate() - today.getDay());
+    return d >= weekStart && d <= today;
+  }
+  if (activeTime === "month") {
+    return d.getMonth() === today.getMonth() && d.getFullYear() === today.getFullYear();
+  }
+  if (activeTime === "custom") {
+    if (customFrom && d < new Date(customFrom + "T00:00:00")) return false;
+    if (customTo && d > new Date(customTo + "T00:00:00")) return false;
+    return true;
+  }
+  return true;
+}
+
+/* ---- Filtering ---- */
 function getFiltered() {
   let d = DATA;
-  if (activeWeek !== "all") d = d.filter(p => getWeek(p.date) === activeWeek);
+  if (activeType !== "all") d = d.filter(p => (p.type||"sales") === activeType);
+  d = d.filter(p => dateInRange(p.date));
   const search = document.getElementById("search").value.toLowerCase();
   const tier = document.getElementById("filter-tier").value;
-  const service = document.getElementById("filter-service").value;
   const status = document.getElementById("filter-status").value;
-  if (search) d = d.filter(p => (p.company + p.contact + p.service_fit + p.signal).toLowerCase().includes(search));
+  if (search) d = d.filter(p => (p.company+p.contact+(p.email||"")+p.signal+p.industry).toLowerCase().includes(search));
   if (tier) d = d.filter(p => p.tier === tier);
-  if (service) d = d.filter(p => p.service_fit === service);
-  if (status) d = d.filter(p => (p.status || "pending") === status);
-  d.sort((a, b) => {
-    let va = a[sortField] || "", vb = b[sortField] || "";
-    if (sortField === "score") { va = Number(va); vb = Number(vb); }
-    if (va < vb) return -1 * sortDir;
-    if (va > vb) return 1 * sortDir;
-    return 0;
+  if (status) d = d.filter(p => (p.status||"pending") === status);
+  d.sort((a,b) => {
+    let va = a[sortField]||"", vb = b[sortField]||"";
+    if (sortField==="score") { va=+va; vb=+vb; }
+    return va < vb ? -sortDir : va > vb ? sortDir : 0;
   });
   return d;
 }
 
+/* ---- Stats ---- */
 function renderStats() {
-  let d = DATA;
-  if (activeWeek !== "all") d = d.filter(p => getWeek(p.date) === activeWeek);
-  const tierA = d.filter(p => p.tier === "A").length;
-  const tierB = d.filter(p => p.tier === "B").length;
-  const sent = d.filter(p => p.status === "sent" || p.status === "replied" || p.status === "meeting").length;
-  const replied = d.filter(p => p.status === "replied" || p.status === "meeting").length;
-  const meetings = d.filter(p => p.status === "meeting").length;
-  const avgScore = d.length > 0 ? Math.round(d.reduce((s, p) => s + (p.score || 0), 0) / d.length) : 0;
+  const d = getFiltered();
+  const tierA = d.filter(p=>p.tier==="A").length;
+  const tierB = d.filter(p=>p.tier==="B").length;
+  const withEmail = d.filter(p=>p.email).length;
+  const sent = d.filter(p=>p.status==="sent"||p.status==="replied"||p.status==="meeting").length;
+  const replied = d.filter(p=>p.status==="replied"||p.status==="meeting").length;
+  const meetings = d.filter(p=>p.status==="meeting").length;
+  const avg = d.length ? Math.round(d.reduce((s,p)=>s+(p.score||0),0)/d.length) : 0;
   document.getElementById("stats-row").innerHTML =
-    '<div class="stat-card blue"><div class="label">Total Prospects</div><div class="value">' + d.length + '</div><div class="sub">' + [...new Set(d.map(p=>p.date))].length + ' days</div></div>' +
-    '<div class="stat-card green"><div class="label">Tier A</div><div class="value">' + tierA + '</div><div class="sub">Score 70+</div></div>' +
-    '<div class="stat-card"><div class="label">Tier B</div><div class="value">' + tierB + '</div><div class="sub">Score 50-69</div></div>' +
-    '<div class="stat-card amber"><div class="label">Emails Sent</div><div class="value">' + sent + '</div><div class="sub">of ' + d.length + ' drafted</div></div>' +
-    '<div class="stat-card"><div class="label">Replies</div><div class="value">' + replied + '</div><div class="sub">' + (sent > 0 ? Math.round(replied/sent*100) : 0) + '% rate</div></div>' +
-    '<div class="stat-card green"><div class="label">Meetings</div><div class="value">' + meetings + '</div></div>' +
-    '<div class="stat-card blue"><div class="label">Avg ICP Score</div><div class="value">' + avgScore + '</div></div>';
+    '<div class="stat-card blue"><div class="label">Prospects</div><div class="value">'+d.length+'</div><div class="sub">'+[...new Set(d.map(p=>p.date))].length+' days</div></div>'+
+    '<div class="stat-card green"><div class="label">Tier A</div><div class="value">'+tierA+'</div></div>'+
+    '<div class="stat-card"><div class="label">Tier B</div><div class="value">'+tierB+'</div></div>'+
+    '<div class="stat-card purple"><div class="label">Emails Found</div><div class="value">'+withEmail+'</div><div class="sub">of '+d.length+'</div></div>'+
+    '<div class="stat-card amber"><div class="label">Sent</div><div class="value">'+sent+'</div></div>'+
+    '<div class="stat-card"><div class="label">Replies</div><div class="value">'+replied+'</div><div class="sub">'+(sent?Math.round(replied/sent*100):0)+'%</div></div>'+
+    '<div class="stat-card green"><div class="label">Meetings</div><div class="value">'+meetings+'</div></div>'+
+    '<div class="stat-card blue"><div class="label">Avg Score</div><div class="value">'+avg+'</div></div>';
 }
 
+/* ---- Table ---- */
 function renderTable() {
   const filtered = getFiltered();
-  const tbody = document.getElementById("prospects-body");
-  document.getElementById("empty-state").style.display = filtered.length === 0 ? "block" : "none";
+  const tbody = document.getElementById("tbody");
+  document.getElementById("empty-state").style.display = filtered.length ? "none" : "block";
   tbody.innerHTML = "";
-  filtered.forEach((p, i) => {
-    const tierClass = p.tier === "A" ? "tier-a" : p.tier === "B" ? "tier-b" : "tier-c";
-    const scoreClass = p.score >= 70 ? "score-high" : p.score >= 50 ? "score-mid" : "score-low";
-    const status = p.status || "pending";
+  filtered.forEach((p,i) => {
+    const tc = p.tier==="A"?"tier-a":"tier-b";
+    const sc = p.score>=70?"score-high":p.score>=50?"score-mid":"score-low";
+    const st = p.status||"pending";
+    const em = p.email ? '<a class="email-link" href="mailto:'+esc(p.email)+'">'+esc(p.email)+'</a>' : '<span class="no-email">In Apollo</span>';
     const tr = document.createElement("tr");
     tr.innerHTML =
-      '<td>' + (p.date || "") + '</td>' +
-      '<td><strong>' + (p.company || "") + '</strong><br><span style="color:#64748b;font-size:11px">' + (p.industry || "") + '</span></td>' +
-      '<td>' + (p.contact || "") + '<br><span style="color:#64748b;font-size:11px">' + (p.title || "") + '</span></td>' +
-      '<td><span class="score ' + scoreClass + '">' + (p.score || 0) + '</span></td>' +
-      '<td><span class="' + tierClass + '">' + (p.tier || "") + '</span></td>' +
-      '<td>' + (p.service_fit || "") + '</td>' +
-      '<td style="font-size:12px;max-width:200px">' + (p.signal || "") + '</td>' +
-      '<td><select onchange="updateStatus(' + i + ',this.value)" style="background:#1e293b;color:#e2e8f0;border:1px solid #334155;border-radius:4px;padding:4px;font-size:11px">' +
-        '<option value="pending"' + (status==="pending"?" selected":"") + '>Pending</option>' +
-        '<option value="sent"' + (status==="sent"?" selected":"") + '>Sent</option>' +
-        '<option value="replied"' + (status==="replied"?" selected":"") + '>Replied</option>' +
-        '<option value="meeting"' + (status==="meeting"?" selected":"") + '>Meeting</option>' +
-      '</select></td>' +
-      '<td><button class="expand-btn" onclick="toggleDetail(\'' + p.company + '\',this)">View</button></td>';
+      '<td>'+esc(p.date)+'</td>'+
+      '<td><strong>'+esc(p.company)+'</strong><br><span style="color:#64748b;font-size:10px">'+esc(p.industry||"")+'</span></td>'+
+      '<td>'+esc(p.contact)+'<br><span style="color:#64748b;font-size:10px">'+esc(p.title||"")+'</span></td>'+
+      '<td>'+em+'</td>'+
+      '<td><span class="score '+sc+'">'+p.score+'</span></td>'+
+      '<td><span class="'+tc+'">'+p.tier+'</span></td>'+
+      '<td style="max-width:220px">'+esc(p.signal||"")+'</td>'+
+      '<td><select class="status-select" onchange="updateStatus(\''+esc(p.company)+'\',\''+esc(p.date)+'\',this.value)">'+
+        '<option value="pending"'+(st==="pending"?" selected":"")+'>Pending</option>'+
+        '<option value="sent"'+(st==="sent"?" selected":"")+'>Sent</option>'+
+        '<option value="replied"'+(st==="replied"?" selected":"")+'>Replied</option>'+
+        '<option value="meeting"'+(st==="meeting"?" selected":"")+'>Meeting</option>'+
+      '</select></td>'+
+      '<td><button class="expand-btn" onclick="toggle(\''+esc(p.company).replace(/'/g,"\\'")+'\',this)">View</button></td>';
     tbody.appendChild(tr);
 
-    const detailTr = document.createElement("tr");
-    detailTr.className = "detail-row";
-    detailTr.id = "detail-" + p.company.replace(/[^a-zA-Z0-9]/g, "");
-    detailTr.innerHTML = '<td colspan="9"><div class="detail-content">' +
-      '<div class="detail-section"><h4>Email Draft</h4><pre>' + escHtml(p.email_draft || "No email draft available") + '</pre></div>' +
-      '<div class="detail-section"><h4>LinkedIn Note</h4><pre>' + escHtml(p.linkedin_note || "No LinkedIn note available") + '</pre>' +
-        (p.inmail ? '<h4 style="margin-top:12px">InMail</h4><pre>' + escHtml(p.inmail) + '</pre>' : '') + '</div>' +
-      '<div class="detail-section"><h4>Research Notes</h4><pre>' + escHtml(p.research || "No research notes") + '</pre></div>' +
-      '<div class="detail-section"><h4>Company Fit</h4><pre>' + escHtml(p.fit_analysis || "Score: " + p.score + " | Tier: " + p.tier + " | Service: " + p.service_fit) + '</pre></div>' +
+    const dr = document.createElement("tr");
+    dr.className = "detail-row";
+    dr.id = "d-"+(p.company||"").replace(/[^a-zA-Z0-9]/g,"");
+    dr.innerHTML = '<td colspan="9"><div class="detail-content">'+
+      '<div class="detail-section"><h4>Email Draft</h4><pre>'+esc(p.email_draft||"No draft available")+'</pre></div>'+
+      '<div class="detail-section"><h4>LinkedIn Note</h4><pre>'+esc(p.linkedin_note||"N/A")+'</pre>'+(p.inmail?'<h4 style="margin-top:10px">InMail</h4><pre>'+esc(p.inmail)+'</pre>':'')+'</div>'+
+      '<div class="detail-section"><h4>Research</h4><pre>'+esc(p.research||"N/A")+'</pre></div>'+
+      '<div class="detail-section"><h4>Fit Analysis</h4><pre>'+esc(p.fit_analysis||"Score: "+p.score)+'</pre></div>'+
     '</div></td>';
-    tbody.appendChild(detailTr);
+    tbody.appendChild(dr);
   });
 }
 
-function escHtml(s) { return s.replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;"); }
+function esc(s){return String(s||"").replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;").replace(/"/g,"&quot;")}
 
-function toggleDetail(company, btn) {
-  const id = "detail-" + company.replace(/[^a-zA-Z0-9]/g, "");
+function toggle(company,btn) {
+  const id = "d-"+company.replace(/[^a-zA-Z0-9]/g,"");
   const row = document.getElementById(id);
-  if (row.style.display === "table-row") { row.style.display = "none"; btn.textContent = "View"; }
-  else { row.style.display = "table-row"; btn.textContent = "Hide"; }
+  if(row.style.display==="table-row"){row.style.display="none";btn.textContent="View";}
+  else{row.style.display="table-row";btn.textContent="Hide";}
 }
 
-function sortBy(field) {
-  if (sortField === field) sortDir *= -1;
-  else { sortField = field; sortDir = -1; }
+function sortBy(f) {
+  if(sortField===f) sortDir*=-1; else {sortField=f;sortDir=-1;}
   renderTable();
 }
 
-function updateStatus(idx, val) {
-  const filtered = getFiltered();
-  const p = filtered[idx];
-  const orig = DATA.find(d => d.company === p.company && d.date === p.date);
-  if (orig) orig.status = val;
+function updateStatus(company,date,val) {
+  const p = DATA.find(d=>d.company===company&&d.date===date);
+  if(p) p.status=val;
   renderStats();
 }
 
 function exportCSV() {
-  const filtered = getFiltered();
-  let csv = "Date,Company,Contact,Title,Score,Tier,Service Fit,Signal,Status,Industry\n";
-  filtered.forEach(p => {
-    csv += [p.date,p.company,p.contact,p.title,p.score,p.tier,p.service_fit,'"'+((p.signal||"").replace(/"/g,'""'))+'"',p.status||"pending",p.industry].join(",") + "\n";
+  const f = getFiltered();
+  let csv = "Type,Date,Company,Contact,Title,Email,Score,Tier,Signal,Status,Industry\n";
+  f.forEach(p => {
+    csv += [p.type||"sales",p.date,q(p.company),q(p.contact),q(p.title),p.email||"",p.score,p.tier,q(p.signal),p.status||"pending",q(p.industry)].join(",")+"\n";
   });
-  const blob = new Blob([csv], {type:"text/csv"});
   const a = document.createElement("a");
-  a.href = URL.createObjectURL(blob);
-  a.download = "aitorch-prospects-" + new Date().toISOString().slice(0,10) + ".csv";
+  a.href = URL.createObjectURL(new Blob([csv],{type:"text/csv"}));
+  a.download = "aitorch-prospects-"+new Date().toISOString().slice(0,10)+".csv";
   a.click();
 }
+function q(s){return '"'+String(s||"").replace(/"/g,'""')+'"'}
 </script>
 </body>
 </html>
