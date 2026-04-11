@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AITorch Sales Intelligence</title>
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;background:#0f172a;color:#e2e8f0;min-height:100vh}
+#auth-screen{display:flex;align-items:center;justify-content:center;min-height:100vh;background:#0f172a}
+#auth-box{background:#1e293b;padding:40px;border-radius:12px;text-align:center;width:340px}
+#auth-box h2{color:#38bdf8;margin-bottom:8px}
+#auth-box p{color:#94a3b8;font-size:13px;margin-bottom:20px}
+#auth-box input{width:100%;padding:10px 14px;border:1px solid #334155;border-radius:8px;background:#0f172a;color:#e2e8f0;font-size:14px;margin-bottom:12px}
+#auth-box button{width:100%;padding:10px;background:#2563eb;color:#fff;border:none;border-radius:8px;font-size:14px;cursor:pointer}
+#auth-box button:hover{background:#1d4ed8}
+#auth-error{color:#f87171;font-size:12px;margin-top:8px;display:none}
+#app{display:none}
+header{background:#1e293b;border-bottom:1px solid #334155;padding:16px 24px;display:flex;justify-content:space-between;align-items:center}
+header h1{font-size:18px;color:#38bdf8}
+header .meta{color:#94a3b8;font-size:13px}
+.stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(160px,1fr));gap:12px;padding:20px 24px}
+.stat-card{background:#1e293b;border-radius:10px;padding:16px;border:1px solid #334155}
+.stat-card .label{font-size:11px;color:#94a3b8;text-transform:uppercase;letter-spacing:0.5px}
+.stat-card .value{font-size:28px;font-weight:700;color:#f8fafc;margin-top:4px}
+.stat-card .sub{font-size:12px;color:#64748b;margin-top:2px}
+.stat-card.green .value{color:#34d399}
+.stat-card.blue .value{color:#38bdf8}
+.stat-card.amber .value{color:#fbbf24}
+.stat-card.red .value{color:#f87171}
+.controls{padding:0 24px;display:flex;gap:10px;flex-wrap:wrap;align-items:center}
+.controls select,.controls input{padding:8px 12px;border:1px solid #334155;border-radius:8px;background:#1e293b;color:#e2e8f0;font-size:13px}
+.controls input[type=text]{width:220px}
+.controls .btn{padding:8px 16px;border:none;border-radius:8px;cursor:pointer;font-size:13px}
+.controls .btn-blue{background:#2563eb;color:#fff}
+.controls .btn-gray{background:#334155;color:#e2e8f0}
+table{width:100%;border-collapse:collapse;margin:16px 24px;width:calc(100% - 48px)}
+th{background:#1e293b;color:#94a3b8;font-size:11px;text-transform:uppercase;letter-spacing:0.5px;padding:10px 12px;text-align:left;border-bottom:1px solid #334155;cursor:pointer;user-select:none}
+th:hover{color:#38bdf8}
+td{padding:10px 12px;border-bottom:1px solid #1e293b;font-size:13px;vertical-align:top}
+tr:hover{background:#1e293b}
+.tier-a{background:#065f46;color:#34d399;padding:2px 8px;border-radius:4px;font-size:11px;font-weight:600}
+.tier-b{background:#1e3a5f;color:#38bdf8;padding:2px 8px;border-radius:4px;font-size:11px;font-weight:600}
+.tier-c{background:#3b3316;color:#fbbf24;padding:2px 8px;border-radius:4px;font-size:11px;font-weight:600}
+.score{font-weight:700;font-size:14px}
+.score-high{color:#34d399}
+.score-mid{color:#38bdf8}
+.score-low{color:#fbbf24}
+.expand-btn{background:none;border:none;color:#38bdf8;cursor:pointer;font-size:12px;padding:2px 6px}
+.detail-row{display:none;background:#0f172a}
+.detail-row td{padding:16px 24px}
+.detail-content{display:grid;grid-template-columns:1fr 1fr;gap:16px}
+.detail-section{background:#1e293b;border-radius:8px;padding:14px;border:1px solid #334155}
+.detail-section h4{color:#38bdf8;font-size:12px;text-transform:uppercase;margin-bottom:8px}
+.detail-section pre{white-space:pre-wrap;font-size:12px;color:#cbd5e1;line-height:1.5;font-family:inherit}
+.week-nav{padding:12px 24px;display:flex;gap:8px;flex-wrap:wrap}
+.week-btn{padding:6px 14px;border:1px solid #334155;border-radius:6px;background:#1e293b;color:#94a3b8;cursor:pointer;font-size:12px}
+.week-btn.active{background:#2563eb;color:#fff;border-color:#2563eb}
+.empty-state{text-align:center;padding:60px 24px;color:#64748b}
+.empty-state h3{color:#94a3b8;margin-bottom:8px}
+@media(max-width:768px){.detail-content{grid-template-columns:1fr}.stats{grid-template-columns:repeat(2,1fr)}}
+</style>
+</head>
+<body>
+
+<div id="auth-screen">
+  <div id="auth-box">
+    <h2>AITorch Sales Intelligence</h2>
+    <p>Internal dashboard - authorized access only</p>
+    <input type="password" id="auth-input" placeholder="Enter access code" onkeydown="if(event.key==='Enter')checkAuth()">
+    <button onclick="checkAuth()">Access Dashboard</button>
+    <div id="auth-error">Incorrect access code</div>
+  </div>
+</div>
+
+<div id="app">
+  <header>
+    <h1>AITorch Sales Intelligence</h1>
+    <div class="meta">
+      <span id="last-updated"></span> |
+      <span id="total-prospects"></span> prospects tracked
+    </div>
+  </header>
+
+  <div class="stats" id="stats-row"></div>
+
+  <div class="week-nav" id="week-nav"></div>
+
+  <div class="controls">
+    <input type="text" id="search" placeholder="Search company, contact, service..." oninput="renderTable()">
+    <select id="filter-tier" onchange="renderTable()">
+      <option value="">All Tiers</option>
+      <option value="A">Tier A</option>
+      <option value="B">Tier B</option>
+      <option value="C">Tier C</option>
+    </select>
+    <select id="filter-service" onchange="renderTable()">
+      <option value="">All Services</option>
+    </select>
+    <select id="filter-status" onchange="renderTable()">
+      <option value="">All Status</option>
+      <option value="sent">Sent</option>
+      <option value="pending">Pending</option>
+      <option value="replied">Replied</option>
+      <option value="meeting">Meeting Booked</option>
+    </select>
+    <button class="btn btn-gray" onclick="exportCSV()">Export CSV</button>
+  </div>
+
+  <table id="prospects-table">
+    <thead>
+      <tr>
+        <th onclick="sortBy('date')">Date</th>
+        <th onclick="sortBy('company')">Company</th>
+        <th onclick="sortBy('contact')">Contact</th>
+        <th onclick="sortBy('score')">Score</th>
+        <th onclick="sortBy('tier')">Tier</th>
+        <th onclick="sortBy('service_fit')">Service Fit</th>
+        <th onclick="sortBy('signal')">Signal</th>
+        <th onclick="sortBy('status')">Status</th>
+        <th>Details</th>
+      </tr>
+    </thead>
+    <tbody id="prospects-body"></tbody>
+  </table>
+
+  <div id="empty-state" class="empty-state" style="display:none">
+    <h3>No prospects found</h3>
+    <p>Adjust your filters or wait for the next daily run.</p>
+  </div>
+</div>
+
+<script>
+const ACCESS_HASH = "a]torcH$2026";
+let DATA = [];
+let sortField = "date";
+let sortDir = -1;
+let activeWeek = "all";
+
+function checkAuth() {
+  const input = document.getElementById("auth-input").value;
+  if (input === ACCESS_HASH) {
+    document.getElementById("auth-screen").style.display = "none";
+    document.getElementById("app").style.display = "block";
+    sessionStorage.setItem("si_auth", "1");
+    loadData();
+  } else {
+    document.getElementById("auth-error").style.display = "block";
+  }
+}
+
+if (sessionStorage.getItem("si_auth") === "1") {
+  document.getElementById("auth-screen").style.display = "none";
+  document.getElementById("app").style.display = "block";
+  loadData();
+}
+
+async function loadData() {
+  try {
+    const res = await fetch("data.json?" + Date.now());
+    DATA = await res.json();
+    populateFilters();
+    renderStats();
+    renderWeekNav();
+    renderTable();
+    document.getElementById("last-updated").textContent = "Updated: " + (DATA.length > 0 ? DATA[DATA.length-1].date : "N/A");
+    document.getElementById("total-prospects").textContent = DATA.length;
+  } catch(e) {
+    document.getElementById("empty-state").style.display = "block";
+    document.getElementById("empty-state").querySelector("h3").textContent = "No data yet";
+    document.getElementById("empty-state").querySelector("p").textContent = "The daily prospecting task will populate this dashboard automatically.";
+  }
+}
+
+function populateFilters() {
+  const services = [...new Set(DATA.map(d => d.service_fit).filter(Boolean))];
+  const sel = document.getElementById("filter-service");
+  services.forEach(s => { const o = document.createElement("option"); o.value = s; o.textContent = s; sel.appendChild(o); });
+}
+
+function getWeek(dateStr) {
+  const d = new Date(dateStr);
+  const start = new Date(d.getFullYear(), 0, 1);
+  const diff = d - start;
+  const week = Math.ceil((diff / 86400000 + start.getDay() + 1) / 7);
+  return d.getFullYear() + "-W" + String(week).padStart(2, "0");
+}
+
+function renderWeekNav() {
+  const weeks = [...new Set(DATA.map(d => getWeek(d.date)))].sort().reverse();
+  const nav = document.getElementById("week-nav");
+  nav.innerHTML = '<button class="week-btn ' + (activeWeek === "all" ? "active" : "") + '" onclick="setWeek(\'all\')">All Time</button>';
+  weeks.forEach(w => {
+    nav.innerHTML += '<button class="week-btn ' + (activeWeek === w ? "active" : "") + '" onclick="setWeek(\'' + w + '\')">' + w + '</button>';
+  });
+}
+
+function setWeek(w) { activeWeek = w; renderWeekNav(); renderStats(); renderTable(); }
+
+function getFiltered() {
+  let d = DATA;
+  if (activeWeek !== "all") d = d.filter(p => getWeek(p.date) === activeWeek);
+  const search = document.getElementById("search").value.toLowerCase();
+  const tier = document.getElementById("filter-tier").value;
+  const service = document.getElementById("filter-service").value;
+  const status = document.getElementById("filter-status").value;
+  if (search) d = d.filter(p => (p.company + p.contact + p.service_fit + p.signal).toLowerCase().includes(search));
+  if (tier) d = d.filter(p => p.tier === tier);
+  if (service) d = d.filter(p => p.service_fit === service);
+  if (status) d = d.filter(p => (p.status || "pending") === status);
+  d.sort((a, b) => {
+    let va = a[sortField] || "", vb = b[sortField] || "";
+    if (sortField === "score") { va = Number(va); vb = Number(vb); }
+    if (va < vb) return -1 * sortDir;
+    if (va > vb) return 1 * sortDir;
+    return 0;
+  });
+  return d;
+}
+
+function renderStats() {
+  let d = DATA;
+  if (activeWeek !== "all") d = d.filter(p => getWeek(p.date) === activeWeek);
+  const tierA = d.filter(p => p.tier === "A").length;
+  const tierB = d.filter(p => p.tier === "B").length;
+  const sent = d.filter(p => p.status === "sent" || p.status === "replied" || p.status === "meeting").length;
+  const replied = d.filter(p => p.status === "replied" || p.status === "meeting").length;
+  const meetings = d.filter(p => p.status === "meeting").length;
+  const avgScore = d.length > 0 ? Math.round(d.reduce((s, p) => s + (p.score || 0), 0) / d.length) : 0;
+  document.getElementById("stats-row").innerHTML =
+    '<div class="stat-card blue"><div class="label">Total Prospects</div><div class="value">' + d.length + '</div><div class="sub">' + [...new Set(d.map(p=>p.date))].length + ' days</div></div>' +
+    '<div class="stat-card green"><div class="label">Tier A</div><div class="value">' + tierA + '</div><div class="sub">Score 70+</div></div>' +
+    '<div class="stat-card"><div class="label">Tier B</div><div class="value">' + tierB + '</div><div class="sub">Score 50-69</div></div>' +
+    '<div class="stat-card amber"><div class="label">Emails Sent</div><div class="value">' + sent + '</div><div class="sub">of ' + d.length + ' drafted</div></div>' +
+    '<div class="stat-card"><div class="label">Replies</div><div class="value">' + replied + '</div><div class="sub">' + (sent > 0 ? Math.round(replied/sent*100) : 0) + '% rate</div></div>' +
+    '<div class="stat-card green"><div class="label">Meetings</div><div class="value">' + meetings + '</div></div>' +
+    '<div class="stat-card blue"><div class="label">Avg ICP Score</div><div class="value">' + avgScore + '</div></div>';
+}
+
+function renderTable() {
+  const filtered = getFiltered();
+  const tbody = document.getElementById("prospects-body");
+  document.getElementById("empty-state").style.display = filtered.length === 0 ? "block" : "none";
+  tbody.innerHTML = "";
+  filtered.forEach((p, i) => {
+    const tierClass = p.tier === "A" ? "tier-a" : p.tier === "B" ? "tier-b" : "tier-c";
+    const scoreClass = p.score >= 70 ? "score-high" : p.score >= 50 ? "score-mid" : "score-low";
+    const status = p.status || "pending";
+    const tr = document.createElement("tr");
+    tr.innerHTML =
+      '<td>' + (p.date || "") + '</td>' +
+      '<td><strong>' + (p.company || "") + '</strong><br><span style="color:#64748b;font-size:11px">' + (p.industry || "") + '</span></td>' +
+      '<td>' + (p.contact || "") + '<br><span style="color:#64748b;font-size:11px">' + (p.title || "") + '</span></td>' +
+      '<td><span class="score ' + scoreClass + '">' + (p.score || 0) + '</span></td>' +
+      '<td><span class="' + tierClass + '">' + (p.tier || "") + '</span></td>' +
+      '<td>' + (p.service_fit || "") + '</td>' +
+      '<td style="font-size:12px;max-width:200px">' + (p.signal || "") + '</td>' +
+      '<td><select onchange="updateStatus(' + i + ',this.value)" style="background:#1e293b;color:#e2e8f0;border:1px solid #334155;border-radius:4px;padding:4px;font-size:11px">' +
+        '<option value="pending"' + (status==="pending"?" selected":"") + '>Pending</option>' +
+        '<option value="sent"' + (status==="sent"?" selected":"") + '>Sent</option>' +
+        '<option value="replied"' + (status==="replied"?" selected":"") + '>Replied</option>' +
+        '<option value="meeting"' + (status==="meeting"?" selected":"") + '>Meeting</option>' +
+      '</select></td>' +
+      '<td><button class="expand-btn" onclick="toggleDetail(\'' + p.company + '\',this)">View</button></td>';
+    tbody.appendChild(tr);
+
+    const detailTr = document.createElement("tr");
+    detailTr.className = "detail-row";
+    detailTr.id = "detail-" + p.company.replace(/[^a-zA-Z0-9]/g, "");
+    detailTr.innerHTML = '<td colspan="9"><div class="detail-content">' +
+      '<div class="detail-section"><h4>Email Draft</h4><pre>' + escHtml(p.email_draft || "No email draft available") + '</pre></div>' +
+      '<div class="detail-section"><h4>LinkedIn Note</h4><pre>' + escHtml(p.linkedin_note || "No LinkedIn note available") + '</pre>' +
+        (p.inmail ? '<h4 style="margin-top:12px">InMail</h4><pre>' + escHtml(p.inmail) + '</pre>' : '') + '</div>' +
+      '<div class="detail-section"><h4>Research Notes</h4><pre>' + escHtml(p.research || "No research notes") + '</pre></div>' +
+      '<div class="detail-section"><h4>Company Fit</h4><pre>' + escHtml(p.fit_analysis || "Score: " + p.score + " | Tier: " + p.tier + " | Service: " + p.service_fit) + '</pre></div>' +
+    '</div></td>';
+    tbody.appendChild(detailTr);
+  });
+}
+
+function escHtml(s) { return s.replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;"); }
+
+function toggleDetail(company, btn) {
+  const id = "detail-" + company.replace(/[^a-zA-Z0-9]/g, "");
+  const row = document.getElementById(id);
+  if (row.style.display === "table-row") { row.style.display = "none"; btn.textContent = "View"; }
+  else { row.style.display = "table-row"; btn.textContent = "Hide"; }
+}
+
+function sortBy(field) {
+  if (sortField === field) sortDir *= -1;
+  else { sortField = field; sortDir = -1; }
+  renderTable();
+}
+
+function updateStatus(idx, val) {
+  const filtered = getFiltered();
+  const p = filtered[idx];
+  const orig = DATA.find(d => d.company === p.company && d.date === p.date);
+  if (orig) orig.status = val;
+  renderStats();
+}
+
+function exportCSV() {
+  const filtered = getFiltered();
+  let csv = "Date,Company,Contact,Title,Score,Tier,Service Fit,Signal,Status,Industry\n";
+  filtered.forEach(p => {
+    csv += [p.date,p.company,p.contact,p.title,p.score,p.tier,p.service_fit,'"'+((p.signal||"").replace(/"/g,'""'))+'"',p.status||"pending",p.industry].join(",") + "\n";
+  });
+  const blob = new Blob([csv], {type:"text/csv"});
+  const a = document.createElement("a");
+  a.href = URL.createObjectURL(blob);
+  a.download = "aitorch-prospects-" + new Date().toISOString().slice(0,10) + ".csv";
+  a.click();
+}
+</script>
+</body>
+</html>

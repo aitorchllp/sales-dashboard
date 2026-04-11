@@ -25,7 +25,11 @@
     "service_fit": "Cloud Architecture, AI-Native Dev",
     "signal": "AWS-native, $19.5M raised, 65K doctors, Ekathon 2025",
     "industry": "HealthTech",
-    "status": "sent"
+    "status": "sent",
+    "email_draft": "Subject: Cloud architecture for 65K+ doctors at scale\n\nHi Raghunandan,\n\nImpressive what eka.care has built - 65K doctors on the platform and growing. Managing cloud infrastructure at that scale while keeping healthcare data compliant is no small feat.\n\nWe're AITorch, a certified Google Cloud and Azure partner. We help healthcare platforms optimize their cloud architecture for performance and compliance. We've built an open-source cloud cost tool (c2a.aitorch.com) that gives instant visibility into spend.\n\nWorth a quick chat?\n\nBest,\nKalyan Battiprolu\nFounder, AITorch",
+    "linkedin_note": "Hi Raghunandan, eka.care's growth to 65K doctors is impressive. We help healthtech companies optimize cloud architecture at scale. Would love to connect.",
+    "research": "eka.care - digital health platform, $19.5M raised, 65K doctors, AWS-native, ran Ekathon 2025 hackathon. ABDM-integrated.",
+    "fit_analysis": "Good fit: AWS-native healthtech that could benefit from multi-cloud strategy or cloud optimization. Healthcare compliance requirements create consulting opportunities."
   },
   {
     "date": "2026-04-09",
@@ -37,7 +41,11 @@
     "service_fit": "Cloud Migration, Cloud Architecture, AI",
     "signal": "7.75x headcount growth, NPCI-certified UPI TSP",
     "industry": "Fintech",
-    "status": "sent"
+    "status": "sent",
+    "email_draft": "Subject: Cloud infrastructure for NPCI-certified fintech\n\nHi Nagaraj,\n\nNoticed VIYONA is NPCI-certified as a UPI TSP and growing rapidly (7.75x headcount growth). That kind of scaling in fintech requires rock-solid cloud infrastructure with compliance baked in.\n\nAt AITorch, we specialize in cloud architecture for fintech companies. As certified Google Cloud and Azure partners, we help companies like VIYONA build scalable, compliant infrastructure.\n\nWould 15 minutes make sense to explore how we could help?\n\nKalyan Battiprolu\nFounder, AITorch",
+    "linkedin_note": "Hi Nagaraj, VIYONA's 7.75x growth as an NPCI-certified UPI TSP is impressive. We help fintech companies build scalable cloud infra. Happy to connect.",
+    "research": "VIYONA Fintech - Hyderabad, NPCI-certified UPI TSP, 7.75x headcount growth. Fintech payments infrastructure.",
+    "fit_analysis": "Good fit: Hyderabad-based fintech with rapid growth. CTO is right contact. Cloud migration and architecture needs likely high due to compliance requirements."
   },
   {
     "date": "2026-04-09",
@@ -49,7 +57,11 @@
     "service_fit": "Cloud Architecture, DevOps, AI-Native",
     "signal": "AI banking + Tata 1mg/Apollo/EaseMyTrip integrations",
     "industry": "Fintech",
-    "status": "sent"
+    "status": "sent",
+    "email_draft": "Subject: AI-native banking infrastructure at OneBanc\n\nHi Vibhore,\n\nOneBanc's AI-first approach to banking with integrations across Tata 1mg, Apollo, and EaseMyTrip caught my attention. Building AI-native financial infrastructure requires a cloud foundation that scales.\n\nWe're AITorch - Google Cloud and Azure certified partner. We help fintech companies architect their cloud for AI workloads while keeping costs predictable.\n\nHappy to share how we've helped similar companies. Quick call?\n\nKalyan Battiprolu\nFounder, AITorch",
+    "linkedin_note": "Hi Vibhore, OneBanc's AI-first banking approach is fascinating. We help fintech companies build cloud infrastructure for AI workloads. Would love to connect.",
+    "research": "OneBanc - AI-powered banking, integrations with Tata 1mg, Apollo, EaseMyTrip. Gurugram-based fintech.",
+    "fit_analysis": "Good fit: AI-native fintech needs cloud architecture for ML workloads. CEO contact is high-value. Integrations suggest complex infrastructure."
   },
   {
     "date": "2026-04-09",
@@ -61,6 +73,92 @@
     "service_fit": "DevOps, Cloud Migration",
     "signal": "Hybrid Azure+GCP+on-prem, actively hiring DevOps",
     "industry": "Dev Studio",
-    "status": "sent"
+    "status": "sent",
+    "email_draft": "Subject: Simplifying hybrid cloud at GeekyAnts\n\nHi Saurabh,\n\nNoticed GeekyAnts runs a hybrid setup across Azure, GCP, and on-prem. Managing multiple clouds while hiring DevOps talent is a common challenge we see.\n\nAt AITorch, we help companies streamline multi-cloud operations. Our open-source tool C2A (c2a.aitorch.com) gives instant visibility across cloud providers.\n\nWorth a quick conversation?\n\nKalyan Battiprolu\nFounder, AITorch",
+    "linkedin_note": "Hi Saurabh, noticed GeekyAnts runs hybrid Azure+GCP+on-prem. We help companies simplify multi-cloud ops. Would love to exchange ideas.",
+    "research": "GeekyAnts - dev studio, hybrid Azure+GCP+on-prem, actively hiring DevOps engineers. Bangalore-based.",
+    "fit_analysis": "Moderate fit: Dev studio with multi-cloud complexity. CTO is right contact. DevOps hiring signal suggests infrastructure pain."
+  },
+  {
+    "date": "2026-04-10",
+    "company": "Sokin",
+    "contact": "Eshwar Natarajan",
+    "title": "Deputy CTO",
+    "score": 92,
+    "tier": "A",
+    "service_fit": "Cloud Architecture, Cost Optimization",
+    "signal": "Fintech, $196M funding, multi-cloud AWS/GCP/Azure, $8B+ payment volume",
+    "industry": "Fintech",
+    "status": "sent",
+    "email_draft": "Subject: Cloud cost optimization at $8B+ payment scale\n\nHi Eshwar,\n\nSokin processing $8B+ in payment volume across AWS, GCP, and Azure means cloud costs are a significant line item. At that scale, even 10% optimization translates to substantial savings.\n\nWe're AITorch, certified Google Cloud and Azure partner. We built C2A (c2a.aitorch.com) - an open-source cloud cost analyzer that gives instant visibility across providers. Companies like Sokin typically find 20-30% in savings we can help unlock.\n\nWorth 15 minutes to explore?\n\nKalyan Battiprolu\nFounder, AITorch",
+    "linkedin_note": "Hi Eshwar, Sokin processing $8B+ across multi-cloud is impressive. We help fintech companies optimize cloud costs at scale. Would love to connect.",
+    "inmail": "Subject: Multi-cloud cost optimization for Sokin\n\nHi Eshwar, noticed Sokin runs across AWS, GCP, and Azure at $8B+ payment volume. We built an open-source tool (c2a.aitorch.com) that gives instant cost visibility across providers. As Google Cloud and Azure partners, we've helped similar fintech companies find 20-30% savings. Open to a quick chat?",
+    "research": "Sokin - fintech, $196M funding, multi-cloud (AWS/GCP/Azure), $8B+ payment volume. Deputy CTO Eshwar Natarajan leads tech strategy.",
+    "fit_analysis": "Excellent fit: High-funded fintech with multi-cloud complexity. $196M funding means budget. $8B payment volume means significant cloud spend. Deputy CTO is ideal buyer for cloud optimization services."
+  },
+  {
+    "date": "2026-04-10",
+    "company": "Josys",
+    "contact": "Chitharanjan Mohandas",
+    "title": "VP Architecture",
+    "score": 88,
+    "tier": "A",
+    "service_fit": "Cloud Architecture, DevOps",
+    "signal": "SaaS, $236M funding, deep AWS stack, 60-person engineering team",
+    "industry": "SaaS",
+    "status": "sent",
+    "email_draft": "Subject: Scaling architecture for 60+ engineers at Josys\n\nHi Chitharanjan,\n\nWith $236M in funding and a 60-person engineering team, Josys is at the stage where cloud architecture decisions have massive downstream impact.\n\nAt AITorch, we help SaaS companies like Josys optimize their cloud architecture for both performance and cost. As certified Google Cloud and Azure partners, we bring deep expertise in scaling infrastructure.\n\nWould love to share how we've helped similar SaaS companies. Quick call this week?\n\nKalyan Battiprolu\nFounder, AITorch",
+    "linkedin_note": "Hi Chitharanjan, Josys scaling with a 60-person eng team and $236M funding is impressive. We help SaaS companies optimize cloud architecture. Would love to connect.",
+    "inmail": "Subject: Cloud architecture for Josys at scale\n\nHi Chitharanjan, with 60 engineers and deep AWS infrastructure, Josys's cloud architecture decisions have huge impact. We're Google Cloud and Azure partners who help SaaS companies at your stage optimize for performance and cost. Happy to share specific examples. Open to a quick chat?",
+    "research": "Josys - SaaS platform, $236M funding, deep AWS stack, 60-person engineering team. VP Architecture leads infrastructure decisions.",
+    "fit_analysis": "Excellent fit: Well-funded SaaS with large eng team. VP Architecture is perfect buyer persona. AWS-heavy stack means potential for multi-cloud optimization or migration opportunities."
+  },
+  {
+    "date": "2026-04-10",
+    "company": "Xoxoday",
+    "contact": "Anindo Bandyopadhyay",
+    "title": "CTO-Compass",
+    "score": 85,
+    "tier": "A",
+    "service_fit": "Cloud Architecture, Cost Optimization",
+    "signal": "B2B SaaS, $100.5M Series C, true multi-cloud with 3 DB vendors",
+    "industry": "SaaS",
+    "status": "sent",
+    "email_draft": "Subject: Simplifying multi-cloud at Xoxoday\n\nHi Anindo,\n\nXoxoday running true multi-cloud with 3 different database vendors tells me infrastructure complexity is real. After a $100.5M Series C, optimizing that stack becomes critical.\n\nWe're AITorch - Google Cloud and Azure certified partner. We specialize in helping SaaS companies simplify multi-cloud operations and cut costs. Our open-source tool C2A gives instant visibility into cloud spend.\n\nWorth a conversation?\n\nKalyan Battiprolu\nFounder, AITorch",
+    "linkedin_note": "Hi Anindo, Xoxoday running multi-cloud with 3 DB vendors is complex. We help SaaS companies simplify and optimize. Would love to connect.",
+    "research": "Xoxoday/Giift - B2B SaaS, $100.5M Series C, true multi-cloud with 3 DB vendors. CTO-Compass leads architecture.",
+    "fit_analysis": "Strong fit: Multi-cloud complexity with 3 DB vendors is exactly the pain AITorch solves. $100.5M funding means budget. CTO is ideal buyer."
+  },
+  {
+    "date": "2026-04-10",
+    "company": "Yavar.ai",
+    "contact": "Bragadeesh Sundararajan",
+    "title": "CIO",
+    "score": 75,
+    "tier": "B",
+    "service_fit": "Cloud Architecture, AI Infrastructure",
+    "signal": "Enterprise AI on GKE + Pinecone/Milvus, Google Cloud fit",
+    "industry": "AI/Enterprise",
+    "status": "sent",
+    "email_draft": "Subject: Optimizing GKE + vector DB infrastructure at Yavar.ai\n\nHi Bragadeesh,\n\nYavar.ai running enterprise AI on GKE with Pinecone and Milvus is a sophisticated setup. As a Google Cloud certified partner, we specialize in exactly this kind of AI infrastructure optimization.\n\nWe help companies like Yavar.ai get more out of their Google Cloud investment - whether it's GKE scaling, vector DB performance, or cost optimization.\n\nInterested in a quick chat?\n\nKalyan Battiprolu\nFounder, AITorch",
+    "linkedin_note": "Hi Bragadeesh, Yavar.ai's enterprise AI on GKE with vector DBs is impressive. We're a Google Cloud partner specializing in AI infrastructure. Happy to connect.",
+    "research": "Yavar.ai - enterprise AI company, runs on GKE with Pinecone/Milvus vector databases. CIO Bragadeesh leads technology decisions.",
+    "fit_analysis": "Good fit: AI company on Google Cloud (GKE) with vector DB infrastructure. CIO contact. Natural fit for Google Cloud optimization and AI infrastructure services."
+  },
+  {
+    "date": "2026-04-10",
+    "company": "CodeRound AI",
+    "contact": "Chaitanya Mehta",
+    "title": "CEO",
+    "score": 68,
+    "tier": "B",
+    "service_fit": "Cloud Architecture, Cost Optimization",
+    "signal": "AI startup, multi-cloud, uses Claude/OpenAI/Llama - cloud costs matter",
+    "industry": "AI/SaaS",
+    "status": "sent",
+    "email_draft": "Subject: Managing cloud costs with multiple AI models\n\nHi Chaitanya,\n\nRunning Claude, OpenAI, and Llama across multiple clouds means inference costs add up fast. As a fellow AI builder, I understand the challenge of balancing model quality with cloud economics.\n\nWe're AITorch - Google Cloud and Azure partner. We've built tools to help AI companies optimize cloud spend (check out c2a.aitorch.com). Happy to share what we've learned.\n\nQuick chat?\n\nKalyan Battiprolu\nFounder, AITorch",
+    "linkedin_note": "Hi Chaitanya, running Claude + OpenAI + Llama across multi-cloud means costs add up. We help AI companies optimize cloud spend. Would love to connect.",
+    "research": "CodeRound AI - AI startup, multi-cloud, uses Claude/OpenAI/Llama models. CEO Chaitanya Mehta.",
+    "fit_analysis": "Moderate fit: AI startup with multi-model multi-cloud setup. CEO contact. Cloud cost optimization is a clear pain point with multiple inference providers."
   }
 ]
