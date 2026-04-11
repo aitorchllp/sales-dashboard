@@ -1,0 +1,66 @@
+[
+  {
+    "date": "2026-04-09",
+    "company": "Onsurity",
+    "contact": "Jayakrishna",
+    "title": "VP Engineering",
+    "score": 82,
+    "tier": "A",
+    "service_fit": "Cloud Architecture, DevOps, AI-Native",
+    "signal": "$45M Series B, Snowflake partnership, 8k to 50k client growth",
+    "industry": "HealthTech",
+    "status": "sent",
+    "email_draft": "Subject: Scaling cloud infra at Onsurity's growth pace\n\nHi Jayakrishna,\n\nCongratulations on the Snowflake partnership and the impressive growth from 8K to 50K clients. That kind of scale puts real pressure on cloud architecture.\n\nAt AITorch, we help companies like Onsurity optimize their cloud infrastructure as they scale. As certified Google Cloud and Azure partners, we've helped similar healthtech companies reduce cloud costs by 30-40% while improving reliability.\n\nWould a 15-minute call make sense to explore if there's a fit?\n\nBest,\nKalyan Battiprolu\nFounder, AITorch\nc2a.aitorch.com | promptg.aitorch.com",
+    "linkedin_note": "Hi Jayakrishna, noticed Onsurity's impressive scale from 8K to 50K clients. We help healthtech companies optimize cloud infra during rapid growth. Would love to connect.",
+    "research": "Onsurity - healthtech, $45M Series B, Snowflake partnership, scaling from 8K to 50K clients. Uses cloud infrastructure heavily for health benefits platform.",
+    "fit_analysis": "Strong fit: High-growth healthtech company with scaling cloud needs. $45M funding means budget available. VP Engineering is right buyer persona for cloud architecture and DevOps services."
+  },
+  {
+    "date": "2026-04-09",
+    "company": "eka.care",
+    "contact": "Raghunandan",
+    "title": "Director of Engineering",
+    "score": 78,
+    "tier": "A",
+    "service_fit": "Cloud Architecture, AI-Native Dev",
+    "signal": "AWS-native, $19.5M raised, 65K doctors, Ekathon 2025",
+    "industry": "HealthTech",
+    "status": "sent"
+  },
+  {
+    "date": "2026-04-09",
+    "company": "VIYONA Fintech",
+    "contact": "Nagaraj",
+    "title": "CTO",
+    "score": 75,
+    "tier": "A",
+    "service_fit": "Cloud Migration, Cloud Architecture, AI",
+    "signal": "7.75x headcount growth, NPCI-certified UPI TSP",
+    "industry": "Fintech",
+    "status": "sent"
+  },
+  {
+    "date": "2026-04-09",
+    "company": "OneBanc",
+    "contact": "Vibhore Goyal",
+    "title": "CEO",
+    "score": 72,
+    "tier": "A",
+    "service_fit": "Cloud Architecture, DevOps, AI-Native",
+    "signal": "AI banking + Tata 1mg/Apollo/EaseMyTrip integrations",
+    "industry": "Fintech",
+    "status": "sent"
+  },
+  {
+    "date": "2026-04-09",
+    "company": "GeekyAnts",
+    "contact": "Saurabh",
+    "title": "CTO",
+    "score": 68,
+    "tier": "B",
+    "service_fit": "DevOps, Cloud Migration",
+    "signal": "Hybrid Azure+GCP+on-prem, actively hiring DevOps",
+    "industry": "Dev Studio",
+    "status": "sent"
+  }
+]
