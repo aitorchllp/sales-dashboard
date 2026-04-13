@@ -217,7 +217,7 @@ function renderTabs() {
   const types = [...new Set(DATA.map(d => d.type || "sales"))];
   const counts = {};
   DATA.forEach(d => { const t = d.type || "sales"; counts[t] = (counts[t]||0)+1; });
-  const labels = {sales:"Sales Prospects", partner:"Partners", intent:"Intent Signals"};
+  const labels = {sales:"Sales Prospects", partner:"Partners", intent:"Intent Signals", m365:"M365 Licenses"};
   let h = '<div class="report-tab'+(activeType==="all"?" active":"")+'" onclick="setType(\'all\')">All<span class="count">'+DATA.length+'</span></div>';
   types.forEach(t => {
     h += '<div class="report-tab'+(activeType===t?" active":"")+'" onclick="setType(\''+t+'\')">'+(labels[t]||t)+'<span class="count">'+(counts[t]||0)+'</span></div>';
