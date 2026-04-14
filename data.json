@@ -190,14 +190,14 @@
     "email": "",
     "score": 90,
     "tier": "A",
-    "service_fit": "Platform Complement (GCP → Azure referrals)",
+    "service_fit": "Platform Complement (GCP \u2192 Azure referrals)",
     "signal": "GCP partner, Bengaluru, 35 employees, AI/ML specialization",
     "industry": "Cloud/AI Partner",
     "status": "pending",
     "email_draft": "",
-    "linkedin_note": "Not in Apollo — manual LinkedIn search needed",
+    "linkedin_note": "Not in Apollo \u2014 manual LinkedIn search needed",
     "research": "PragyaShal Cloud Solutions - GCP-only partner in Bengaluru, 35 people, AI/ML focus. Perfect complement: they refer Azure work to AITorch, we refer GCP work to them.",
-    "fit_analysis": "9/10 fit: Platform complement (GCP-only → Azure referrals to AITorch) + Bangalore↔Hyderabad geographic coverage."
+    "fit_analysis": "9/10 fit: Platform complement (GCP-only \u2192 Azure referrals to AITorch) + Bangalore\u2194Hyderabad geographic coverage."
   },
   {
     "type": "partner",
@@ -208,14 +208,14 @@
     "email": "deepak@infra360.io",
     "score": 90,
     "tier": "A",
-    "service_fit": "Specialization Complement (DevOps/FinOps ↔ Cloud/AI)",
+    "service_fit": "Specialization Complement (DevOps/FinOps \u2194 Cloud/AI)",
     "signal": "GCP/DevOps partner, Gurugram, 35 employees, 2022 startup",
     "industry": "Cloud/DevOps Partner",
     "status": "pending",
-    "email_draft": "Subject: AITorch + Infra360 — complementary cloud practices\n\nHi Deepak,\n\nI noticed Infra360's strong DevOps and FinOps practice in Gurugram. We're AITorch, a Google Cloud and Azure partner based in Hyderabad focused on cloud migration, architecture, and AI.\n\nOur practices complement well — your DevOps/FinOps depth + our cloud migration and AI specialization could create a stronger offering for clients. We could refer infrastructure optimization work your way, and you could refer cloud migration and AI projects to us.\n\nWorth a 15-minute call to explore partnership?\n\nKalyan Battiprolu\nFounder, AITorch",
-    "linkedin_note": "Hi Deepak, noticed Infra360's DevOps/FinOps practice. We're a Google Cloud + Azure partner in Hyderabad focused on cloud migration & AI. Our practices complement well — would love to explore partnership.",
+    "email_draft": "Subject: AITorch + Infra360 \u2014 complementary cloud practices\n\nHi Deepak,\n\nI noticed Infra360's strong DevOps and FinOps practice in Gurugram. We're AITorch, a Google Cloud and Azure partner based in Hyderabad focused on cloud migration, architecture, and AI.\n\nOur practices complement well \u2014 your DevOps/FinOps depth + our cloud migration and AI specialization could create a stronger offering for clients. We could refer infrastructure optimization work your way, and you could refer cloud migration and AI projects to us.\n\nWorth a 15-minute call to explore partnership?\n\nKalyan Battiprolu\nFounder, AITorch",
+    "linkedin_note": "Hi Deepak, noticed Infra360's DevOps/FinOps practice. We're a Google Cloud + Azure partner in Hyderabad focused on cloud migration & AI. Our practices complement well \u2014 would love to explore partnership.",
     "research": "Infra360 - GCP/DevOps partner, Gurugram, 35 people, founded 2022. Specializes in DevOps and FinOps. Complementary to AITorch's cloud migration and AI focus.",
-    "fit_analysis": "9/10 fit: Specialization complement (DevOps/FinOps ↔ Cloud Migration/AI) + Gurugram↔Hyderabad geographic coverage."
+    "fit_analysis": "9/10 fit: Specialization complement (DevOps/FinOps \u2194 Cloud Migration/AI) + Gurugram\u2194Hyderabad geographic coverage."
   },
   {
     "type": "partner",
@@ -226,14 +226,14 @@
     "email": "ajith.george@sysfore.com",
     "score": 80,
     "tier": "A",
-    "service_fit": "Platform Complement (Azure Gold → GCP referrals)",
+    "service_fit": "Platform Complement (Azure Gold \u2192 GCP referrals)",
     "signal": "Azure Gold Partner, Bengaluru, 90 employees",
     "industry": "Cloud Partner",
     "status": "pending",
-    "email_draft": "Subject: AITorch + Sysfore — Azure + GCP partnership\n\nHi Ajith,\n\nSysfore's Azure Gold Partner status is impressive. We're AITorch, certified on both Google Cloud and Azure, based in Hyderabad.\n\nSince Sysfore focuses on Azure and we have strong GCP capabilities, there's a natural referral opportunity — clients needing multi-cloud or GCP-specific work could come our way, and we'd refer Azure-heavy projects to you.\n\nInterested in exploring a partnership?\n\nKalyan Battiprolu\nFounder, AITorch",
-    "linkedin_note": "Hi Ajith, noticed Sysfore's Azure Gold Partner status. We're a Google Cloud + Azure partner in Hyderabad. Natural complement — happy to explore partnership opportunities.",
+    "email_draft": "Subject: AITorch + Sysfore \u2014 Azure + GCP partnership\n\nHi Ajith,\n\nSysfore's Azure Gold Partner status is impressive. We're AITorch, certified on both Google Cloud and Azure, based in Hyderabad.\n\nSince Sysfore focuses on Azure and we have strong GCP capabilities, there's a natural referral opportunity \u2014 clients needing multi-cloud or GCP-specific work could come our way, and we'd refer Azure-heavy projects to you.\n\nInterested in exploring a partnership?\n\nKalyan Battiprolu\nFounder, AITorch",
+    "linkedin_note": "Hi Ajith, noticed Sysfore's Azure Gold Partner status. We're a Google Cloud + Azure partner in Hyderabad. Natural complement \u2014 happy to explore partnership opportunities.",
     "research": "Sysfore Technologies - Azure Gold Partner, Bengaluru, 90 people. No GCP practice = referral opportunity for AITorch's GCP services.",
-    "fit_analysis": "8/10 fit: Platform complement (Azure Gold, no GCP → GCP referrals to AITorch) + Bangalore↔Hyderabad geographic."
+    "fit_analysis": "8/10 fit: Platform complement (Azure Gold, no GCP \u2192 GCP referrals to AITorch) + Bangalore\u2194Hyderabad geographic."
   },
   {
     "type": "partner",
@@ -244,14 +244,14 @@
     "email": "vikas.kamra@valiancesolutions.com",
     "score": 70,
     "tier": "A",
-    "service_fit": "AI-Cloud Complement (ML/AI ↔ Cloud Infra)",
+    "service_fit": "AI-Cloud Complement (ML/AI \u2194 Cloud Infra)",
     "signal": "Deep AI/ML firm, Noida, 170 employees",
     "industry": "AI/Cloud Partner",
     "status": "pending",
-    "email_draft": "Subject: AITorch + Valiance — cloud infra + AI expertise\n\nHi Vikas,\n\nValiance's deep AI/ML expertise caught our attention. We're AITorch, a Google Cloud and Azure partner in Hyderabad specializing in cloud infrastructure, migration, and architecture.\n\nThere's a natural synergy — your AI/ML depth combined with our cloud infrastructure expertise could deliver stronger end-to-end solutions for clients. We could refer AI-heavy projects your way, and you could refer cloud infrastructure needs to us.\n\nWould a quick call to explore partnership make sense?\n\nKalyan Battiprolu\nFounder, AITorch",
-    "linkedin_note": "Hi Vikas, Valiance's AI/ML expertise is impressive. We're a cloud infrastructure partner (Google Cloud + Azure) in Hyderabad. Natural synergy — would love to explore partnership.",
+    "email_draft": "Subject: AITorch + Valiance \u2014 cloud infra + AI expertise\n\nHi Vikas,\n\nValiance's deep AI/ML expertise caught our attention. We're AITorch, a Google Cloud and Azure partner in Hyderabad specializing in cloud infrastructure, migration, and architecture.\n\nThere's a natural synergy \u2014 your AI/ML depth combined with our cloud infrastructure expertise could deliver stronger end-to-end solutions for clients. We could refer AI-heavy projects your way, and you could refer cloud infrastructure needs to us.\n\nWould a quick call to explore partnership make sense?\n\nKalyan Battiprolu\nFounder, AITorch",
+    "linkedin_note": "Hi Vikas, Valiance's AI/ML expertise is impressive. We're a cloud infrastructure partner (Google Cloud + Azure) in Hyderabad. Natural synergy \u2014 would love to explore partnership.",
     "research": "Valiance Solutions - Deep AI/ML company, Noida, 170 people. Strong ML capabilities complement AITorch's cloud infrastructure focus.",
-    "fit_analysis": "7/10 fit: AI-cloud complement (deep ML/AI ↔ cloud infrastructure) + Noida↔Hyderabad geographic."
+    "fit_analysis": "7/10 fit: AI-cloud complement (deep ML/AI \u2194 cloud infrastructure) + Noida\u2194Hyderabad geographic."
   },
   {
     "type": "partner",
@@ -267,9 +267,9 @@
     "industry": "Cloud MSP Partner",
     "status": "pending",
     "email_draft": "",
-    "linkedin_note": "Not in Apollo — manual LinkedIn search needed",
-    "research": "CloudIBN - Multi-cloud MSP, Pune, 25 people. MSP capacity and Pune↔Hyderabad geographic complement.",
-    "fit_analysis": "7/10 fit: MSP capacity + geographic (Pune↔Hyderabad)."
+    "linkedin_note": "Not in Apollo \u2014 manual LinkedIn search needed",
+    "research": "CloudIBN - Multi-cloud MSP, Pune, 25 people. MSP capacity and Pune\u2194Hyderabad geographic complement.",
+    "fit_analysis": "7/10 fit: MSP capacity + geographic (Pune\u2194Hyderabad)."
   },
   {
     "type": "sales",
@@ -285,10 +285,10 @@
     "industry": "SaaS / Fintech",
     "status": "pending",
     "research": "Enfusion is a cloud-native SaaS platform for investment managers and hedge funds. Vivek Ranka is MD Technology & Head of India, overseeing engineering and India operations. Company runs heavy cloud infrastructure (AWS/Azure) supporting real-time portfolio analytics and OMS. Strong GenAI adoption pressure as buy-side firms demand AI-assisted analysis. Not contacted in CRM since June 2023.",
-    "fit_analysis": "78/100 — Strong ICP fit: SaaS fintech, senior tech decision-maker, India-based, cloud-native. Pain points include scaling AI features without disrupting core OMS reliability. GenAI roadmap acceleration and prompt engineering platform (promptg.aitorch.com) are high relevance.",
-    "email_draft": "Subject: Cloud-native AI for investment platforms like Enfusion\n\nHi Vivek,\n\nManaging technology for a cloud-native investment platform means you're constantly balancing scale, reliability, and pressure to ship AI features faster than competitors.\n\nI'm Kalyan, Founder at AITorch. We help SaaS and fintech engineering teams accelerate their GenAI roadmap without rebuilding infrastructure. Our platform (promptg.aitorch.com) lets your team prototype and deploy AI workflows in days — with full prompt versioning, A/B testing, and cost analytics built in.\n\nGiven Enfusion's cloud-first DNA, I'd love to share how we've helped similar platforms cut time-to-AI by 60%. Quick 20-minute call this week?\n\nKalyan Battiprolu\nFounder, AITorch\nc2a.aitorch.com | promptg.aitorch.com",
-    "linkedin_note": "Hi Vivek, I work with SaaS fintech teams helping them ship GenAI features faster on cloud-native infra. Would love to connect and share what's working — Kalyan, AITorch",
-    "inmail": "Hi Vivek, as MD Technology at Enfusion — a cloud-native investment platform — you're navigating AI adoption pressure while maintaining core reliability. At AITorch, we help fintech engineering leaders deploy GenAI workflows without heavy infra lift. Our promptg.aitorch.com handles prompt versioning, A/B testing, and cost control at scale. Worth 20 minutes to explore? — Kalyan, AITorch"
+    "fit_analysis": "78/100 \u2014 Strong ICP fit: SaaS fintech, senior tech decision-maker, India-based, cloud-native. Pain points include scaling AI features without disrupting core OMS reliability. GenAI roadmap acceleration and prompt engineering platform (promptg.aitorch.com) are high relevance.",
+    "email_draft": "Subject: Cloud-native AI for investment platforms like Enfusion\n\nHi Vivek,\n\nManaging technology for a cloud-native investment platform means you're constantly balancing scale, reliability, and pressure to ship AI features faster than competitors.\n\nI'm Kalyan, Founder at AITorch. We help SaaS and fintech engineering teams accelerate their GenAI roadmap without rebuilding infrastructure. Our platform (promptg.aitorch.com) lets your team prototype and deploy AI workflows in days \u2014 with full prompt versioning, A/B testing, and cost analytics built in.\n\nGiven Enfusion's cloud-first DNA, I'd love to share how we've helped similar platforms cut time-to-AI by 60%. Quick 20-minute call this week?\n\nKalyan Battiprolu\nFounder, AITorch\nc2a.aitorch.com | promptg.aitorch.com",
+    "linkedin_note": "Hi Vivek, I work with SaaS fintech teams helping them ship GenAI features faster on cloud-native infra. Would love to connect and share what's working \u2014 Kalyan, AITorch",
+    "inmail": "Hi Vivek, as MD Technology at Enfusion \u2014 a cloud-native investment platform \u2014 you're navigating AI adoption pressure while maintaining core reliability. At AITorch, we help fintech engineering leaders deploy GenAI workflows without heavy infra lift. Our promptg.aitorch.com handles prompt versioning, A/B testing, and cost control at scale. Worth 20 minutes to explore? \u2014 Kalyan, AITorch"
   },
   {
     "type": "sales",
@@ -303,11 +303,11 @@
     "signal": "CRM re-engagement: Fintech payments infrastructure, not contacted since Jun 2023; global payment rails in India",
     "industry": "Fintech",
     "status": "pending",
-    "research": "TerraPay is a global payments infrastructure company processing cross-border transfers, with strong India operations. Vanburn Gomes is Director Technology & Whole-time Director, a board-level tech leader. Company processes billions in payment volume and is under constant pressure to add AI-driven fraud detection, AML automation, and customer intelligence — all in compliance-sensitive environments.",
-    "fit_analysis": "82/100 — Excellent ICP fit: Fintech payments infrastructure, Director-level decision maker, India-based. Clear pain points: AI-powered fraud detection, compliance-safe cloud deployment. c2a.aitorch.com cloud-to-AI framework directly addresses their need to layer AI on payment rails without regulatory risk.",
-    "email_draft": "Subject: AI-ready payment infrastructure — a thought for TerraPay\n\nHi Vanburn,\n\nPayment infrastructure teams are under constant pressure to add AI-powered fraud detection, AML, and customer intelligence — without disrupting core payment flows or touching compliance boundaries.\n\nI'm Kalyan, Founder at AITorch. We specialize in helping fintech infrastructure teams integrate GenAI securely and quickly. Our c2a.aitorch.com offering provides cloud-to-AI migration pathways built specifically for compliance-sensitive payment environments.\n\nWould love to share a quick case study on how we've helped similar teams. 20 minutes this week?\n\nKalyan Battiprolu\nFounder, AITorch\nc2a.aitorch.com | promptg.aitorch.com",
-    "linkedin_note": "Hi Vanburn, I help fintech infrastructure teams integrate AI securely — fraud detection, AML automation on top of existing payment rails. Would love to connect! — Kalyan, AITorch",
-    "inmail": "Hi Vanburn, payment infrastructure at TerraPay's scale means you're evaluating where AI fits — fraud detection, routing optimization, compliance automation — all without touching core payment rails. At AITorch, we've helped fintech teams navigate exactly this with our c2a.aitorch.com framework, which is compliance-ready and built for high-volume environments. Worth a quick conversation? — Kalyan, AITorch"
+    "research": "TerraPay is a global payments infrastructure company processing cross-border transfers, with strong India operations. Vanburn Gomes is Director Technology & Whole-time Director, a board-level tech leader. Company processes billions in payment volume and is under constant pressure to add AI-driven fraud detection, AML automation, and customer intelligence \u2014 all in compliance-sensitive environments.",
+    "fit_analysis": "82/100 \u2014 Excellent ICP fit: Fintech payments infrastructure, Director-level decision maker, India-based. Clear pain points: AI-powered fraud detection, compliance-safe cloud deployment. c2a.aitorch.com cloud-to-AI framework directly addresses their need to layer AI on payment rails without regulatory risk.",
+    "email_draft": "Subject: AI-ready payment infrastructure \u2014 a thought for TerraPay\n\nHi Vanburn,\n\nPayment infrastructure teams are under constant pressure to add AI-powered fraud detection, AML, and customer intelligence \u2014 without disrupting core payment flows or touching compliance boundaries.\n\nI'm Kalyan, Founder at AITorch. We specialize in helping fintech infrastructure teams integrate GenAI securely and quickly. Our c2a.aitorch.com offering provides cloud-to-AI migration pathways built specifically for compliance-sensitive payment environments.\n\nWould love to share a quick case study on how we've helped similar teams. 20 minutes this week?\n\nKalyan Battiprolu\nFounder, AITorch\nc2a.aitorch.com | promptg.aitorch.com",
+    "linkedin_note": "Hi Vanburn, I help fintech infrastructure teams integrate AI securely \u2014 fraud detection, AML automation on top of existing payment rails. Would love to connect! \u2014 Kalyan, AITorch",
+    "inmail": "Hi Vanburn, payment infrastructure at TerraPay's scale means you're evaluating where AI fits \u2014 fraud detection, routing optimization, compliance automation \u2014 all without touching core payment rails. At AITorch, we've helped fintech teams navigate exactly this with our c2a.aitorch.com framework, which is compliance-ready and built for high-volume environments. Worth a quick conversation? \u2014 Kalyan, AITorch"
   },
   {
     "type": "sales",
@@ -323,10 +323,10 @@
     "industry": "AI / HR SaaS",
     "status": "pending",
     "research": "X0PA AI is an AI-powered talent intelligence and hiring platform. Sri Allamraju is CTO & MD India, running full tech and India operations. As an AI-native company, X0PA deals with the next-layer AI challenges: LLM cost optimization, prompt reliability at enterprise scale, and consistent GenAI outputs across thousands of hiring workflows. Perfect promptg.aitorch.com prospect.",
-    "fit_analysis": "85/100 — Strongest Batch A ICP: AI-native SaaS CTO, India-based, enterprise scale. Direct pain points align with promptg.aitorch.com — prompt versioning, LLM cost control, and reliable AI outputs at scale. High likelihood of product fit and POC conversion.",
-    "email_draft": "Subject: Prompt engineering at scale — a tool built for AI-native teams like X0PA\n\nHi Sri,\n\nAs CTO of an AI-native platform like X0PA, you're likely dealing with the next layer of challenges: LLM cost optimization, prompt reliability at scale, and keeping GenAI outputs consistent across enterprise clients.\n\nI'm Kalyan, Founder at AITorch. We built promptg.aitorch.com specifically to help AI product teams manage prompt engineering at scale — versioning, A/B testing, cost analytics, and deployment automation. Think of it as the DevOps layer for your AI prompts.\n\nWould love to get your take on it — you'd have the best perspective on whether it fills a real gap. Quick call?\n\nKalyan Battiprolu\nFounder, AITorch\nc2a.aitorch.com | promptg.aitorch.com",
-    "linkedin_note": "Hi Sri, fellow AI builder here — we built promptg.aitorch.com to help AI-native teams manage LLM prompts at scale. Would love your perspective as X0PA's CTO. — Kalyan, AITorch",
-    "inmail": "Hi Sri, as CTO of X0PA AI, you're operating at the frontier of AI in HR. Once AI is core to your product, the next challenge is prompt reliability, cost control, and scale. That's exactly what we solve at AITorch. Our promptg.aitorch.com platform helps AI-native teams keep GenAI outputs consistent and costs predictable across thousands of enterprise workflows. Worth 20 minutes to explore? — Kalyan, AITorch"
+    "fit_analysis": "85/100 \u2014 Strongest Batch A ICP: AI-native SaaS CTO, India-based, enterprise scale. Direct pain points align with promptg.aitorch.com \u2014 prompt versioning, LLM cost control, and reliable AI outputs at scale. High likelihood of product fit and POC conversion.",
+    "email_draft": "Subject: Prompt engineering at scale \u2014 a tool built for AI-native teams like X0PA\n\nHi Sri,\n\nAs CTO of an AI-native platform like X0PA, you're likely dealing with the next layer of challenges: LLM cost optimization, prompt reliability at scale, and keeping GenAI outputs consistent across enterprise clients.\n\nI'm Kalyan, Founder at AITorch. We built promptg.aitorch.com specifically to help AI product teams manage prompt engineering at scale \u2014 versioning, A/B testing, cost analytics, and deployment automation. Think of it as the DevOps layer for your AI prompts.\n\nWould love to get your take on it \u2014 you'd have the best perspective on whether it fills a real gap. Quick call?\n\nKalyan Battiprolu\nFounder, AITorch\nc2a.aitorch.com | promptg.aitorch.com",
+    "linkedin_note": "Hi Sri, fellow AI builder here \u2014 we built promptg.aitorch.com to help AI-native teams manage LLM prompts at scale. Would love your perspective as X0PA's CTO. \u2014 Kalyan, AITorch",
+    "inmail": "Hi Sri, as CTO of X0PA AI, you're operating at the frontier of AI in HR. Once AI is core to your product, the next challenge is prompt reliability, cost control, and scale. That's exactly what we solve at AITorch. Our promptg.aitorch.com platform helps AI-native teams keep GenAI outputs consistent and costs predictable across thousands of enterprise workflows. Worth 20 minutes to explore? \u2014 Kalyan, AITorch"
   },
   {
     "type": "sales",
@@ -342,9 +342,9 @@
     "industry": "Non-profit / Technology",
     "status": "pending",
     "research": "Omidyar Network India is a philanthropic investment firm focused on tech-for-good. William Chitla is Director IT, managing cloud infrastructure and IT strategy for the organization. Impact organizations face the same cloud and AI demands as commercial entities but often with tighter budgets and greater accountability requirements. AWS Cloud, IT Strategy, and ITIL experience signals solid infrastructure background.",
-    "fit_analysis": "60/100 — Moderate ICP fit: Director IT in India with cloud/AWS background is a relevant contact, but non-profit/impact sector has longer decision cycles and budget constraints. c2a.aitorch.com cloud optimization angle is most relevant. Tier B engagement.",
-    "email_draft": "Subject: Cloud and AI infrastructure for impact-driven organizations\n\nHi William,\n\nImpact-focused organizations like Omidyar Network India need the same cloud reliability and AI capabilities as commercial enterprises — often with tighter budgets and more scrutiny on every spend.\n\nI'm Kalyan, Founder at AITorch. We help technology leaders in India optimize cloud infrastructure and explore AI use cases that create measurable operational value. Our c2a.aitorch.com approach is designed to do more with less.\n\nHappy to share how similar organizations are using AI to amplify their impact. Would love to connect.\n\nKalyan Battiprolu\nFounder, AITorch\nc2a.aitorch.com | promptg.aitorch.com",
-    "linkedin_note": "Hi William, I work with tech leaders in India optimizing cloud infra and AI adoption — often with lean budgets and high accountability. Would love to connect and share ideas. — Kalyan, AITorch"
+    "fit_analysis": "60/100 \u2014 Moderate ICP fit: Director IT in India with cloud/AWS background is a relevant contact, but non-profit/impact sector has longer decision cycles and budget constraints. c2a.aitorch.com cloud optimization angle is most relevant. Tier B engagement.",
+    "email_draft": "Subject: Cloud and AI infrastructure for impact-driven organizations\n\nHi William,\n\nImpact-focused organizations like Omidyar Network India need the same cloud reliability and AI capabilities as commercial enterprises \u2014 often with tighter budgets and more scrutiny on every spend.\n\nI'm Kalyan, Founder at AITorch. We help technology leaders in India optimize cloud infrastructure and explore AI use cases that create measurable operational value. Our c2a.aitorch.com approach is designed to do more with less.\n\nHappy to share how similar organizations are using AI to amplify their impact. Would love to connect.\n\nKalyan Battiprolu\nFounder, AITorch\nc2a.aitorch.com | promptg.aitorch.com",
+    "linkedin_note": "Hi William, I work with tech leaders in India optimizing cloud infra and AI adoption \u2014 often with lean budgets and high accountability. Would love to connect and share ideas. \u2014 Kalyan, AITorch"
   },
   {
     "type": "sales",
@@ -360,10 +360,10 @@
     "industry": "SaaS",
     "status": "pending",
     "research": "Quiddity Infotech is a SaaS company with India operations. Aneel K is CTO & MD India, a dual-role senior leader with full technology and business ownership. SaaS CTOs in India in 2026 are under pressure to ship GenAI features while managing cloud costs and engineering capacity. Strong fit for promptg.aitorch.com's prompt management capabilities.",
-    "fit_analysis": "72/100 — Good ICP fit: SaaS CTO with India decision authority. GenAI adoption pressure for SaaS products is high. promptg.aitorch.com directly addresses common SaaS CTO pain: shipping AI features without prompt chaos and unpredictable LLM costs.",
-    "email_draft": "Subject: GenAI for SaaS products — what's working in 2026\n\nHi Aneel,\n\nSaaS CTOs in India are under real pressure to ship GenAI features fast — but doing it without the right infrastructure leads to prompt chaos, unpredictable LLM costs, and quality issues at enterprise scale.\n\nI'm Kalyan, Founder at AITorch. We help SaaS engineering teams go from 'experimenting with AI' to 'AI in production' — with our promptg.aitorch.com platform handling prompt management, versioning, cost analytics, and deployment automation.\n\nWould love to show you what 15 minutes with our platform reveals. Quick call this week?\n\nKalyan Battiprolu\nFounder, AITorch\nc2a.aitorch.com | promptg.aitorch.com",
-    "linkedin_note": "Hi Aneel, helping SaaS CTOs in India ship GenAI features faster and at lower cost. Think promptg.aitorch.com might be relevant for Quiddity's roadmap. Would love to connect. — Kalyan",
-    "inmail": "Hi Aneel, as CTO at Quiddity Infotech, you're likely navigating how to add AI capabilities to your SaaS product without slowing down core development. At AITorch, we've built a prompt engineering platform (promptg.aitorch.com) that helps SaaS teams manage LLMs in production — versioning, A/B testing, cost control. Happy to walk you through it in 15 minutes. — Kalyan, AITorch"
+    "fit_analysis": "72/100 \u2014 Good ICP fit: SaaS CTO with India decision authority. GenAI adoption pressure for SaaS products is high. promptg.aitorch.com directly addresses common SaaS CTO pain: shipping AI features without prompt chaos and unpredictable LLM costs.",
+    "email_draft": "Subject: GenAI for SaaS products \u2014 what's working in 2026\n\nHi Aneel,\n\nSaaS CTOs in India are under real pressure to ship GenAI features fast \u2014 but doing it without the right infrastructure leads to prompt chaos, unpredictable LLM costs, and quality issues at enterprise scale.\n\nI'm Kalyan, Founder at AITorch. We help SaaS engineering teams go from 'experimenting with AI' to 'AI in production' \u2014 with our promptg.aitorch.com platform handling prompt management, versioning, cost analytics, and deployment automation.\n\nWould love to show you what 15 minutes with our platform reveals. Quick call this week?\n\nKalyan Battiprolu\nFounder, AITorch\nc2a.aitorch.com | promptg.aitorch.com",
+    "linkedin_note": "Hi Aneel, helping SaaS CTOs in India ship GenAI features faster and at lower cost. Think promptg.aitorch.com might be relevant for Quiddity's roadmap. Would love to connect. \u2014 Kalyan",
+    "inmail": "Hi Aneel, as CTO at Quiddity Infotech, you're likely navigating how to add AI capabilities to your SaaS product without slowing down core development. At AITorch, we've built a prompt engineering platform (promptg.aitorch.com) that helps SaaS teams manage LLMs in production \u2014 versioning, A/B testing, cost control. Happy to walk you through it in 15 minutes. \u2014 Kalyan, AITorch"
   },
   {
     "type": "sales",
@@ -379,10 +379,10 @@
     "industry": "AI / Voice Technology",
     "status": "pending",
     "research": "gnani.ai is a Bengaluru-based voice AI company that raised $10M Series B in March 2026 from Aavishkaar Capital. CRO Vasuta Agarwal joined Feb 2026 (ex-InMobi Chief Business Officer, McKinsey alum, ET 40 under 40). The company handles 30M+ daily voice interactions in 12+ languages for 200+ enterprise clients. Tech stack: AWS, Azure, Kubernetes, Docker, LangGraph, LlamaIndex, Python, PyTorch. Revenue ~$15.3M. Fresh capital + new CRO = scaling mode.",
-    "fit_analysis": "75/100 — Strong fit: Post-Series B AI company in scale mode, heavy cloud/AI stack, CRO is growth-oriented buyer. AITorch's c2a.aitorch.com and cloud infrastructure expertise directly relevant as gnani.ai scales globally. CRO is not the CTO but influences vendor decisions for growth infra. High-value Tier A contact.",
+    "fit_analysis": "75/100 \u2014 Strong fit: Post-Series B AI company in scale mode, heavy cloud/AI stack, CRO is growth-oriented buyer. AITorch's c2a.aitorch.com and cloud infrastructure expertise directly relevant as gnani.ai scales globally. CRO is not the CTO but influences vendor decisions for growth infra. High-value Tier A contact.",
     "email_draft": "Subject: Scaling gnani.ai's enterprise reach post Series B\n\nHi Vasuta,\n\nCongratulations on gnani.ai's $10M Series B! Scaling to 30M+ daily voice interactions across 12 languages and 200+ enterprise clients is a remarkable achievement.\n\nAs CRO in this growth phase, your team's ability to rapidly onboard enterprise clients globally will depend on how fast the product and cloud infrastructure can scale with you.\n\nI'm Kalyan, Founder at AITorch. We help AI companies like gnani.ai accelerate their cloud and GenAI infrastructure so go-to-market and product teams move at the same speed. Check out c2a.aitorch.com for our approach.\n\nWould love to explore if there's a fit. 15 minutes this week?\n\nKalyan Battiprolu\nFounder, AITorch\nc2a.aitorch.com | promptg.aitorch.com",
-    "linkedin_note": "Hi Vasuta, congrats on gnani.ai's Series B! Helping AI companies scale cloud infra to match revenue growth. Think AITorch could add value at this stage. Would love to connect! — Kalyan",
-    "inmail": "Hi Vasuta, saw gnani.ai's Series B — impressive scale across 12 languages and 200+ enterprise clients. As CRO in growth mode, faster enterprise onboarding and deployment cycles matter. AITorch helps AI companies streamline cloud and GenAI infrastructure so GTM and product move in lockstep. Our c2a.aitorch.com framework is built for exactly this phase. Happy to share what's worked at similar AI companies — Kalyan, AITorch"
+    "linkedin_note": "Hi Vasuta, congrats on gnani.ai's Series B! Helping AI companies scale cloud infra to match revenue growth. Think AITorch could add value at this stage. Would love to connect! \u2014 Kalyan",
+    "inmail": "Hi Vasuta, saw gnani.ai's Series B \u2014 impressive scale across 12 languages and 200+ enterprise clients. As CRO in growth mode, faster enterprise onboarding and deployment cycles matter. AITorch helps AI companies streamline cloud and GenAI infrastructure so GTM and product move in lockstep. Our c2a.aitorch.com framework is built for exactly this phase. Happy to share what's worked at similar AI companies \u2014 Kalyan, AITorch"
   },
   {
     "type": "sales",
@@ -394,13 +394,13 @@
     "score": 66,
     "tier": "B",
     "service_fit": "Strategic Partnerships, GenAI Infrastructure, Cloud Scaling Post-Funding",
-    "signal": "Intent: gnani.ai raised $10M Series B (March 2026); Director joined Jan 2026 — growth initiative hire; ex-Darwinbox, ex-Yellow.ai",
+    "signal": "Intent: gnani.ai raised $10M Series B (March 2026); Director joined Jan 2026 \u2014 growth initiative hire; ex-Darwinbox, ex-Yellow.ai",
     "industry": "AI / Voice Technology",
     "status": "pending",
     "research": "Twinkle Ruchandani is Director of Strategic Initiatives at gnani.ai, joining in January 2026 right after the funding. Background in Yellow.ai (Associate Director Growth & Strategy, Europe/UK), Darwinbox (Sales Director), and GEP Worldwide. This role is a growth/partnership hire to drive gnani.ai's global expansion strategy. Strong connector for partnership conversations.",
-    "fit_analysis": "66/100 — Moderate fit: Not a direct tech buyer but a strategic growth/partnerships role. Post-Series B hire signals gnani.ai is actively building strategic partnerships. AITorch could be positioned as a cloud infrastructure and AI partner for gnani.ai's enterprise deployments. Tier B outreach worth making.",
-    "email_draft": "Subject: Strategic partnership conversation — AITorch x gnani.ai\n\nHi Twinkle,\n\nWith gnani.ai expanding globally post Series B, strategic partnerships around cloud infrastructure and AI deployment are likely on your radar.\n\nI'm Kalyan, Founder at AITorch. We work with AI-native companies in India helping them build scalable cloud and AI infrastructure — and exploring partner ecosystems with companies like gnani.ai.\n\nOur promptg.aitorch.com platform is used by enterprise AI teams to manage LLM deployments at scale, and we see strong complementarity with gnani.ai's voice AI stack.\n\nCould be worth a conversation. 20 minutes?\n\nKalyan Battiprolu\nFounder, AITorch\nc2a.aitorch.com | promptg.aitorch.com",
-    "linkedin_note": "Hi Twinkle, congrats on gnani.ai's growth phase! We help AI-native companies build scalable cloud/GenAI infra. Would love to explore a potential partnership angle. — Kalyan, AITorch"
+    "fit_analysis": "66/100 \u2014 Moderate fit: Not a direct tech buyer but a strategic growth/partnerships role. Post-Series B hire signals gnani.ai is actively building strategic partnerships. AITorch could be positioned as a cloud infrastructure and AI partner for gnani.ai's enterprise deployments. Tier B outreach worth making.",
+    "email_draft": "Subject: Strategic partnership conversation \u2014 AITorch x gnani.ai\n\nHi Twinkle,\n\nWith gnani.ai expanding globally post Series B, strategic partnerships around cloud infrastructure and AI deployment are likely on your radar.\n\nI'm Kalyan, Founder at AITorch. We work with AI-native companies in India helping them build scalable cloud and AI infrastructure \u2014 and exploring partner ecosystems with companies like gnani.ai.\n\nOur promptg.aitorch.com platform is used by enterprise AI teams to manage LLM deployments at scale, and we see strong complementarity with gnani.ai's voice AI stack.\n\nCould be worth a conversation. 20 minutes?\n\nKalyan Battiprolu\nFounder, AITorch\nc2a.aitorch.com | promptg.aitorch.com",
+    "linkedin_note": "Hi Twinkle, congrats on gnani.ai's growth phase! We help AI-native companies build scalable cloud/GenAI infra. Would love to explore a potential partnership angle. \u2014 Kalyan, AITorch"
   },
   {
     "type": "sales",
@@ -416,9 +416,9 @@
     "industry": "B2B SaaS / Manufacturing AI",
     "status": "pending",
     "research": "NowPurchase is a Kolkata-based B2B procurement platform for metal manufacturers, raised $8.6M in April 2026 led by Bajaj Finserv. Revenue ~$23.1M, 120 employees. Debojyoti Choudhury is Manager - Product Development (ex-Founders Office), previously at PwC. Tech stack: AWS, Docker, Python, PyTorch, React, Zoho CRM. Fresh funding with active AI-driven product development. Product Manager role is influencer/buyer for AI tooling.",
-    "fit_analysis": "60/100 — Moderate fit: Funded B2B SaaS with active AI product development and strong engineering stack. Manager-level contact is influencer rather than final decision-maker. promptg.aitorch.com relevant for their AI-powered procurement features. Worth Tier B outreach with CTO escalation path.",
-    "email_draft": "Subject: AI product acceleration for NowPurchase post-funding\n\nHi Debojyoti,\n\nCongratulations on NowPurchase's latest funding round! With Bajaj Finserv backing your AI-driven manufacturing procurement platform, scaling features like demand forecasting and quality prediction will be central to the next chapter.\n\nI'm Kalyan, Founder at AITorch. We help product teams at funded B2B SaaS companies deploy AI capabilities faster. Our platform (promptg.aitorch.com) handles prompt management and GenAI workflow automation — think of it as the DevOps layer for your AI prompts.\n\nWould love to learn more about your product roadmap and share how we've helped similar teams. Quick call?\n\nKalyan Battiprolu\nFounder, AITorch\nc2a.aitorch.com | promptg.aitorch.com",
-    "linkedin_note": "Hi Debojyoti, congrats on NowPurchase's funding round! Helping B2B SaaS product teams deploy AI features faster. Would love to connect and share ideas. — Kalyan, AITorch"
+    "fit_analysis": "60/100 \u2014 Moderate fit: Funded B2B SaaS with active AI product development and strong engineering stack. Manager-level contact is influencer rather than final decision-maker. promptg.aitorch.com relevant for their AI-powered procurement features. Worth Tier B outreach with CTO escalation path.",
+    "email_draft": "Subject: AI product acceleration for NowPurchase post-funding\n\nHi Debojyoti,\n\nCongratulations on NowPurchase's latest funding round! With Bajaj Finserv backing your AI-driven manufacturing procurement platform, scaling features like demand forecasting and quality prediction will be central to the next chapter.\n\nI'm Kalyan, Founder at AITorch. We help product teams at funded B2B SaaS companies deploy AI capabilities faster. Our platform (promptg.aitorch.com) handles prompt management and GenAI workflow automation \u2014 think of it as the DevOps layer for your AI prompts.\n\nWould love to learn more about your product roadmap and share how we've helped similar teams. Quick call?\n\nKalyan Battiprolu\nFounder, AITorch\nc2a.aitorch.com | promptg.aitorch.com",
+    "linkedin_note": "Hi Debojyoti, congrats on NowPurchase's funding round! Helping B2B SaaS product teams deploy AI features faster. Would love to connect and share ideas. \u2014 Kalyan, AITorch"
   },
   {
     "type": "sales",
@@ -434,10 +434,10 @@
     "industry": "Fintech / Digital Payments",
     "status": "pending",
     "research": "VIYONA Fintech India is a Hyderabad-based digital payment and banking platform founded 2022, focused on financial inclusion for rural India. Nagaraj Boggavarapu has been CTO since founding. Stack: AWS, Kubernetes, Spring Boot, React, TypeScript, Selenium. 58 employees but 775% headcount growth over 24 months signals aggressive scaling. Serving banks, businesses, and rural communities. Partner with Government of Telangana. No funding data but active hiring and DevOps signals.",
-    "fit_analysis": "80/100 — Strong ICP: Fintech CTO building from scratch with modern cloud stack (Kubernetes, AWS), massive headcount growth, compliance-sensitive environment. c2a.aitorch.com cloud-to-AI framework and AI-ready payment infrastructure are highly relevant. CTO is direct decision-maker. High potential for POC.",
-    "email_draft": "Subject: Building AI-ready payment infrastructure at VIYONA\n\nHi Nagaraj,\n\nBuilding a payment infrastructure platform from the ground up means you're making architecture decisions today that shape VIYONA's AI capabilities tomorrow — fraud detection, AI-powered reconciliation, intelligent UPI routing.\n\nI'm Kalyan, Founder at AITorch. We help fintech CTO teams build cloud infrastructure that's AI-ready from day one. Our c2a.aitorch.com framework is designed specifically for payment and banking platforms dealing with compliance, real-time processing, and scale.\n\nWith VIYONA's rapid growth and your Kubernetes/AWS foundation, I think there's a relevant conversation here. 15 minutes?\n\nKalyan Battiprolu\nFounder, AITorch\nc2a.aitorch.com | promptg.aitorch.com",
-    "linkedin_note": "Hi Nagaraj, helping fintech CTO teams build cloud infra that's AI-ready from day one — fraud detection, smart routing, reconciliation. Think AITorch is relevant for VIYONA's growth. Would love to connect.",
-    "inmail": "Hi Nagaraj, as CTO at VIYONA building payment infrastructure for rural India — the AI opportunity is significant: fraud detection, automated reconciliation, intelligent UPI routing. At AITorch, we help fintech engineering teams build AI-ready cloud infrastructure from day one. Our c2a.aitorch.com framework is built for compliance-sensitive payment platforms. Would love to walk you through it in 15 minutes. — Kalyan, AITorch"
+    "fit_analysis": "80/100 \u2014 Strong ICP: Fintech CTO building from scratch with modern cloud stack (Kubernetes, AWS), massive headcount growth, compliance-sensitive environment. c2a.aitorch.com cloud-to-AI framework and AI-ready payment infrastructure are highly relevant. CTO is direct decision-maker. High potential for POC.",
+    "email_draft": "Subject: Building AI-ready payment infrastructure at VIYONA\n\nHi Nagaraj,\n\nBuilding a payment infrastructure platform from the ground up means you're making architecture decisions today that shape VIYONA's AI capabilities tomorrow \u2014 fraud detection, AI-powered reconciliation, intelligent UPI routing.\n\nI'm Kalyan, Founder at AITorch. We help fintech CTO teams build cloud infrastructure that's AI-ready from day one. Our c2a.aitorch.com framework is designed specifically for payment and banking platforms dealing with compliance, real-time processing, and scale.\n\nWith VIYONA's rapid growth and your Kubernetes/AWS foundation, I think there's a relevant conversation here. 15 minutes?\n\nKalyan Battiprolu\nFounder, AITorch\nc2a.aitorch.com | promptg.aitorch.com",
+    "linkedin_note": "Hi Nagaraj, helping fintech CTO teams build cloud infra that's AI-ready from day one \u2014 fraud detection, smart routing, reconciliation. Think AITorch is relevant for VIYONA's growth. Would love to connect.",
+    "inmail": "Hi Nagaraj, as CTO at VIYONA building payment infrastructure for rural India \u2014 the AI opportunity is significant: fraud detection, automated reconciliation, intelligent UPI routing. At AITorch, we help fintech engineering teams build AI-ready cloud infrastructure from day one. Our c2a.aitorch.com framework is built for compliance-sensitive payment platforms. Would love to walk you through it in 15 minutes. \u2014 Kalyan, AITorch"
   },
   {
     "type": "sales",
@@ -452,10 +452,10 @@
     "signal": "Intent: CredResolve raised Pre-Series A (April 2026, Merak Ventures); expanding from 10 to 15 states; scaling multilingual AI voice; 211% 24-month headcount growth",
     "industry": "Fintech / AI Debt Collections",
     "status": "pending",
-    "research": "CredResolve is a Gurugram-based AI-powered debt collections fintech, raised Pre-Series A in April 2026 (Merak Ventures + Unleash VC). Managing $6B+ monthly in assets, expanding to 15 states. 92 employees with 211% 24-month headcount growth. Jay Sharma is Digital Executive Manager — influencer level. Tech stack basic (Gmail, Slack, AI, Cloudflare) suggesting need for infrastructure build-out as they scale. Multilingual AI voice bot is core product.",
-    "fit_analysis": "52/100 — Lower seniority contact but strong company-level signals: fresh funding, rapid headcount growth, multilingual AI voice product needing infrastructure. CredResolve needs cloud and GenAI infrastructure as they scale. Jay Sharma is an influencer/champion, not final buyer. Tier B — worth outreach to get a CTO introduction.",
-    "email_draft": "Subject: Scaling CredResolve's AI infrastructure post Pre-Series A\n\nHi Jay,\n\nCongratulations on CredResolve's Pre-Series A! Expanding from 10 to 15 states with multilingual AI voice capabilities is an exciting next chapter.\n\nI'm Kalyan, Founder at AITorch. We help fast-growing fintech AI companies build scalable cloud and GenAI infrastructure as they expand. Our promptg.aitorch.com platform helps teams manage voice AI workflows and LLM deployments at scale — especially relevant as you add more languages and states.\n\nWould love to explore if there's a fit for CredResolve's growth plans. Quick 15-minute call?\n\nKalyan Battiprolu\nFounder, AITorch\nc2a.aitorch.com | promptg.aitorch.com",
-    "linkedin_note": "Hi Jay, congrats on CredResolve's Pre-Series A! We help AI fintech teams scale cloud and GenAI infra for growth — especially multilingual voice deployments. Would love to connect. — Kalyan, AITorch"
+    "research": "CredResolve is a Gurugram-based AI-powered debt collections fintech, raised Pre-Series A in April 2026 (Merak Ventures + Unleash VC). Managing $6B+ monthly in assets, expanding to 15 states. 92 employees with 211% 24-month headcount growth. Jay Sharma is Digital Executive Manager \u2014 influencer level. Tech stack basic (Gmail, Slack, AI, Cloudflare) suggesting need for infrastructure build-out as they scale. Multilingual AI voice bot is core product.",
+    "fit_analysis": "52/100 \u2014 Lower seniority contact but strong company-level signals: fresh funding, rapid headcount growth, multilingual AI voice product needing infrastructure. CredResolve needs cloud and GenAI infrastructure as they scale. Jay Sharma is an influencer/champion, not final buyer. Tier B \u2014 worth outreach to get a CTO introduction.",
+    "email_draft": "Subject: Scaling CredResolve's AI infrastructure post Pre-Series A\n\nHi Jay,\n\nCongratulations on CredResolve's Pre-Series A! Expanding from 10 to 15 states with multilingual AI voice capabilities is an exciting next chapter.\n\nI'm Kalyan, Founder at AITorch. We help fast-growing fintech AI companies build scalable cloud and GenAI infrastructure as they expand. Our promptg.aitorch.com platform helps teams manage voice AI workflows and LLM deployments at scale \u2014 especially relevant as you add more languages and states.\n\nWould love to explore if there's a fit for CredResolve's growth plans. Quick 15-minute call?\n\nKalyan Battiprolu\nFounder, AITorch\nc2a.aitorch.com | promptg.aitorch.com",
+    "linkedin_note": "Hi Jay, congrats on CredResolve's Pre-Series A! We help AI fintech teams scale cloud and GenAI infra for growth \u2014 especially multilingual voice deployments. Would love to connect. \u2014 Kalyan, AITorch"
   },
   {
     "type": "sales",
@@ -472,9 +472,9 @@
     "signal": "CTO at US-headquartered IT firm with India delivery center; managing cross-geography cloud infrastructure; hiring signals for cloud roles",
     "status": "pending",
     "research": "Creative Information Technology (CITI) is a US-based IT services firm with India delivery operations, based in Mumbai. Gev Satarawalla is CTO with a background in digital modernization and high-scale platform engineering. The firm serves enterprise clients and is likely managing multi-region cloud infrastructure. Using verified email from Apollo CRM.",
-    "fit_analysis": "70/100 — CTO at IT services company with India ops. Pain point is likely cloud cost management and standardization across US-India environments. Good fit for AITorch's cloud consulting + DevOps practice. Tier A — direct CTO access.",
-    "email_draft": "Subject: Cloud cost visibility for CITI's India operations\n\nHi Gev,\n\nManaging cloud infrastructure across US and India time zones typically means hidden spend and inconsistent governance — we've seen this pattern a lot.\n\nI'm Kalyan, Founder at AITorch (Google Cloud + Azure certified partner based in Hyderabad). We help IT services companies standardize cloud operations and cut infrastructure costs — our open-source Cloud Cost Analyzer (c2a.aitorch.com) gives instant spend visibility across GCP and Azure.\n\nWould a 15-minute call to walk you through how similar India-based IT firms have saved 30–40% on cloud make sense?\n\nKalyan Battiprolu | Founder, AITorch\nCertified Google Cloud & Microsoft Azure Partner\nc2a.aitorch.com | promptg.aitorch.com",
-    "linkedin_note": "Hi Gev, noticed CITI manages cloud ops across US and India — a challenge we help IT firms solve as a certified GCP + Azure partner. We built an open-source cloud cost tool that's helped similar teams cut spend 30–40%. Would love to connect."
+    "fit_analysis": "70/100 \u2014 CTO at IT services company with India ops. Pain point is likely cloud cost management and standardization across US-India environments. Good fit for AITorch's cloud consulting + DevOps practice. Tier A \u2014 direct CTO access.",
+    "email_draft": "Subject: Cloud cost visibility for CITI's India operations\n\nHi Gev,\n\nManaging cloud infrastructure across US and India time zones typically means hidden spend and inconsistent governance \u2014 we've seen this pattern a lot.\n\nI'm Kalyan, Founder at AITorch (Google Cloud + Azure certified partner based in Hyderabad). We help IT services companies standardize cloud operations and cut infrastructure costs \u2014 our open-source Cloud Cost Analyzer (c2a.aitorch.com) gives instant spend visibility across GCP and Azure.\n\nWould a 15-minute call to walk you through how similar India-based IT firms have saved 30\u201340% on cloud make sense?\n\nKalyan Battiprolu | Founder, AITorch\nCertified Google Cloud & Microsoft Azure Partner\nc2a.aitorch.com | promptg.aitorch.com",
+    "linkedin_note": "Hi Gev, noticed CITI manages cloud ops across US and India \u2014 a challenge we help IT firms solve as a certified GCP + Azure partner. We built an open-source cloud cost tool that's helped similar teams cut spend 30\u201340%. Would love to connect."
   },
   {
     "type": "sales",
@@ -491,9 +491,9 @@
     "signal": "AI startup CTO in Hyderabad; building AI product; eizen.ai domain signals AI-native company; strong fit for Vertex AI / Azure AI Foundry partnership",
     "status": "pending",
     "research": "Eizen is a Hyderabad-based AI startup. Sami Mahammad is Co-Founder and CTO, responsible for the full technical stack. As an early-stage AI company, Eizen is likely managing cloud costs carefully while needing scalable AI infrastructure. Google Cloud's Vertex AI and Azure AI Foundry are strong fits for their stack.",
-    "fit_analysis": "78/100 — Co-founder CTO at AI startup in Hyderabad — AITorch's backyard. High pain for scalable AI infrastructure, CI/CD, and managed cloud. Strong fit for AI development services + managed cloud. Tier A.",
-    "email_draft": "Subject: AI infrastructure for Eizen — built to scale\n\nHi Sami,\n\nBuilding an AI product from 0 to 1 is exhilarating — but cloud infrastructure can become your biggest distraction (and cost center) faster than expected.\n\nI'm Kalyan from AITorch, a Hyderabad-based Google Cloud + Azure partner. We help AI startups like Eizen build production-ready AI infrastructure — Vertex AI, Azure AI Foundry, CI/CD pipelines — so your team ships features instead of managing infra.\n\nWe also built I2P, an 8-agent AI platform that takes ideas to production code in hours. Happy to show you a demo.\n\nWorth a 15-minute call?\n\nKalyan Battiprolu | Founder, AITorch\nc2a.aitorch.com | promptg.aitorch.com",
-    "linkedin_note": "Hi Sami, building an AI product is the fun part — scalable infra usually isn't. We're a GCP + Azure partner in Hyderabad helping AI startups ship faster with the right cloud foundation. Would love to trade notes."
+    "fit_analysis": "78/100 \u2014 Co-founder CTO at AI startup in Hyderabad \u2014 AITorch's backyard. High pain for scalable AI infrastructure, CI/CD, and managed cloud. Strong fit for AI development services + managed cloud. Tier A.",
+    "email_draft": "Subject: AI infrastructure for Eizen \u2014 built to scale\n\nHi Sami,\n\nBuilding an AI product from 0 to 1 is exhilarating \u2014 but cloud infrastructure can become your biggest distraction (and cost center) faster than expected.\n\nI'm Kalyan from AITorch, a Hyderabad-based Google Cloud + Azure partner. We help AI startups like Eizen build production-ready AI infrastructure \u2014 Vertex AI, Azure AI Foundry, CI/CD pipelines \u2014 so your team ships features instead of managing infra.\n\nWe also built I2P, an 8-agent AI platform that takes ideas to production code in hours. Happy to show you a demo.\n\nWorth a 15-minute call?\n\nKalyan Battiprolu | Founder, AITorch\nc2a.aitorch.com | promptg.aitorch.com",
+    "linkedin_note": "Hi Sami, building an AI product is the fun part \u2014 scalable infra usually isn't. We're a GCP + Azure partner in Hyderabad helping AI startups ship faster with the right cloud foundation. Would love to trade notes."
   },
   {
     "type": "sales",
@@ -509,10 +509,10 @@
     "service_fit": "GCP + Azure Practice Expansion, Co-Delivery, Partner Referrals",
     "signal": "AWS-focused cloud consulting firm; no GCP or Azure certifications visible; good candidate for co-selling GCP/Azure engagements; 120 employees; 33% headcount growth in 24 months",
     "status": "pending",
-    "research": "CloudifyOps is a Bangalore-based cloud consulting and managed services company, AWS Advanced Partner. CTO Sushanth Bellapu is founder-level. They are AWS-centric — no GCP or Azure partnership visible. AITorch brings certified GCP + Azure expertise. This is a strong co-selling opportunity: CloudifyOps brings the AWS client base, AITorch brings GCP/Azure delivery for clients that need multi-cloud.",
-    "fit_analysis": "65/100 — AWS-focused cloud firm. Not a direct managed services customer, but a strong partner prospect for GCP/Azure deal referrals. Reaching out as a peer-to-peer cloud partner. Tier B — high potential if partnership develops.",
-    "email_draft": "Subject: GCP + Azure overflow for CloudifyOps clients?\n\nHi Sushanth,\n\nSeen CloudifyOps's work — strong AWS practice. As clients increasingly ask for GCP or Azure options, do you have a trusted partner you send those to?\n\nWe're AITorch, a Hyderabad-based Google Cloud + Azure certified partner. Our model complements AWS-first shops like yours — we've co-delivered GCP migrations and Azure AI projects for clients that needed multi-cloud coverage.\n\nNot proposing anything formal — just wondering if there's a fit for deal referrals or occasional co-delivery when clients ask for GCP or Azure expertise.\n\n15 minutes to explore?\n\nKalyan Battiprolu | Founder, AITorch\nc2a.aitorch.com",
-    "linkedin_note": "Hi Sushanth, great work CloudifyOps is doing on the AWS side. We're a GCP + Azure partner in Hyderabad — curious if you ever get client requests for multi-cloud or Azure work that you'd want a trusted co-delivery partner for. Worth a quick chat."
+    "research": "CloudifyOps is a Bangalore-based cloud consulting and managed services company, AWS Advanced Partner. CTO Sushanth Bellapu is founder-level. They are AWS-centric \u2014 no GCP or Azure partnership visible. AITorch brings certified GCP + Azure expertise. This is a strong co-selling opportunity: CloudifyOps brings the AWS client base, AITorch brings GCP/Azure delivery for clients that need multi-cloud.",
+    "fit_analysis": "65/100 \u2014 AWS-focused cloud firm. Not a direct managed services customer, but a strong partner prospect for GCP/Azure deal referrals. Reaching out as a peer-to-peer cloud partner. Tier B \u2014 high potential if partnership develops.",
+    "email_draft": "Subject: GCP + Azure overflow for CloudifyOps clients?\n\nHi Sushanth,\n\nSeen CloudifyOps's work \u2014 strong AWS practice. As clients increasingly ask for GCP or Azure options, do you have a trusted partner you send those to?\n\nWe're AITorch, a Hyderabad-based Google Cloud + Azure certified partner. Our model complements AWS-first shops like yours \u2014 we've co-delivered GCP migrations and Azure AI projects for clients that needed multi-cloud coverage.\n\nNot proposing anything formal \u2014 just wondering if there's a fit for deal referrals or occasional co-delivery when clients ask for GCP or Azure expertise.\n\n15 minutes to explore?\n\nKalyan Battiprolu | Founder, AITorch\nc2a.aitorch.com",
+    "linkedin_note": "Hi Sushanth, great work CloudifyOps is doing on the AWS side. We're a GCP + Azure partner in Hyderabad \u2014 curious if you ever get client requests for multi-cloud or Azure work that you'd want a trusted co-delivery partner for. Worth a quick chat."
   },
   {
     "type": "sales",
@@ -526,12 +526,12 @@
     "tier": "B",
     "industry": "Cloud Consulting / AWS Partner",
     "service_fit": "GCP + Azure Practice Expansion, Co-Delivery on Multi-Cloud Deals",
-    "signal": "AWS Ambassador, AWS Advanced Partner; FinTech + Healthcare verticals; 21% 6-month headcount growth; no GCP or Azure partnership visible — gap AITorch can fill",
+    "signal": "AWS Ambassador, AWS Advanced Partner; FinTech + Healthcare verticals; 21% 6-month headcount growth; no GCP or Azure partnership visible \u2014 gap AITorch can fill",
     "status": "pending",
-    "research": "Comprinno is an AWS Advanced Consulting Partner based in Bangalore, founded 2013. CTO Bhupali Tambekar is an AWS Ambassador with a background in SRE (ex-Apple, Synopsys). They serve FinTech, healthcare, and telecom — regulated industries that increasingly require multi-cloud. Their Tevico product is AWS-native. AITorch can partner with them for GCP/Azure requirements in their verticals.",
-    "fit_analysis": "65/100 — Strong AWS partner, regulated industry focus aligns with AITorch's target verticals. Co-selling angle: Comprinno wins AWS deals, AITorch handles the GCP/Azure side. Bhupali is a technical founder-adjacent profile. Tier B.",
-    "email_draft": "Subject: GCP/Azure partnership for Comprinno's FinTech clients?\n\nHi Bhupali,\n\nComprinno's work in regulated cloud is impressive — especially Tevico. AWS-first makes sense for your client base.\n\nI'm Kalyan at AITorch, a certified Google Cloud + Azure partner. We focus on the same verticals — FinTech, healthcare — and often get clients who need GCP's BigQuery analytics or Azure's compliance tooling alongside AWS.\n\nCould be a natural referral arrangement: you handle the AWS side, we handle GCP/Azure requirements in your pipeline. No overlap, pure upside for both.\n\nWould a quick 15-minute intro make sense?\n\nKalyan Battiprolu | Founder, AITorch",
-    "linkedin_note": "Hi Bhupali, Comprinno's regulated cloud work is exactly the vertical we serve too — FinTech and healthcare on GCP + Azure. We're a certified partner in Hyderabad and often see complementary needs to AWS-first firms. Would love to connect."
+    "research": "Comprinno is an AWS Advanced Consulting Partner based in Bangalore, founded 2013. CTO Bhupali Tambekar is an AWS Ambassador with a background in SRE (ex-Apple, Synopsys). They serve FinTech, healthcare, and telecom \u2014 regulated industries that increasingly require multi-cloud. Their Tevico product is AWS-native. AITorch can partner with them for GCP/Azure requirements in their verticals.",
+    "fit_analysis": "65/100 \u2014 Strong AWS partner, regulated industry focus aligns with AITorch's target verticals. Co-selling angle: Comprinno wins AWS deals, AITorch handles the GCP/Azure side. Bhupali is a technical founder-adjacent profile. Tier B.",
+    "email_draft": "Subject: GCP/Azure partnership for Comprinno's FinTech clients?\n\nHi Bhupali,\n\nComprinno's work in regulated cloud is impressive \u2014 especially Tevico. AWS-first makes sense for your client base.\n\nI'm Kalyan at AITorch, a certified Google Cloud + Azure partner. We focus on the same verticals \u2014 FinTech, healthcare \u2014 and often get clients who need GCP's BigQuery analytics or Azure's compliance tooling alongside AWS.\n\nCould be a natural referral arrangement: you handle the AWS side, we handle GCP/Azure requirements in your pipeline. No overlap, pure upside for both.\n\nWould a quick 15-minute intro make sense?\n\nKalyan Battiprolu | Founder, AITorch",
+    "linkedin_note": "Hi Bhupali, Comprinno's regulated cloud work is exactly the vertical we serve too \u2014 FinTech and healthcare on GCP + Azure. We're a certified partner in Hyderabad and often see complementary needs to AWS-first firms. Would love to connect."
   },
   {
     "type": "sales",
@@ -547,10 +547,10 @@
     "service_fit": "Cloud Cost Optimization, AI-Powered Fraud Detection, GCP Data Analytics, DevOps",
     "signal": "Fintech CTO in Hyderabad; 27% 12-month headcount growth; currently on AWS + Kubernetes; payment infrastructure processing real-time UPI transactions; strong fit for GCP BigQuery analytics and Vertex AI fraud detection",
     "status": "pending",
-    "research": "VIYONA Fintech is a Hyderabad-based digital payment company processing UPI transactions for rural and urban markets. Founded 2022, 58 employees, partnered with Government of Telangana. Tech stack: AWS SDK, Kubernetes, Spring Boot, React, TypeScript, M365. Processing high-volume payment data — strong candidate for Google Cloud BigQuery for payment analytics and Vertex AI for fraud detection/AI-powered routing. CTO Nagaraj has been in role since founding.",
-    "fit_analysis": "78/100 — Fintech CTO in Hyderabad, same city as AITorch. Real-time payment processing means data analytics and fraud detection are live pain points. 27% headcount growth signals scaling. Strong fit for GCP data analytics + AI. Tier A — outreach as local partner.",
-    "email_draft": "Subject: Real-time payment analytics + fraud detection for VIYONA\n\nHi Nagaraj,\n\nProcessing UPI transactions at VIYONA's scale generates a goldmine of data — but getting actionable fraud signals and payment routing insights in real-time is a different engineering challenge.\n\nI'm Kalyan at AITorch, a GCP + Azure certified partner based right here in Hyderabad (HITEC City). We've helped fintech companies like yours build BigQuery-powered payment analytics and Vertex AI-based fraud detection pipelines — reducing false positives by 40%+.\n\nWould love to show you what this could look like for VIYONA's stack. 15 minutes this week?\n\nKalyan Battiprolu | Founder, AITorch\nHyderabad | c2a.aitorch.com",
-    "linkedin_note": "Hi Nagaraj, real-time UPI processing at VIYONA's scale needs sharp analytics + fraud detection. We're a GCP partner in Hyderabad helping fintech teams build BigQuery pipelines and AI fraud models. Would love to connect — we're neighbors in HITEC City."
+    "research": "VIYONA Fintech is a Hyderabad-based digital payment company processing UPI transactions for rural and urban markets. Founded 2022, 58 employees, partnered with Government of Telangana. Tech stack: AWS SDK, Kubernetes, Spring Boot, React, TypeScript, M365. Processing high-volume payment data \u2014 strong candidate for Google Cloud BigQuery for payment analytics and Vertex AI for fraud detection/AI-powered routing. CTO Nagaraj has been in role since founding.",
+    "fit_analysis": "78/100 \u2014 Fintech CTO in Hyderabad, same city as AITorch. Real-time payment processing means data analytics and fraud detection are live pain points. 27% headcount growth signals scaling. Strong fit for GCP data analytics + AI. Tier A \u2014 outreach as local partner.",
+    "email_draft": "Subject: Real-time payment analytics + fraud detection for VIYONA\n\nHi Nagaraj,\n\nProcessing UPI transactions at VIYONA's scale generates a goldmine of data \u2014 but getting actionable fraud signals and payment routing insights in real-time is a different engineering challenge.\n\nI'm Kalyan at AITorch, a GCP + Azure certified partner based right here in Hyderabad (HITEC City). We've helped fintech companies like yours build BigQuery-powered payment analytics and Vertex AI-based fraud detection pipelines \u2014 reducing false positives by 40%+.\n\nWould love to show you what this could look like for VIYONA's stack. 15 minutes this week?\n\nKalyan Battiprolu | Founder, AITorch\nHyderabad | c2a.aitorch.com",
+    "linkedin_note": "Hi Nagaraj, real-time UPI processing at VIYONA's scale needs sharp analytics + fraud detection. We're a GCP partner in Hyderabad helping fintech teams build BigQuery pipelines and AI fraud models. Would love to connect \u2014 we're neighbors in HITEC City."
   },
   {
     "type": "sales",
@@ -564,12 +564,12 @@
     "tier": "A",
     "industry": "E-commerce / Technology Hub",
     "service_fit": "GCP Managed Services, GKE Optimization, Cloud Cost Optimization (C2A), Multi-Cloud DevOps",
-    "signal": "Already using GCP + GKE actively; VP Engineering since 2024 (new in role, likely evaluating vendor relationships); Rakuten India is 1600-employee R&D hub; ex-VMware SaaS Commerce leader — enterprise cloud experience",
+    "signal": "Already using GCP + GKE actively; VP Engineering since 2024 (new in role, likely evaluating vendor relationships); Rakuten India is 1600-employee R&D hub; ex-VMware SaaS Commerce leader \u2014 enterprise cloud experience",
     "status": "pending",
-    "research": "Rakuten India is the global product and innovation center for Rakuten Group, 1600+ employees. Arjun Basu joined as VP Engineering July 2024, previously Senior Director at VMware. Rakuten India actively uses Google Cloud Platform, GKE, Azure Monitor, Terraform, Kubernetes — strong multi-cloud footprint. As a new VP, Arjun is likely reviewing infrastructure costs and vendor relationships. C2A for GCP cost visibility is a natural first conversation.",
-    "fit_analysis": "72/100 — VP Engineering at major R&D center, active GCP user, new in role (evaluating vendors), strong cloud stack maturity. Pain is multi-cloud cost governance and GKE optimization at scale. Tier A — warm GCP signal.",
-    "email_draft": "Subject: GCP cost visibility for Rakuten India's multi-cloud stack\n\nHi Arjun,\n\nRakuten India's engineering stack is impressive — GKE, Terraform, multi-cloud across GCP and Azure. At that scale, cloud spend visibility and GKE cost attribution are typically the first pain points new engineering leaders want to solve.\n\nI'm Kalyan from AITorch, a certified Google Cloud partner. We built C2A (c2a.aitorch.com) — an open-source GCP billing dashboard with anomaly detection, budget tracking, and cost attribution by team/project. It takes 20 minutes to connect to your GCP billing export.\n\nWould it be useful to see how similar R&D centers have cut GCP costs by 25–35%? Happy to share a quick demo.\n\nKalyan Battiprolu | Founder, AITorch",
-    "linkedin_note": "Hi Arjun, with Rakuten India running GKE and multi-cloud at scale, GCP cost visibility is usually top of mind for engineering leaders. We built an open-source GCP cost tool used by similar teams — would love to share it. Happy to connect."
+    "research": "Rakuten India is the global product and innovation center for Rakuten Group, 1600+ employees. Arjun Basu joined as VP Engineering July 2024, previously Senior Director at VMware. Rakuten India actively uses Google Cloud Platform, GKE, Azure Monitor, Terraform, Kubernetes \u2014 strong multi-cloud footprint. As a new VP, Arjun is likely reviewing infrastructure costs and vendor relationships. C2A for GCP cost visibility is a natural first conversation.",
+    "fit_analysis": "72/100 \u2014 VP Engineering at major R&D center, active GCP user, new in role (evaluating vendors), strong cloud stack maturity. Pain is multi-cloud cost governance and GKE optimization at scale. Tier A \u2014 warm GCP signal.",
+    "email_draft": "Subject: GCP cost visibility for Rakuten India's multi-cloud stack\n\nHi Arjun,\n\nRakuten India's engineering stack is impressive \u2014 GKE, Terraform, multi-cloud across GCP and Azure. At that scale, cloud spend visibility and GKE cost attribution are typically the first pain points new engineering leaders want to solve.\n\nI'm Kalyan from AITorch, a certified Google Cloud partner. We built C2A (c2a.aitorch.com) \u2014 an open-source GCP billing dashboard with anomaly detection, budget tracking, and cost attribution by team/project. It takes 20 minutes to connect to your GCP billing export.\n\nWould it be useful to see how similar R&D centers have cut GCP costs by 25\u201335%? Happy to share a quick demo.\n\nKalyan Battiprolu | Founder, AITorch",
+    "linkedin_note": "Hi Arjun, with Rakuten India running GKE and multi-cloud at scale, GCP cost visibility is usually top of mind for engineering leaders. We built an open-source GCP cost tool used by similar teams \u2014 would love to share it. Happy to connect."
   },
   {
     "type": "sales",
@@ -585,10 +585,10 @@
     "service_fit": "Azure AI Foundry, Azure Managed Services, AI Agent Development, DevOps on Azure",
     "signal": "Series E SaaS ($97.5M revenue), active Azure adoption (Azure Data Lake, Azure Linux VMs); 14% 12-month headcount growth; job postings for cloud/devops roles; CTO is AI-forward (ex-OVO, Paytm)",
     "status": "pending",
-    "research": "Mekari is Indonesia's leading B2B SaaS company (35,000+ businesses, 1M+ users), Series E funded ($68M total). CTO Shrey Shukla is based in New Delhi, ex-OVO VP Engineering, ex-Paytm. Mekari runs on Azure Data Lake Storage and Azure Linux VMs — indicating Azure as their primary cloud for data workloads. As they expand with AI integration and enterprise features, Azure AI Foundry is a natural next step for their product roadmap.",
-    "fit_analysis": "68/100 — CTO at $97.5M revenue SaaS company actively using Azure. AI integration in their product roadmap is clear from keyword tags. Azure AI Foundry positioning strong. Distance (India-based CTO, Indonesia company) slight complexity. Tier B — worth pursuing.",
-    "email_draft": "Subject: AI agents inside Mekari's Azure stack\n\nHi Shrey,\n\nMekari's growth trajectory — 35,000 businesses, now adding AI integration — puts you at exactly the point where Azure AI Foundry can move from experiment to product feature.\n\nI'm Kalyan at AITorch, a Microsoft Azure certified partner. We help SaaS companies like Mekari embed AI agents into existing Azure infrastructure — copilots for HR workflows, automated payroll anomaly detection, intelligent document processing — all built on your existing Azure Data Lake stack.\n\nOur I2P platform can prototype an AI agent on your stack in days, not months. Worth a 15-minute look?\n\nKalyan Battiprolu | Founder, AITorch\nMicrosoft Azure Partner | promptg.aitorch.com",
-    "linkedin_note": "Hi Shrey, Mekari's AI integration roadmap on Azure is something we can accelerate — we're an Azure partner helping SaaS companies embed AI agents into existing Azure stacks. Built production agents for HR and payroll workflows. Would love to connect."
+    "research": "Mekari is Indonesia's leading B2B SaaS company (35,000+ businesses, 1M+ users), Series E funded ($68M total). CTO Shrey Shukla is based in New Delhi, ex-OVO VP Engineering, ex-Paytm. Mekari runs on Azure Data Lake Storage and Azure Linux VMs \u2014 indicating Azure as their primary cloud for data workloads. As they expand with AI integration and enterprise features, Azure AI Foundry is a natural next step for their product roadmap.",
+    "fit_analysis": "68/100 \u2014 CTO at $97.5M revenue SaaS company actively using Azure. AI integration in their product roadmap is clear from keyword tags. Azure AI Foundry positioning strong. Distance (India-based CTO, Indonesia company) slight complexity. Tier B \u2014 worth pursuing.",
+    "email_draft": "Subject: AI agents inside Mekari's Azure stack\n\nHi Shrey,\n\nMekari's growth trajectory \u2014 35,000 businesses, now adding AI integration \u2014 puts you at exactly the point where Azure AI Foundry can move from experiment to product feature.\n\nI'm Kalyan at AITorch, a Microsoft Azure certified partner. We help SaaS companies like Mekari embed AI agents into existing Azure infrastructure \u2014 copilots for HR workflows, automated payroll anomaly detection, intelligent document processing \u2014 all built on your existing Azure Data Lake stack.\n\nOur I2P platform can prototype an AI agent on your stack in days, not months. Worth a 15-minute look?\n\nKalyan Battiprolu | Founder, AITorch\nMicrosoft Azure Partner | promptg.aitorch.com",
+    "linkedin_note": "Hi Shrey, Mekari's AI integration roadmap on Azure is something we can accelerate \u2014 we're an Azure partner helping SaaS companies embed AI agents into existing Azure stacks. Built production agents for HR and payroll workflows. Would love to connect."
   },
   {
     "type": "sales",
@@ -601,13 +601,13 @@
     "score": 74,
     "tier": "A",
     "industry": "HealthTech / Digital Therapeutics",
-    "service_fit": "Cloud Cost Optimization (AWS → multi-cloud), AI Development for Health Outcomes, DevOps Modernization",
-    "signal": "HealthTech company with massive AWS footprint (ECS, Lambda, DynamoDB, MSK, Kinesis); 54% 12-month headcount growth; $61.8M revenue; job postings for DevOps/cloud; Director built 0→1 healthcare platform using AI + AWS microservices",
+    "service_fit": "Cloud Cost Optimization (AWS \u2192 multi-cloud), AI Development for Health Outcomes, DevOps Modernization",
+    "signal": "HealthTech company with massive AWS footprint (ECS, Lambda, DynamoDB, MSK, Kinesis); 54% 12-month headcount growth; $61.8M revenue; job postings for DevOps/cloud; Director built 0\u21921 healthcare platform using AI + AWS microservices",
     "status": "pending",
-    "research": "Amura Health is a Chennai-based digital health company (chronic disease reversal using AI + NMT protocol). $61.8M revenue, 300 employees, 54% 12-month growth. Director Manohar Menam built the healthcare platform 0→1 (ex-Amazon, Wells Fargo). Heavy AWS footprint: ECS, Lambda, Kinesis, DynamoDB, MSK, Redshift, CloudWatch, Datadog — significant cloud spend likely. Also uses Azure Key Vault, suggesting multi-cloud evaluation. Strong fit for C2A AWS cost visibility + AI development consulting.",
-    "fit_analysis": "74/100 — Director of Engineering at fast-growing HealthTech, massive AWS bill, 54% headcount growth means infra costs are rising fast. Built platform from scratch so appreciates pragmatic tooling. C2A is perfect first conversation. Tier A.",
-    "email_draft": "Subject: AWS cost control as Amura scales to 300+ engineers\n\nHi Manohar,\n\nBuilding Amura's platform from 0→1 on AWS is impressive work. At 54% headcount growth, that AWS bill is scaling fast — ECS, Lambda, Kinesis, Redshift all running in parallel is a significant monthly commitment.\n\nI'm Kalyan at AITorch, a certified cloud partner. We built C2A (c2a.aitorch.com) — a free, open-source GCP/AWS cost analyzer with anomaly detection, budget alerts, and per-service cost attribution. Takes 20 minutes to connect.\n\nSimilar HealthTech engineering teams have cut cloud spend 25–30% within 60 days of visibility. Worth a look?\n\nKalyan Battiprolu | Founder, AITorch\nc2a.aitorch.com (open-source, free to deploy)",
-    "linkedin_note": "Hi Manohar, scaling Amura's AWS stack at 54% growth means cloud costs are a moving target. We built an open-source AWS cost analyzer with anomaly detection that similar HealthTech teams use to cut spend 25–30%. Would love to connect."
+    "research": "Amura Health is a Chennai-based digital health company (chronic disease reversal using AI + NMT protocol). $61.8M revenue, 300 employees, 54% 12-month growth. Director Manohar Menam built the healthcare platform 0\u21921 (ex-Amazon, Wells Fargo). Heavy AWS footprint: ECS, Lambda, Kinesis, DynamoDB, MSK, Redshift, CloudWatch, Datadog \u2014 significant cloud spend likely. Also uses Azure Key Vault, suggesting multi-cloud evaluation. Strong fit for C2A AWS cost visibility + AI development consulting.",
+    "fit_analysis": "74/100 \u2014 Director of Engineering at fast-growing HealthTech, massive AWS bill, 54% headcount growth means infra costs are rising fast. Built platform from scratch so appreciates pragmatic tooling. C2A is perfect first conversation. Tier A.",
+    "email_draft": "Subject: AWS cost control as Amura scales to 300+ engineers\n\nHi Manohar,\n\nBuilding Amura's platform from 0\u21921 on AWS is impressive work. At 54% headcount growth, that AWS bill is scaling fast \u2014 ECS, Lambda, Kinesis, Redshift all running in parallel is a significant monthly commitment.\n\nI'm Kalyan at AITorch, a certified cloud partner. We built C2A (c2a.aitorch.com) \u2014 a free, open-source GCP/AWS cost analyzer with anomaly detection, budget alerts, and per-service cost attribution. Takes 20 minutes to connect.\n\nSimilar HealthTech engineering teams have cut cloud spend 25\u201330% within 60 days of visibility. Worth a look?\n\nKalyan Battiprolu | Founder, AITorch\nc2a.aitorch.com (open-source, free to deploy)",
+    "linkedin_note": "Hi Manohar, scaling Amura's AWS stack at 54% growth means cloud costs are a moving target. We built an open-source AWS cost analyzer with anomaly detection that similar HealthTech teams use to cut spend 25\u201330%. Would love to connect."
   },
   {
     "type": "sales",
@@ -621,12 +621,12 @@
     "tier": "B",
     "industry": "IT Services / AI Test Automation",
     "service_fit": "GCP Managed Services, AI Development for algoQA Platform, Azure DevOps Optimization",
-    "signal": "Active GCP + GKE user; uses Azure DevOps; AI-native product (algoQA); 22% 12-month headcount growth; serving HealthTech, E-Commerce, Manufacturing clients — industries AITorch targets",
+    "signal": "Active GCP + GKE user; uses Azure DevOps; AI-native product (algoQA); 22% 12-month headcount growth; serving HealthTech, E-Commerce, Manufacturing clients \u2014 industries AITorch targets",
     "status": "pending",
-    "research": "AlgoShack (Bengaluru, 2018) builds algoQA, an AI-powered test automation platform. 200 employees, $41.9M revenue. VP Technology Jaya Kishore Y joined 2023. Tech stack: Google Cloud Platform, GKE, Google Cloud Monitoring, Azure DevOps, AWS Bedrock — active multi-cloud. Serves HealthTech, E-Commerce, Manufacturing. Strong fit for GCP managed services to optimize their existing GCP/GKE footprint and AI development consulting for algoQA's AI layer.",
-    "fit_analysis": "67/100 — VP Tech at AI-native testing company actively using GCP + GKE. Pain is multi-cloud management and AI capability expansion for their product. GCP managed services and AI development are natural fits. Tier B.",
-    "email_draft": "Subject: GKE optimization + AI development for algoQA\n\nHi Jaya,\n\nAlgoShack's algoQA is an impressive product — AI-generated test cases at scale is exactly where the market is heading.\n\nI'm Kalyan at AITorch, a certified Google Cloud partner based in Hyderabad. We noticed AlgoShack runs on GKE and Google Cloud Monitoring — and we specialize in helping product teams optimize GKE costs and reliability while accelerating AI feature development on Vertex AI.\n\nFor a platform like algoQA that's expanding AI-driven test generation, Vertex AI's managed ML infrastructure could meaningfully cut your AI model serving costs.\n\nWorth a 15-minute conversation to share what we've done for similar product engineering teams?\n\nKalyan Battiprolu | Founder, AITorch\nGoogle Cloud Partner",
-    "linkedin_note": "Hi Jaya, algoQA's AI test generation on GKE is exactly the kind of workload we help optimize — we're a GCP partner in Hyderabad specializing in Vertex AI and GKE cost management. Would love to connect and share notes."
+    "research": "AlgoShack (Bengaluru, 2018) builds algoQA, an AI-powered test automation platform. 200 employees, $41.9M revenue. VP Technology Jaya Kishore Y joined 2023. Tech stack: Google Cloud Platform, GKE, Google Cloud Monitoring, Azure DevOps, AWS Bedrock \u2014 active multi-cloud. Serves HealthTech, E-Commerce, Manufacturing. Strong fit for GCP managed services to optimize their existing GCP/GKE footprint and AI development consulting for algoQA's AI layer.",
+    "fit_analysis": "67/100 \u2014 VP Tech at AI-native testing company actively using GCP + GKE. Pain is multi-cloud management and AI capability expansion for their product. GCP managed services and AI development are natural fits. Tier B.",
+    "email_draft": "Subject: GKE optimization + AI development for algoQA\n\nHi Jaya,\n\nAlgoShack's algoQA is an impressive product \u2014 AI-generated test cases at scale is exactly where the market is heading.\n\nI'm Kalyan at AITorch, a certified Google Cloud partner based in Hyderabad. We noticed AlgoShack runs on GKE and Google Cloud Monitoring \u2014 and we specialize in helping product teams optimize GKE costs and reliability while accelerating AI feature development on Vertex AI.\n\nFor a platform like algoQA that's expanding AI-driven test generation, Vertex AI's managed ML infrastructure could meaningfully cut your AI model serving costs.\n\nWorth a 15-minute conversation to share what we've done for similar product engineering teams?\n\nKalyan Battiprolu | Founder, AITorch\nGoogle Cloud Partner",
+    "linkedin_note": "Hi Jaya, algoQA's AI test generation on GKE is exactly the kind of workload we help optimize \u2014 we're a GCP partner in Hyderabad specializing in Vertex AI and GKE cost management. Would love to connect and share notes."
   },
   {
     "type": "sales",
@@ -640,12 +640,12 @@
     "tier": "A",
     "industry": "Product Development Studio / Digital Transformation",
     "service_fit": "AI Development & Agentic Platforms, Cloud Architecture for Client Projects, Azure AI Foundry",
-    "signal": "430-employee product dev studio actively using AWS Bedrock and AI; builds products for enterprise clients; CTO role since 2022; offices in India, US, UK — multi-geography client delivery; strong fit for AI development partnership",
+    "signal": "430-employee product dev studio actively using AWS Bedrock and AI; builds products for enterprise clients; CTO role since 2022; offices in India, US, UK \u2014 multi-geography client delivery; strong fit for AI development partnership",
     "status": "pending",
-    "research": "GeekyAnts Software Pvt Ltd is a Bangalore-based digital transformation and product development studio, founded 2006. 430 employees, offices in California and London. CTO Saurabh Sahu joined 2022. Uses AWS Bedrock and AI tools — actively building AI-powered client products. Serving enterprise clients globally. AITorch's I2P agentic platform (8 AI agents from idea to production code) is a compelling differentiator for a studio that needs to ship client AI products faster.",
-    "fit_analysis": "70/100 — CTO at large product studio building AI features for enterprise clients. AWS Bedrock usage signals active AI development. Our I2P platform (idea to production via 8 AI agents) is a jaw-dropping demo for any product studio CTO. Strong fit for AI development services partnership. Tier A.",
-    "email_draft": "Subject: Shipping client AI products 10x faster at GeekyAnts\n\nHi Saurabh,\n\nBuilding AI features for enterprise clients is one thing — building them fast enough to stay ahead of the market is another challenge entirely.\n\nI'm Kalyan from AITorch. We built I2P — an 8-agent AI system (Business Analyst → Architect → UX → Developer → Security → DevOps → Tester) that turns a product idea into production-ready code with GitHub integration in hours. It's the kind of demo that makes CTOs at product studios sit up.\n\nWe're a GCP + Azure certified partner in Hyderabad. Would love to show you I2P and explore if there's a fit for accelerating GeekyAnts' AI delivery pipeline.\n\n15 minutes?\n\nKalyan Battiprolu | Founder, AITorch",
-    "linkedin_note": "Hi Saurabh, GeekyAnts is doing great work on AI-powered products. We built I2P — 8 AI agents that take an idea to production code with GitHub integration in hours. As a GCP + Azure partner, curious if this fits GeekyAnts' client delivery model. Would love to connect."
+    "research": "GeekyAnts Software Pvt Ltd is a Bangalore-based digital transformation and product development studio, founded 2006. 430 employees, offices in California and London. CTO Saurabh Sahu joined 2022. Uses AWS Bedrock and AI tools \u2014 actively building AI-powered client products. Serving enterprise clients globally. AITorch's I2P agentic platform (8 AI agents from idea to production code) is a compelling differentiator for a studio that needs to ship client AI products faster.",
+    "fit_analysis": "70/100 \u2014 CTO at large product studio building AI features for enterprise clients. AWS Bedrock usage signals active AI development. Our I2P platform (idea to production via 8 AI agents) is a jaw-dropping demo for any product studio CTO. Strong fit for AI development services partnership. Tier A.",
+    "email_draft": "Subject: Shipping client AI products 10x faster at GeekyAnts\n\nHi Saurabh,\n\nBuilding AI features for enterprise clients is one thing \u2014 building them fast enough to stay ahead of the market is another challenge entirely.\n\nI'm Kalyan from AITorch. We built I2P \u2014 an 8-agent AI system (Business Analyst \u2192 Architect \u2192 UX \u2192 Developer \u2192 Security \u2192 DevOps \u2192 Tester) that turns a product idea into production-ready code with GitHub integration in hours. It's the kind of demo that makes CTOs at product studios sit up.\n\nWe're a GCP + Azure certified partner in Hyderabad. Would love to show you I2P and explore if there's a fit for accelerating GeekyAnts' AI delivery pipeline.\n\n15 minutes?\n\nKalyan Battiprolu | Founder, AITorch",
+    "linkedin_note": "Hi Saurabh, GeekyAnts is doing great work on AI-powered products. We built I2P \u2014 8 AI agents that take an idea to production code with GitHub integration in hours. As a GCP + Azure partner, curious if this fits GeekyAnts' client delivery model. Would love to connect."
   },
   {
     "name": "Nagaraj Boggavarapu",
@@ -655,8 +655,8 @@
     "type": "m365",
     "source": "Apollo CRM",
     "date": "2026-04-14",
-    "outreach": "Subject: M365 for Fintech compliance – up to 15% off | Hi Nagaraj, running fintech operations means RBI compliance and data security aren't optional. Microsoft 365 E5 bundles Defender, Intune, Purview, and Entra ID in a single platform built for exactly this. As a Microsoft Azure partner, AITorch can get VIYONA up to 15% off standard licensing plus handle the entire migration. Would a 15-minute call next week make sense?",
-    "linkedin": "Hi Nagaraj, as a fintech CTO, compliance tooling is half the battle. We're an Azure partner helping similar firms get M365 E5 at up to 15% off—Defender, Intune, and Purview included. Would love to connect."
+    "outreach": "Subject: M365 for Fintech compliance \u2013 up to 15% off | Hi Nagaraj, running fintech operations means RBI compliance and data security aren't optional. Microsoft 365 E5 bundles Defender, Intune, Purview, and Entra ID in a single platform built for exactly this. As a Microsoft Azure partner, AITorch can get VIYONA up to 15% off standard licensing plus handle the entire migration. Would a 15-minute call next week make sense?",
+    "linkedin": "Hi Nagaraj, as a fintech CTO, compliance tooling is half the battle. We're an Azure partner helping similar firms get M365 E5 at up to 15% off\u2014Defender, Intune, and Purview included. Would love to connect."
   },
   {
     "name": "Milton P",
@@ -666,8 +666,8 @@
     "type": "m365",
     "source": "Apollo CRM",
     "date": "2026-04-14",
-    "outreach": "Subject: M365 Copilot + E5 upgrade for Blueprint's 260-person team | Hi Milton, Blueprint's already on Office 365—but with 260 consultants across SAP projects, upgrading to M365 E5 adds Defender, Intune device management, and Copilot for productivity gains. As a Microsoft Azure partner, AITorch handles the upgrade at up to 15% below standard pricing with zero disruption. Worth a 15-minute conversation?",
-    "linkedin": "Hi Milton, Blueprint's on O365—there's a strong case for E5 with Copilot and Defender for your 260-person consulting team. We're an Azure partner offering up to 15% off licensing. Worth a quick chat?"
+    "outreach": "Subject: M365 Copilot + E5 upgrade for Blueprint's 260-person team | Hi Milton, Blueprint's already on Office 365\u2014but with 260 consultants across SAP projects, upgrading to M365 E5 adds Defender, Intune device management, and Copilot for productivity gains. As a Microsoft Azure partner, AITorch handles the upgrade at up to 15% below standard pricing with zero disruption. Worth a 15-minute conversation?",
+    "linkedin": "Hi Milton, Blueprint's on O365\u2014there's a strong case for E5 with Copilot and Defender for your 260-person consulting team. We're an Azure partner offering up to 15% off licensing. Worth a quick chat?"
   },
   {
     "name": "Umasuthan Ramakrishnan",
@@ -677,8 +677,8 @@
     "type": "m365",
     "source": "Apollo CRM",
     "date": "2026-04-14",
-    "outreach": "Subject: M365 for IT services teams – partner pricing available | Hi Umasuthan, for a growing IT services firm like Innoventes, M365 is more than email—it's Teams for delivery coordination, SharePoint for project docs, and Intune for device management. As a Microsoft Azure partner, AITorch offers up to 15% off M365 licensing and handles setup and ongoing support. Open to a 15-minute call?",
-    "linkedin": "Hi Umasuthan, for IT services firms M365 is more than email—it's Teams, SharePoint, and Intune in one. We're an Azure partner offering up to 15% off licensing + full setup support. Would love to connect."
+    "outreach": "Subject: M365 for IT services teams \u2013 partner pricing available | Hi Umasuthan, for a growing IT services firm like Innoventes, M365 is more than email\u2014it's Teams for delivery coordination, SharePoint for project docs, and Intune for device management. As a Microsoft Azure partner, AITorch offers up to 15% off M365 licensing and handles setup and ongoing support. Open to a 15-minute call?",
+    "linkedin": "Hi Umasuthan, for IT services firms M365 is more than email\u2014it's Teams, SharePoint, and Intune in one. We're an Azure partner offering up to 15% off licensing + full setup support. Would love to connect."
   },
   {
     "name": "Siddharth Badjatiya",
@@ -688,7 +688,7 @@
     "type": "m365",
     "source": "Apollo CRM",
     "date": "2026-04-14",
-    "outreach": "Subject: M365 for Serosoft's growing team – up to 15% partner pricing | Hi Siddharth, enterprise SaaS buyers check your security posture before signing. M365 gives your team Teams, SharePoint, and OneDrive plus the security layer your clients expect. AITorch is a Microsoft Azure partner and can get you up to 15% off standard M365 pricing plus full setup and ongoing management. Would a quick call next week work?",
+    "outreach": "Subject: M365 for Serosoft's growing team \u2013 up to 15% partner pricing | Hi Siddharth, enterprise SaaS buyers check your security posture before signing. M365 gives your team Teams, SharePoint, and OneDrive plus the security layer your clients expect. AITorch is a Microsoft Azure partner and can get you up to 15% off standard M365 pricing plus full setup and ongoing management. Would a quick call next week work?",
     "linkedin": "Hi Siddharth, enterprise clients increasingly check vendor security posture. M365 Business Premium covers that while boosting team productivity. We're an Azure partner with up to 15% off licensing. Worth connecting?"
   },
   {
@@ -699,8 +699,8 @@
     "type": "m365",
     "source": "Apollo CRM",
     "date": "2026-04-14",
-    "outreach": "Subject: M365 for office automation teams – partner discount inside | Hi Sanjay, office automation and M365 are a natural fit—Teams, SharePoint, and Power Automate transform how Galaxy delivers and supports clients. As a Microsoft Azure partner, AITorch offers up to 15% off standard M365 licensing and full deployment support. Worth a 15-minute call?",
-    "linkedin": "Hi Sanjay, Galaxy's in office automation—M365 with Power Automate is a natural extension. We're a Microsoft Azure partner with up to 15% off licensing + migration support. Happy to connect."
+    "outreach": "Subject: M365 for office automation teams \u2013 partner discount inside | Hi Sanjay, office automation and M365 are a natural fit\u2014Teams, SharePoint, and Power Automate transform how Galaxy delivers and supports clients. As a Microsoft Azure partner, AITorch offers up to 15% off standard M365 licensing and full deployment support. Worth a 15-minute call?",
+    "linkedin": "Hi Sanjay, Galaxy's in office automation\u2014M365 with Power Automate is a natural extension. We're a Microsoft Azure partner with up to 15% off licensing + migration support. Happy to connect."
   },
   {
     "name": "Adesh Kumar",
@@ -710,8 +710,8 @@
     "type": "m365",
     "source": "Apollo Discovery",
     "date": "2026-04-14",
-    "outreach": "Subject: M365 E5 for ANAND AND ANAND – compliance + partner savings | Hi Adesh, with your PCI DSS and Azure background, you know exactly what M365 E5 brings—Defender, Purview, Intune, and Entra ID in one compliance-ready stack. For a 400-person IP law firm handling sensitive client data, E5 is the right move. AITorch can get you up to 15% off licensing and handle the upgrade from your current plan. Would a 30-minute call make sense?",
-    "linkedin": "Hi Adesh, your Azure & O365 background makes you the right person for this—M365 E5's Defender, Purview, and Intune in one for ANAND AND ANAND's compliance needs. We're an Azure partner with up to 15% off. Worth connecting?"
+    "outreach": "Subject: M365 E5 for ANAND AND ANAND \u2013 compliance + partner savings | Hi Adesh, with your PCI DSS and Azure background, you know exactly what M365 E5 brings\u2014Defender, Purview, Intune, and Entra ID in one compliance-ready stack. For a 400-person IP law firm handling sensitive client data, E5 is the right move. AITorch can get you up to 15% off licensing and handle the upgrade from your current plan. Would a 30-minute call make sense?",
+    "linkedin": "Hi Adesh, your Azure & O365 background makes you the right person for this\u2014M365 E5's Defender, Purview, and Intune in one for ANAND AND ANAND's compliance needs. We're an Azure partner with up to 15% off. Worth connecting?"
   },
   {
     "name": "Sandeep Parihar",
@@ -721,8 +721,8 @@
     "type": "m365",
     "source": "Apollo Discovery",
     "date": "2026-04-14",
-    "outreach": "Subject: M365 E3/E5 upgrade for Triveni's 820-person team | Hi Sandeep, Triveni's already on Office 365—but at 820+ employees with ISO certifications, upgrading to E3 or E5 adds Intune for device management across sites, Defender for cloud security, and Teams Premium. AITorch is a Microsoft Azure partner and can get you up to 15% below your standard renewal pricing. Worth a 15-minute conversation?",
-    "linkedin": "Hi Sandeep, Triveni's scale and ISO compliance requirements make M365 E3/E5 a strong fit—Intune, Defender, and Teams Premium for 820+ employees. Azure partner here, up to 15% off renewal. Happy to connect."
+    "outreach": "Subject: M365 E3/E5 upgrade for Triveni's 820-person team | Hi Sandeep, Triveni's already on Office 365\u2014but at 820+ employees with ISO certifications, upgrading to E3 or E5 adds Intune for device management across sites, Defender for cloud security, and Teams Premium. AITorch is a Microsoft Azure partner and can get you up to 15% below your standard renewal pricing. Worth a 15-minute conversation?",
+    "linkedin": "Hi Sandeep, Triveni's scale and ISO compliance requirements make M365 E3/E5 a strong fit\u2014Intune, Defender, and Teams Premium for 820+ employees. Azure partner here, up to 15% off renewal. Happy to connect."
   },
   {
     "name": "Chandarasekaran K",
@@ -732,7 +732,7 @@
     "type": "m365",
     "source": "Apollo Discovery",
     "date": "2026-04-14",
-    "outreach": "Subject: Microsoft 365 for Eltech – partner pricing vs. standalone licensing | Hi Chandarasekaran, if Eltech's team is on standalone Outlook, moving to M365 Business Standard gives you Teams, SharePoint, OneDrive, and device security in one—often at lower cost than fragmented licensing. As a Microsoft Azure partner, AITorch handles the full migration and offers up to 15% off standard M365 pricing. Would a 15-minute call be worthwhile?",
+    "outreach": "Subject: Microsoft 365 for Eltech \u2013 partner pricing vs. standalone licensing | Hi Chandarasekaran, if Eltech's team is on standalone Outlook, moving to M365 Business Standard gives you Teams, SharePoint, OneDrive, and device security in one\u2014often at lower cost than fragmented licensing. As a Microsoft Azure partner, AITorch handles the full migration and offers up to 15% off standard M365 pricing. Would a 15-minute call be worthwhile?",
     "linkedin": "Hi Chandarasekaran, for a 150-person manufacturing team on standalone Outlook, M365 Business Standard cuts costs and adds Teams + SharePoint. We're an Azure partner with up to 15% off. Happy to connect."
   },
   {
@@ -743,7 +743,7 @@
     "type": "m365",
     "source": "Apollo Discovery",
     "date": "2026-04-14",
-    "outreach": "Subject: M365 E5 for pharma compliance at Stedman – WHO-GMP + data security | Hi Jagadesh, running IT for a WHO-GMP approved pharma company in 30+ countries means document control and compliance are non-negotiable. M365 E5 brings Purview for document management, Defender for endpoint security, and Intune for device control—critical for pharma IT. As a Microsoft Azure partner, AITorch offers up to 15% off M365 licensing and handles full deployment. Worth a quick conversation?",
+    "outreach": "Subject: M365 E5 for pharma compliance at Stedman \u2013 WHO-GMP + data security | Hi Jagadesh, running IT for a WHO-GMP approved pharma company in 30+ countries means document control and compliance are non-negotiable. M365 E5 brings Purview for document management, Defender for endpoint security, and Intune for device control\u2014critical for pharma IT. As a Microsoft Azure partner, AITorch offers up to 15% off M365 licensing and handles full deployment. Worth a quick conversation?",
     "linkedin": "Hi Jagadesh, pharma IT + 30-country operations needs compliance tooling at scale. M365 E5 with Purview and Defender is built for it. We're an Azure partner offering up to 15% off for Stedman. Happy to connect."
   },
   {
@@ -754,8 +754,8 @@
     "type": "m365",
     "source": "Apollo Discovery",
     "date": "2026-04-14",
-    "outreach": "Subject: M365 for TCL India – Teams + Intune for global coordination | Hi Krunal, managing IT for a 370-person India operation within a global electronics brand means seamless collaboration with headquarters is everything. M365 with Teams, Intune, and Defender keeps India ops secure and synchronized—without heavy management overhead. As a Microsoft Azure partner, AITorch offers up to 15% off standard M365 pricing and handles deployment. Open to a quick call?",
-    "linkedin": "Hi Krunal, TCL India's 370-person team coordinating globally is a perfect fit for M365—Teams, Intune, and Defender in one. We're an Azure partner offering up to 15% off licensing. Would love to connect."
+    "outreach": "Subject: M365 for TCL India \u2013 Teams + Intune for global coordination | Hi Krunal, managing IT for a 370-person India operation within a global electronics brand means seamless collaboration with headquarters is everything. M365 with Teams, Intune, and Defender keeps India ops secure and synchronized\u2014without heavy management overhead. As a Microsoft Azure partner, AITorch offers up to 15% off standard M365 pricing and handles deployment. Open to a quick call?",
+    "linkedin": "Hi Krunal, TCL India's 370-person team coordinating globally is a perfect fit for M365\u2014Teams, Intune, and Defender in one. We're an Azure partner offering up to 15% off licensing. Would love to connect."
   },
   {
     "name": "Srikrishnan Ganesan",
@@ -765,8 +765,8 @@
     "type": "sales",
     "source": "Apollo CRM",
     "date": "2026-04-14",
-    "outreach": "Subject: How Rocketlane's cloud spend could drop 35%\n\nHi Sri,\n\nRocketlane has done something rare — built a genuinely delightful product in a crowded category. As you scale past 240 people, cloud infrastructure costs and DevOps complexity tend to catch founders off-guard.\n\nWe're AITorch — a certified Google Cloud and Microsoft Azure partner. We specialize in helping Indian SaaS companies optimize their cloud spend and ship features faster through automated CI/CD pipelines and AI-assisted workflows. Our clients typically see a 35% drop in cloud spend within 90 days.\n\nWould a 15-minute call next week make sense to see if there's a fit?\n\nBest,\nThe AITorch Team",
-    "linkedin": "Hi Sri, Rocketlane's growth has been impressive — congrats on building such a strong product. We help Indian SaaS companies like yours cut cloud costs and accelerate DevOps. Would love to connect and explore if there's a fit."
+    "outreach": "Subject: How Rocketlane's cloud spend could drop 35%\n\nHi Sri,\n\nRocketlane has done something rare \u2014 built a genuinely delightful product in a crowded category. As you scale past 240 people, cloud infrastructure costs and DevOps complexity tend to catch founders off-guard.\n\nWe're AITorch \u2014 a certified Google Cloud and Microsoft Azure partner. We specialize in helping Indian SaaS companies optimize their cloud spend and ship features faster through automated CI/CD pipelines and AI-assisted workflows. Our clients typically see a 35% drop in cloud spend within 90 days.\n\nWould a 15-minute call next week make sense to see if there's a fit?\n\nBest,\nThe AITorch Team",
+    "linkedin": "Hi Sri, Rocketlane's growth has been impressive \u2014 congrats on building such a strong product. We help Indian SaaS companies like yours cut cloud costs and accelerate DevOps. Would love to connect and explore if there's a fit."
   },
   {
     "name": "Shivakumar Ganesan",
@@ -776,8 +776,8 @@
     "type": "sales",
     "source": "Apollo Discovery",
     "date": "2026-04-14",
-    "outreach": "Subject: AI agents for Exotel's communication workflows\n\nHi Shivku,\n\nExotel has become the backbone of customer communication for thousands of Indian businesses — a significant infrastructure responsibility.\n\nWe're AITorch, a certified Google Cloud and Azure partner based in Hyderabad. We help communication-platform companies like Exotel layer AI agents on top of their cloud infra — think intelligent call-routing, real-time transcription with Vertex AI, and automated compliance checks — without ripping and replacing your existing stack.\n\nWe've seen similar platforms cut operational overhead by 40%+ after embedding AI into their core workflows. Could we grab 15 minutes to explore what that might look like for Exotel?\n\nBest,\nThe AITorch Team",
-    "linkedin": "Hi Shivku, Exotel's scale of powering enterprise communications across India is impressive. We help platforms like yours embed AI agents into cloud workflows — Vertex AI, Azure AI Foundry. Happy to share what we've seen work. Worth a quick connect?"
+    "outreach": "Subject: AI agents for Exotel's communication workflows\n\nHi Shivku,\n\nExotel has become the backbone of customer communication for thousands of Indian businesses \u2014 a significant infrastructure responsibility.\n\nWe're AITorch, a certified Google Cloud and Azure partner based in Hyderabad. We help communication-platform companies like Exotel layer AI agents on top of their cloud infra \u2014 think intelligent call-routing, real-time transcription with Vertex AI, and automated compliance checks \u2014 without ripping and replacing your existing stack.\n\nWe've seen similar platforms cut operational overhead by 40%+ after embedding AI into their core workflows. Could we grab 15 minutes to explore what that might look like for Exotel?\n\nBest,\nThe AITorch Team",
+    "linkedin": "Hi Shivku, Exotel's scale of powering enterprise communications across India is impressive. We help platforms like yours embed AI agents into cloud workflows \u2014 Vertex AI, Azure AI Foundry. Happy to share what we've seen work. Worth a quick connect?"
   },
   {
     "name": "Raghu Ravinutala",
@@ -787,8 +787,8 @@
     "type": "sales",
     "source": "Apollo Discovery",
     "date": "2026-04-14",
-    "outreach": "Subject: Multi-cloud cost optimization for Yellow.ai\n\nHi Raghu,\n\nYellow.ai is one of the most compelling conversational AI stories out of India — running AI-native workflows at global scale is no small feat.\n\nWe're AITorch, a Google Cloud and Azure certified partner in Hyderabad. We work with AI-first SaaS companies to optimize multi-cloud spend and modernize their data infrastructure to support next-gen model serving (Vertex AI, Azure AI Foundry). Companies at Yellow.ai's scale often find 20–35% in cloud cost savings once the infrastructure is properly tuned.\n\nWould you or your infrastructure lead have 15 minutes next week to explore if we can add value?\n\nBest,\nThe AITorch Team",
-    "linkedin": "Hi Raghu, Yellow.ai's conversational AI platform is impressive — running it at global scale is a real infrastructure challenge. We help AI-first SaaS companies optimize multi-cloud spend and data infra. Happy to connect and share what's worked for similar companies."
+    "outreach": "Subject: Multi-cloud cost optimization for Yellow.ai\n\nHi Raghu,\n\nYellow.ai is one of the most compelling conversational AI stories out of India \u2014 running AI-native workflows at global scale is no small feat.\n\nWe're AITorch, a Google Cloud and Azure certified partner in Hyderabad. We work with AI-first SaaS companies to optimize multi-cloud spend and modernize their data infrastructure to support next-gen model serving (Vertex AI, Azure AI Foundry). Companies at Yellow.ai's scale often find 20\u201335% in cloud cost savings once the infrastructure is properly tuned.\n\nWould you or your infrastructure lead have 15 minutes next week to explore if we can add value?\n\nBest,\nThe AITorch Team",
+    "linkedin": "Hi Raghu, Yellow.ai's conversational AI platform is impressive \u2014 running it at global scale is a real infrastructure challenge. We help AI-first SaaS companies optimize multi-cloud spend and data infra. Happy to connect and share what's worked for similar companies."
   },
   {
     "name": "Abhinav Asthana",
@@ -798,7 +798,7 @@
     "type": "sales",
     "source": "Apollo Discovery",
     "date": "2026-04-14",
-    "outreach": "Subject: DevOps automation for Postman's engineering org\n\nHi Abhinav,\n\nPostman's developer tooling touches millions of engineers globally — maintaining that platform with speed and reliability is an extraordinary challenge.\n\nWe're AITorch, a certified Azure and Google Cloud partner. We specialize in DevOps consulting for product companies — CI/CD automation, containerization on AKS/GKE, and agentic DevOps where AI agents write, test, and validate code automatically. GitHub Copilot integrated with Azure DevOps has helped engineering teams at similar scale ship 30–40% faster.\n\nWould it make sense to connect with your VP Engineering for a 15-minute chat?\n\nBest,\nThe AITorch Team",
+    "outreach": "Subject: DevOps automation for Postman's engineering org\n\nHi Abhinav,\n\nPostman's developer tooling touches millions of engineers globally \u2014 maintaining that platform with speed and reliability is an extraordinary challenge.\n\nWe're AITorch, a certified Azure and Google Cloud partner. We specialize in DevOps consulting for product companies \u2014 CI/CD automation, containerization on AKS/GKE, and agentic DevOps where AI agents write, test, and validate code automatically. GitHub Copilot integrated with Azure DevOps has helped engineering teams at similar scale ship 30\u201340% faster.\n\nWould it make sense to connect with your VP Engineering for a 15-minute chat?\n\nBest,\nThe AITorch Team",
     "linkedin": "Hi Abhinav, building and maintaining a developer platform used by millions is a serious DevOps challenge. We help product companies like Postman automate CI/CD and embed AI agents into their engineering workflows. Would be great to connect."
   },
   {
@@ -809,8 +809,8 @@
     "type": "sales",
     "source": "Apollo Discovery",
     "date": "2026-04-14",
-    "outreach": "Subject: AI-ready data infrastructure for Chargebee\n\nHi Krish,\n\nChargebee processes subscription data for thousands of businesses — that's a goldmine of data that could power serious AI features if the infrastructure supports it.\n\nWe're AITorch, a certified Google Cloud and Azure partner in Hyderabad. We help SaaS companies modernize their data layer — migrating from fragmented pipelines to unified platforms like BigQuery or Azure Cosmos DB — so they can build AI on top of reliable, real-time data. Clients typically see 8–16x cost efficiency gains in analytics workloads.\n\nWould you or your CTO have 15 minutes next week to explore this?\n\nBest,\nThe AITorch Team",
-    "linkedin": "Hi Krish, Chargebee sits on top of rich subscription data that could power compelling AI features — if the data infrastructure is ready. We help SaaS companies build that foundation with Google Cloud and Azure. Would love to connect and share what we've seen work."
+    "outreach": "Subject: AI-ready data infrastructure for Chargebee\n\nHi Krish,\n\nChargebee processes subscription data for thousands of businesses \u2014 that's a goldmine of data that could power serious AI features if the infrastructure supports it.\n\nWe're AITorch, a certified Google Cloud and Azure partner in Hyderabad. We help SaaS companies modernize their data layer \u2014 migrating from fragmented pipelines to unified platforms like BigQuery or Azure Cosmos DB \u2014 so they can build AI on top of reliable, real-time data. Clients typically see 8\u201316x cost efficiency gains in analytics workloads.\n\nWould you or your CTO have 15 minutes next week to explore this?\n\nBest,\nThe AITorch Team",
+    "linkedin": "Hi Krish, Chargebee sits on top of rich subscription data that could power compelling AI features \u2014 if the data infrastructure is ready. We help SaaS companies build that foundation with Google Cloud and Azure. Would love to connect and share what we've seen work."
   },
   {
     "name": "Avlesh Singh",
@@ -820,8 +820,8 @@
     "type": "sales",
     "source": "Apollo Discovery",
     "date": "2026-04-14",
-    "outreach": "Subject: Cloud migration that could cut WebEngage's infrastructure costs by 35%\n\nHi Avlesh,\n\nWebEngage's marketing automation handles billions of customer touchpoints — that kind of data volume puts serious pressure on infrastructure costs.\n\nWe're AITorch, a Google Cloud and Azure partner based in Hyderabad. We've helped similar marketing-tech companies migrate to managed cloud infrastructure and reduce spend by 35%+ while improving pipeline reliability. For data-heavy platforms, Google Cloud's BigQuery and Dataflow often unlock significant efficiencies.\n\nCan I send you a quick case study? Or would a 15-minute call work better?\n\nBest,\nThe AITorch Team",
-    "linkedin": "Hi Avlesh, running WebEngage's data pipelines at scale must come with serious cloud cost pressure. We help martech companies migrate to optimized cloud infra — BigQuery, Google Cloud, Azure — and cut costs 35%+. Based in Hyderabad, happy to connect."
+    "outreach": "Subject: Cloud migration that could cut WebEngage's infrastructure costs by 35%\n\nHi Avlesh,\n\nWebEngage's marketing automation handles billions of customer touchpoints \u2014 that kind of data volume puts serious pressure on infrastructure costs.\n\nWe're AITorch, a Google Cloud and Azure partner based in Hyderabad. We've helped similar marketing-tech companies migrate to managed cloud infrastructure and reduce spend by 35%+ while improving pipeline reliability. For data-heavy platforms, Google Cloud's BigQuery and Dataflow often unlock significant efficiencies.\n\nCan I send you a quick case study? Or would a 15-minute call work better?\n\nBest,\nThe AITorch Team",
+    "linkedin": "Hi Avlesh, running WebEngage's data pipelines at scale must come with serious cloud cost pressure. We help martech companies migrate to optimized cloud infra \u2014 BigQuery, Google Cloud, Azure \u2014 and cut costs 35%+. Based in Hyderabad, happy to connect."
   },
   {
     "name": "Anand Jain",
@@ -831,8 +831,8 @@
     "type": "sales",
     "source": "Apollo Discovery",
     "date": "2026-04-14",
-    "outreach": "Subject: Real-time data processing modernization for CleverTap\n\nHi Anand,\n\nCleverTap's real-time personalization engine is impressive — processing behavioral signals at millisecond latency for global brands is a genuinely hard infrastructure problem.\n\nWe're AITorch, a certified Google Cloud and Azure partner. We specialize in modernizing data platforms for analytics-heavy SaaS companies — moving from legacy streaming setups to managed solutions like Google Dataflow or Azure Event Hubs that scale automatically without the ops overhead. We've helped teams reduce infrastructure management time by 50%+ while improving throughput.\n\nWould a 15-minute conversation with your infrastructure team make sense?\n\nBest,\nThe AITorch Team",
-    "linkedin": "Hi Anand, CleverTap's real-time analytics at global scale is a tough infrastructure challenge. We help data-intensive SaaS companies modernize their streaming and cloud platforms. Google Cloud and Azure partners based in India — happy to connect."
+    "outreach": "Subject: Real-time data processing modernization for CleverTap\n\nHi Anand,\n\nCleverTap's real-time personalization engine is impressive \u2014 processing behavioral signals at millisecond latency for global brands is a genuinely hard infrastructure problem.\n\nWe're AITorch, a certified Google Cloud and Azure partner. We specialize in modernizing data platforms for analytics-heavy SaaS companies \u2014 moving from legacy streaming setups to managed solutions like Google Dataflow or Azure Event Hubs that scale automatically without the ops overhead. We've helped teams reduce infrastructure management time by 50%+ while improving throughput.\n\nWould a 15-minute conversation with your infrastructure team make sense?\n\nBest,\nThe AITorch Team",
+    "linkedin": "Hi Anand, CleverTap's real-time analytics at global scale is a tough infrastructure challenge. We help data-intensive SaaS companies modernize their streaming and cloud platforms. Google Cloud and Azure partners based in India \u2014 happy to connect."
   },
   {
     "name": "Umesh Sachdev",
@@ -842,7 +842,7 @@
     "type": "sales",
     "source": "Apollo Discovery",
     "date": "2026-04-14",
-    "outreach": "Subject: Scaling Uniphore's AI infra with Vertex AI & Azure AI Foundry\n\nHi Umesh,\n\nUniphore is doing serious work in enterprise conversational AI — the challenge is keeping model serving costs manageable as you scale to more enterprise customers.\n\nWe're AITorch, a certified Google Cloud and Azure partner based in Hyderabad. We help AI-native companies like Uniphore architect cost-efficient model serving infrastructure using Vertex AI and Azure AI Foundry — reducing inference costs by up to 40% while maintaining the latency enterprise customers expect.\n\nWould you or your CTO have 15 minutes to explore if we can help?\n\nBest,\nThe AITorch Team",
+    "outreach": "Subject: Scaling Uniphore's AI infra with Vertex AI & Azure AI Foundry\n\nHi Umesh,\n\nUniphore is doing serious work in enterprise conversational AI \u2014 the challenge is keeping model serving costs manageable as you scale to more enterprise customers.\n\nWe're AITorch, a certified Google Cloud and Azure partner based in Hyderabad. We help AI-native companies like Uniphore architect cost-efficient model serving infrastructure using Vertex AI and Azure AI Foundry \u2014 reducing inference costs by up to 40% while maintaining the latency enterprise customers expect.\n\nWould you or your CTO have 15 minutes to explore if we can help?\n\nBest,\nThe AITorch Team",
     "linkedin": "Hi Umesh, Uniphore's enterprise AI work is impressive. Scaling conversational AI to large enterprises means serious infrastructure challenges around model serving and costs. We help AI-first companies architect this efficiently on Google Cloud and Azure. Happy to connect."
   },
   {
@@ -853,8 +853,8 @@
     "type": "sales",
     "source": "Apollo Discovery",
     "date": "2026-04-14",
-    "outreach": "Subject: Optimizing Netcore's multi-cloud AI stack\n\nHi Rajesh,\n\nNetcore Cloud is already running a sophisticated stack — Kubernetes, Vertex AI, Kafka, Terraform across AWS, GCP, and Azure. That kind of multi-cloud complexity creates real cost and operational overhead.\n\nWe're AITorch, a certified Google Cloud and Azure partner in Hyderabad. We help companies with exactly this stack consolidate their cloud operations, reduce multi-cloud overhead, and accelerate their Vertex AI/Azure AI workloads. Clients typically find 15–30% cost savings just from proper cloud governance and workload placement.\n\nWould a 15-minute call make sense to see what we might unlock for Netcore?\n\nBest,\nThe AITorch Team",
-    "linkedin": "Hi Rajesh, Netcore's multi-cloud stack — GCP, Azure, Kubernetes, Vertex AI — is impressive but managing it efficiently across platforms is non-trivial. We help companies like yours optimize multi-cloud operations and cut costs. Google Cloud & Azure partners in Hyderabad. Happy to connect."
+    "outreach": "Subject: Optimizing Netcore's multi-cloud AI stack\n\nHi Rajesh,\n\nNetcore Cloud is already running a sophisticated stack \u2014 Kubernetes, Vertex AI, Kafka, Terraform across AWS, GCP, and Azure. That kind of multi-cloud complexity creates real cost and operational overhead.\n\nWe're AITorch, a certified Google Cloud and Azure partner in Hyderabad. We help companies with exactly this stack consolidate their cloud operations, reduce multi-cloud overhead, and accelerate their Vertex AI/Azure AI workloads. Clients typically find 15\u201330% cost savings just from proper cloud governance and workload placement.\n\nWould a 15-minute call make sense to see what we might unlock for Netcore?\n\nBest,\nThe AITorch Team",
+    "linkedin": "Hi Rajesh, Netcore's multi-cloud stack \u2014 GCP, Azure, Kubernetes, Vertex AI \u2014 is impressive but managing it efficiently across platforms is non-trivial. We help companies like yours optimize multi-cloud operations and cut costs. Google Cloud & Azure partners in Hyderabad. Happy to connect."
   },
   {
     "name": "Vijay Yalamanchili",
@@ -864,8 +864,8 @@
     "type": "sales",
     "source": "Apollo Discovery",
     "date": "2026-04-14",
-    "outreach": "Subject: AI features for Keka's HR platform using Azure AI Foundry\n\nHi Vijay,\n\nKeka's deep Azure integration — Cosmos DB, Azure DevOps, Azure AD, Azure Monitor — puts you in a strong position to add intelligent AI features to your HR platform without a major infrastructure overhaul.\n\nWe're AITorch, a certified Azure partner based in Hyderabad. We help Azure-native SaaS companies like Keka build AI features using Azure AI Foundry and Azure OpenAI — things like intelligent onboarding assistants, AI-powered performance review summarization, or predictive attrition signals. GitHub Copilot integrated into your existing Azure DevOps workflow can also accelerate your dev team's output by 30–40%.\n\nCould we grab 15 minutes to explore what AI could add to Keka's roadmap?\n\nBest,\nThe AITorch Team",
-    "linkedin": "Hi Vijay, Keka's Azure-native stack is a great foundation to build AI HR features on — Azure AI Foundry, OpenAI, GitHub Copilot. We're an Azure partner in Hyderabad specializing in exactly this. Would love to connect and share what we've built for similar SaaS companies."
+    "outreach": "Subject: AI features for Keka's HR platform using Azure AI Foundry\n\nHi Vijay,\n\nKeka's deep Azure integration \u2014 Cosmos DB, Azure DevOps, Azure AD, Azure Monitor \u2014 puts you in a strong position to add intelligent AI features to your HR platform without a major infrastructure overhaul.\n\nWe're AITorch, a certified Azure partner based in Hyderabad. We help Azure-native SaaS companies like Keka build AI features using Azure AI Foundry and Azure OpenAI \u2014 things like intelligent onboarding assistants, AI-powered performance review summarization, or predictive attrition signals. GitHub Copilot integrated into your existing Azure DevOps workflow can also accelerate your dev team's output by 30\u201340%.\n\nCould we grab 15 minutes to explore what AI could add to Keka's roadmap?\n\nBest,\nThe AITorch Team",
+    "linkedin": "Hi Vijay, Keka's Azure-native stack is a great foundation to build AI HR features on \u2014 Azure AI Foundry, OpenAI, GitHub Copilot. We're an Azure partner in Hyderabad specializing in exactly this. Would love to connect and share what we've built for similar SaaS companies."
   },
   {
     "name": "James Shannon",
@@ -875,8 +875,8 @@
     "type": "m365",
     "source": "Apollo CRM",
     "date": "2026-04-14",
-    "outreach": "Subject: Cut Microsoft licensing costs for Simpatico's managed clients\n\nHi James,\n\nRunning M365 licensing across managed service clients is one of the biggest margin leaks in IT — especially when you're buying direct at list price.\n\nAs a certified Microsoft partner, AITorch offers up to 15% below direct Microsoft pricing on M365 E3/E5 licenses. For an MSP like Simpatico, that gap compounds fast across your client base. We also handle migration from legacy Office deployments, Intune/Defender rollouts, and compliance configuration — so your team isn't stretched thin on delivery.\n\nWould a 15-minute call next week make sense to look at the numbers?\n\nBest,\nKalyan Battiprolu\nFounder, AITorch\nCertified Microsoft Azure & Google Cloud Partner\ncbattiprolu@aitorch.com",
-    "linkedin": "Hi James, Simpatico's MSP model is a natural fit for a Microsoft partner discount conversation — up to 15% below list on M365 for your managed clients. Worth a quick chat?"
+    "outreach": "Subject: Cut Microsoft licensing costs for Simpatico's managed clients\n\nHi James,\n\nRunning M365 licensing across managed service clients is one of the biggest margin leaks in IT \u2014 especially when you're buying direct at list price.\n\nAs a certified Microsoft partner, AITorch offers up to 15% below direct Microsoft pricing on M365 E3/E5 licenses. For an MSP like Simpatico, that gap compounds fast across your client base. We also handle migration from legacy Office deployments, Intune/Defender rollouts, and compliance configuration \u2014 so your team isn't stretched thin on delivery.\n\nWould a 15-minute call next week make sense to look at the numbers?\n\nBest,\nKalyan Battiprolu\nFounder, AITorch\nCertified Microsoft Azure & Google Cloud Partner\ncbattiprolu@aitorch.com",
+    "linkedin": "Hi James, Simpatico's MSP model is a natural fit for a Microsoft partner discount conversation \u2014 up to 15% below list on M365 for your managed clients. Worth a quick chat?"
   },
   {
     "name": "Nicko Pekhlivanov",
@@ -886,7 +886,7 @@
     "type": "m365",
     "source": "Apollo CRM",
     "date": "2026-04-14",
-    "outreach": "Subject: M365 E3 for software teams — without the enterprise price tag\n\nHi Nicko,\n\nSoftware companies often end up over-licensed or under-protected — either paying for E5 features they don't use, or running on E3 without Defender and Intune properly configured.\n\nAt AITorch, we help IT teams at companies like OmegaSoft get M365 right: the right license tier, security baselines configured out of the box (Intune, Entra ID, Defender for Endpoint), and up to 15% below Microsoft's direct pricing as a certified partner.\n\nAre you currently on M365, or still working through the evaluation? Happy to share a quick comparison of what E3 vs E5 actually costs for a team your size.\n\nBest,\nKalyan Battiprolu\nFounder, AITorch | cbattiprolu@aitorch.com",
+    "outreach": "Subject: M365 E3 for software teams \u2014 without the enterprise price tag\n\nHi Nicko,\n\nSoftware companies often end up over-licensed or under-protected \u2014 either paying for E5 features they don't use, or running on E3 without Defender and Intune properly configured.\n\nAt AITorch, we help IT teams at companies like OmegaSoft get M365 right: the right license tier, security baselines configured out of the box (Intune, Entra ID, Defender for Endpoint), and up to 15% below Microsoft's direct pricing as a certified partner.\n\nAre you currently on M365, or still working through the evaluation? Happy to share a quick comparison of what E3 vs E5 actually costs for a team your size.\n\nBest,\nKalyan Battiprolu\nFounder, AITorch | cbattiprolu@aitorch.com",
     "linkedin": "Hi Nicko, we help software companies like OmegaSoft get the right M365 tier + security baseline (Defender, Intune, Entra ID) at up to 15% below direct Microsoft pricing. Worth connecting?"
   },
   {
@@ -897,7 +897,7 @@
     "type": "m365",
     "source": "Apollo CRM",
     "date": "2026-04-14",
-    "outreach": "Subject: M365 for retail operations — Teams, security, and less licensing overhead\n\nHi Shelly,\n\nE-commerce and retail IT teams deal with a unique challenge: keeping distributed teams connected, protecting customer data, and managing licensing costs across a mix of office and remote workers.\n\nAITorch is a certified Microsoft partner helping companies like Inyo Pool Products consolidate on M365 with real cost savings (up to 15% below direct pricing), Teams-first collaboration for operations teams, and bundled security — Defender, Intune, and Entra ID — that replaces standalone tools.\n\nWould it be useful to see a side-by-side cost comparison against what you're running today?\n\nBest,\nKalyan Battiprolu\nFounder, AITorch | cbattiprolu@aitorch.com",
+    "outreach": "Subject: M365 for retail operations \u2014 Teams, security, and less licensing overhead\n\nHi Shelly,\n\nE-commerce and retail IT teams deal with a unique challenge: keeping distributed teams connected, protecting customer data, and managing licensing costs across a mix of office and remote workers.\n\nAITorch is a certified Microsoft partner helping companies like Inyo Pool Products consolidate on M365 with real cost savings (up to 15% below direct pricing), Teams-first collaboration for operations teams, and bundled security \u2014 Defender, Intune, and Entra ID \u2014 that replaces standalone tools.\n\nWould it be useful to see a side-by-side cost comparison against what you're running today?\n\nBest,\nKalyan Battiprolu\nFounder, AITorch | cbattiprolu@aitorch.com",
     "linkedin": "Hi Shelly, retail IT teams often pay more than needed on Microsoft licensing. As a certified partner, AITorch offers up to 15% below direct M365 pricing + full Teams/security setup. Worth a look?"
   },
   {
@@ -908,8 +908,8 @@
     "type": "m365",
     "source": "Apollo CRM",
     "date": "2026-04-14",
-    "outreach": "Subject: M365 for construction tech teams — compliance, Teams, and partner pricing\n\nHi Alex,\n\nConstruction and proptech companies face growing compliance pressure around data handling — and most are still running fragmented tooling that doesn't play well together.\n\nAt AITorch, we help IT teams at companies like IDIBUILD consolidate on Microsoft 365 E3/E5: Teams for field-to-office collaboration, Entra ID for unified identity management, and Defender for endpoint protection across all devices. As a certified Microsoft partner, we pass on up to 15% off direct Microsoft pricing.\n\nIs M365 on your radar for this year, or are you working through a vendor evaluation?\n\nBest,\nKalyan Battiprolu\nFounder, AITorch | cbattiprolu@aitorch.com",
-    "linkedin": "Hi Alex, construction tech teams are increasingly moving to M365 for compliance + unified identity. AITorch is a certified Microsoft partner — up to 15% off direct pricing + full deployment. Interested?"
+    "outreach": "Subject: M365 for construction tech teams \u2014 compliance, Teams, and partner pricing\n\nHi Alex,\n\nConstruction and proptech companies face growing compliance pressure around data handling \u2014 and most are still running fragmented tooling that doesn't play well together.\n\nAt AITorch, we help IT teams at companies like IDIBUILD consolidate on Microsoft 365 E3/E5: Teams for field-to-office collaboration, Entra ID for unified identity management, and Defender for endpoint protection across all devices. As a certified Microsoft partner, we pass on up to 15% off direct Microsoft pricing.\n\nIs M365 on your radar for this year, or are you working through a vendor evaluation?\n\nBest,\nKalyan Battiprolu\nFounder, AITorch | cbattiprolu@aitorch.com",
+    "linkedin": "Hi Alex, construction tech teams are increasingly moving to M365 for compliance + unified identity. AITorch is a certified Microsoft partner \u2014 up to 15% off direct pricing + full deployment. Interested?"
   },
   {
     "name": "Saeed Sami",
@@ -919,8 +919,8 @@
     "type": "m365",
     "source": "Apollo CRM",
     "date": "2026-04-14",
-    "outreach": "Subject: M365 E5 for telecom — security, compliance, and Copilot in one license\n\nHi Saeed,\n\nTelecom companies in the UAE are navigating increasing regulatory scrutiny around data residency and communications compliance — exactly the gap M365 E5 was built to close.\n\nAt AITorch, we help CTOs at ICT companies like Qbic deploy M365 E5 with everything configured from day one: Microsoft Purview for compliance, Defender for Communications, Teams Phone, and Copilot for productivity gains across your teams. As a certified Microsoft Azure partner, we offer up to 15% below direct Microsoft pricing.\n\nWould a 20-minute call to walk through how E5 maps to your current compliance and security stack make sense?\n\nBest,\nKalyan Battiprolu\nFounder, AITorch | cbattiprolu@aitorch.com",
-    "linkedin": "Hi Saeed, telecom CTOs in UAE are moving to M365 E5 for comms compliance + Copilot productivity. AITorch is a certified Microsoft partner — 15% below direct pricing + full E5 deployment. Open to a chat?"
+    "outreach": "Subject: M365 E5 for telecom \u2014 security, compliance, and Copilot in one license\n\nHi Saeed,\n\nTelecom companies in the UAE are navigating increasing regulatory scrutiny around data residency and communications compliance \u2014 exactly the gap M365 E5 was built to close.\n\nAt AITorch, we help CTOs at ICT companies like Qbic deploy M365 E5 with everything configured from day one: Microsoft Purview for compliance, Defender for Communications, Teams Phone, and Copilot for productivity gains across your teams. As a certified Microsoft Azure partner, we offer up to 15% below direct Microsoft pricing.\n\nWould a 20-minute call to walk through how E5 maps to your current compliance and security stack make sense?\n\nBest,\nKalyan Battiprolu\nFounder, AITorch | cbattiprolu@aitorch.com",
+    "linkedin": "Hi Saeed, telecom CTOs in UAE are moving to M365 E5 for comms compliance + Copilot productivity. AITorch is a certified Microsoft partner \u2014 15% below direct pricing + full E5 deployment. Open to a chat?"
   },
   {
     "name": "Sandip Manna",
@@ -930,8 +930,8 @@
     "type": "m365",
     "source": "Apollo Discovery",
     "date": "2026-04-14",
-    "outreach": "Subject: Migrating from Google Workspace to M365 — what it costs and what you gain\n\nHi Sandip,\n\nIndia Power's team is currently on Google Workspace — a setup that works, but leaves security and compliance gaps that utilities companies can't afford as regulatory requirements tighten.\n\nMicrosoft 365 E3 brings Teams (replacing Meet + Chat), SharePoint for document management, Entra ID for unified identity across all your systems, and Defender for endpoint security — all in one license. As a certified Microsoft partner, AITorch handles the full migration from Google Workspace: zero data loss, minimal downtime, and up to 15% off direct Microsoft pricing.\n\nFor a 400-person utilities company, the compliance and security uplift alone often justifies the switch. Would it be worth a 15-minute call to look at the cost comparison?\n\nBest,\nKalyan Battiprolu\nFounder, AITorch | cbattiprolu@aitorch.com",
-    "linkedin": "Hi Sandip, India Power's Google Workspace setup could be a migration opportunity — M365 E3 offers better compliance + security for utilities at up to 15% off Microsoft list price. Worth a quick chat?"
+    "outreach": "Subject: Migrating from Google Workspace to M365 \u2014 what it costs and what you gain\n\nHi Sandip,\n\nIndia Power's team is currently on Google Workspace \u2014 a setup that works, but leaves security and compliance gaps that utilities companies can't afford as regulatory requirements tighten.\n\nMicrosoft 365 E3 brings Teams (replacing Meet + Chat), SharePoint for document management, Entra ID for unified identity across all your systems, and Defender for endpoint security \u2014 all in one license. As a certified Microsoft partner, AITorch handles the full migration from Google Workspace: zero data loss, minimal downtime, and up to 15% off direct Microsoft pricing.\n\nFor a 400-person utilities company, the compliance and security uplift alone often justifies the switch. Would it be worth a 15-minute call to look at the cost comparison?\n\nBest,\nKalyan Battiprolu\nFounder, AITorch | cbattiprolu@aitorch.com",
+    "linkedin": "Hi Sandip, India Power's Google Workspace setup could be a migration opportunity \u2014 M365 E3 offers better compliance + security for utilities at up to 15% off Microsoft list price. Worth a quick chat?"
   },
   {
     "name": "Prashant Kumar",
@@ -941,8 +941,8 @@
     "type": "m365",
     "source": "Apollo Discovery",
     "date": "2026-04-14",
-    "outreach": "Subject: M365 for digital agencies — better than Google Workspace for client collaboration\n\nHi Prashant,\n\nCreative agencies running on Google Workspace often hit friction when collaborating with enterprise clients who live in Teams and SharePoint. The file format mismatches and access permission headaches add up fast.\n\nMicrosoft 365 Business Standard brings full Office apps, Teams for client-facing collaboration, OneDrive for file management, and Entra ID for secure access — and as a certified Microsoft partner, AITorch offers up to 15% off the direct Microsoft price. Migration from Google Workspace takes less than a week for a team your size.\n\nIs this something you've been evaluating, or happy to share a quick cost comparison if it's useful?\n\nBest,\nKalyan Battiprolu\nFounder, AITorch | cbattiprolu@aitorch.com",
-    "linkedin": "Hi Prashant, creative agencies on Google Workspace often face friction with enterprise clients in Teams/SharePoint. AITorch migrates to M365 at up to 15% off list price — interested in a comparison?"
+    "outreach": "Subject: M365 for digital agencies \u2014 better than Google Workspace for client collaboration\n\nHi Prashant,\n\nCreative agencies running on Google Workspace often hit friction when collaborating with enterprise clients who live in Teams and SharePoint. The file format mismatches and access permission headaches add up fast.\n\nMicrosoft 365 Business Standard brings full Office apps, Teams for client-facing collaboration, OneDrive for file management, and Entra ID for secure access \u2014 and as a certified Microsoft partner, AITorch offers up to 15% off the direct Microsoft price. Migration from Google Workspace takes less than a week for a team your size.\n\nIs this something you've been evaluating, or happy to share a quick cost comparison if it's useful?\n\nBest,\nKalyan Battiprolu\nFounder, AITorch | cbattiprolu@aitorch.com",
+    "linkedin": "Hi Prashant, creative agencies on Google Workspace often face friction with enterprise clients in Teams/SharePoint. AITorch migrates to M365 at up to 15% off list price \u2014 interested in a comparison?"
   },
   {
     "name": "Damian Dimmich",
@@ -952,8 +952,8 @@
     "type": "m365",
     "source": "Apollo Discovery",
     "date": "2026-04-14",
-    "outreach": "Subject: M365 E5 for InsurTech — compliance, data protection, and Copilot\n\nHi Damian,\n\nInsurTech companies operating in the UAE and broader MENA region face growing scrutiny from regulators around data protection and communications compliance. M365 E5 is increasingly the standard response — Microsoft Purview for eDiscovery and audit trails, Defender for Endpoint across all devices, and Entra ID with Conditional Access for zero-trust architecture.\n\nAt AITorch, we're a certified Microsoft Azure partner helping InsurTech CTOs deploy E5 properly — not just license it. We handle the full configuration, security baseline, and compliance policy setup. And we offer up to 15% below direct Microsoft pricing.\n\nWould a 20-minute call to walk through what E5 would replace in your current stack be useful?\n\nBest,\nKalyan Battiprolu\nFounder, AITorch | cbattiprolu@aitorch.com",
-    "linkedin": "Hi Damian, InsurTech CTOs in MENA are moving to M365 E5 for compliance + zero-trust architecture. AITorch is a certified Microsoft partner — full E5 deployment at 15% off list. Open to a chat?"
+    "outreach": "Subject: M365 E5 for InsurTech \u2014 compliance, data protection, and Copilot\n\nHi Damian,\n\nInsurTech companies operating in the UAE and broader MENA region face growing scrutiny from regulators around data protection and communications compliance. M365 E5 is increasingly the standard response \u2014 Microsoft Purview for eDiscovery and audit trails, Defender for Endpoint across all devices, and Entra ID with Conditional Access for zero-trust architecture.\n\nAt AITorch, we're a certified Microsoft Azure partner helping InsurTech CTOs deploy E5 properly \u2014 not just license it. We handle the full configuration, security baseline, and compliance policy setup. And we offer up to 15% below direct Microsoft pricing.\n\nWould a 20-minute call to walk through what E5 would replace in your current stack be useful?\n\nBest,\nKalyan Battiprolu\nFounder, AITorch | cbattiprolu@aitorch.com",
+    "linkedin": "Hi Damian, InsurTech CTOs in MENA are moving to M365 E5 for compliance + zero-trust architecture. AITorch is a certified Microsoft partner \u2014 full E5 deployment at 15% off list. Open to a chat?"
   },
   {
     "name": "Azza Taha",
@@ -963,8 +963,8 @@
     "type": "m365",
     "source": "Apollo Discovery",
     "date": "2026-04-14",
-    "outreach": "Subject: M365 Copilot for management consulting teams — the productivity case\n\nHi Azza,\n\nGiven your IT governance background, you've likely already evaluated Microsoft 365 — but the Copilot layer changes the calculus considerably for consulting teams. M365 Copilot embedded in Word, Teams, and Outlook is turning out to be one of the fastest-payback AI investments for professional services firms.\n\nAt AITorch, we help management consulting and IT advisory firms like S2 Management deploy M365 E3/E5 + Copilot properly: license optimisation, security configuration (Entra ID, Defender, Purview), and Copilot rollout. As a certified Microsoft partner, we offer up to 15% below direct pricing.\n\nWould it be useful to see a Copilot ROI model built for a consulting firm your size?\n\nBest,\nKalyan Battiprolu\nFounder, AITorch | cbattiprolu@aitorch.com",
-    "linkedin": "Hi Azza, M365 Copilot is showing strong ROI for IT governance and consulting teams. AITorch is a certified Microsoft partner — full E3/E5 + Copilot deployment at 15% below list. Worth a quick call?"
+    "outreach": "Subject: M365 Copilot for management consulting teams \u2014 the productivity case\n\nHi Azza,\n\nGiven your IT governance background, you've likely already evaluated Microsoft 365 \u2014 but the Copilot layer changes the calculus considerably for consulting teams. M365 Copilot embedded in Word, Teams, and Outlook is turning out to be one of the fastest-payback AI investments for professional services firms.\n\nAt AITorch, we help management consulting and IT advisory firms like S2 Management deploy M365 E3/E5 + Copilot properly: license optimisation, security configuration (Entra ID, Defender, Purview), and Copilot rollout. As a certified Microsoft partner, we offer up to 15% below direct pricing.\n\nWould it be useful to see a Copilot ROI model built for a consulting firm your size?\n\nBest,\nKalyan Battiprolu\nFounder, AITorch | cbattiprolu@aitorch.com",
+    "linkedin": "Hi Azza, M365 Copilot is showing strong ROI for IT governance and consulting teams. AITorch is a certified Microsoft partner \u2014 full E3/E5 + Copilot deployment at 15% below list. Worth a quick call?"
   },
   {
     "name": "Shuja Shabandri",
@@ -974,7 +974,207 @@
     "type": "m365",
     "source": "Apollo Discovery",
     "date": "2026-04-14",
-    "outreach": "Subject: M365 for HR and talent firms — Teams, Copilot, and data protection\n\nHi Shuja,\n\nHR and talent management companies handle sensitive employee and candidate data across dozens of client organisations — which makes data protection, access control, and audit trails non-negotiable. M365 E5 addresses all three with Microsoft Purview, Entra ID, and Defender for Endpoint.\n\nBeyond compliance, M365 Copilot is showing meaningful productivity gains for HR teams: drafting job descriptions, summarising candidate profiles, and generating meeting recaps in Teams. At AITorch, we're a certified Microsoft partner helping talent firms like Mercer Talent Enterprise deploy M365 E3/E5 + Copilot — configured properly, not just licensed. And we offer up to 15% below direct Microsoft pricing.\n\nWould a 15-minute call to walk through what E3 vs E5 means for your team's specific use case make sense?\n\nBest,\nKalyan Battiprolu\nFounder, AITorch | cbattiprolu@aitorch.com",
-    "linkedin": "Hi Shuja, HR tech firms handling sensitive client data are moving to M365 E5 for Purview + zero-trust. AITorch is a certified Microsoft partner — full deployment at 15% below list. Open to connect?"
+    "outreach": "Subject: M365 for HR and talent firms \u2014 Teams, Copilot, and data protection\n\nHi Shuja,\n\nHR and talent management companies handle sensitive employee and candidate data across dozens of client organisations \u2014 which makes data protection, access control, and audit trails non-negotiable. M365 E5 addresses all three with Microsoft Purview, Entra ID, and Defender for Endpoint.\n\nBeyond compliance, M365 Copilot is showing meaningful productivity gains for HR teams: drafting job descriptions, summarising candidate profiles, and generating meeting recaps in Teams. At AITorch, we're a certified Microsoft partner helping talent firms like Mercer Talent Enterprise deploy M365 E3/E5 + Copilot \u2014 configured properly, not just licensed. And we offer up to 15% below direct Microsoft pricing.\n\nWould a 15-minute call to walk through what E3 vs E5 means for your team's specific use case make sense?\n\nBest,\nKalyan Battiprolu\nFounder, AITorch | cbattiprolu@aitorch.com",
+    "linkedin": "Hi Shuja, HR tech firms handling sensitive client data are moving to M365 E5 for Purview + zero-trust. AITorch is a certified Microsoft partner \u2014 full deployment at 15% below list. Open to connect?"
+  },
+  {
+    "type": "sales",
+    "date": "2026-04-15",
+    "source": "Apollo CRM",
+    "company": "PayG",
+    "contact": "Narendra Solanki",
+    "title": "Founder & CTO",
+    "email": "narendra.solanki@payg.in",
+    "linkedin_url": "https://www.linkedin.com/in/narendrasinghsolanki",
+    "industry": "FinTech / Payment Gateway",
+    "score": 72,
+    "tier": "A",
+    "service_fit": "Cloud Migration, Infrastructure Management, AI Development",
+    "signal": "FinTech with RBI PA license, 52 employees, M365 user \u2014 growing payments startup in Hyderabad needing scalable cloud infra",
+    "research": "PayG is a Hyderabad-based fintech company founded in 2017, specializing in omnichannel payment solutions for MSMEs and small businesses. They hold an RBI Payment Aggregator license and support 120+ payment modes. With 52 employees and a tech-heavy team (19 engineers), they are at a growth inflection point where cloud architecture decisions become critical.",
+    "fit_analysis": "Strong ICP match: Indian fintech startup in Hyderabad (local to AITorch), ~52 employees, CTO buyer persona, Microsoft O365 user (Azure door-opener). RBI compliance requirements create consulting opportunity. The 19-person engineering team would benefit from managed DevOps to ship faster. Score reflects perfect location match, right industry, and ideal company size.",
+    "email_draft": "Subject: Scaling PayG's payment infra for RBI compliance\n\nHi Narendra,\n\nCongratulations on securing the RBI Payment Aggregator license \u2014 that's a significant milestone for PayG. Supporting 120+ payment modes at scale while maintaining compliance is a real engineering challenge.\n\nWe're AITorch, a Google Cloud & Azure partner based right here in Hyderabad. We help fintech companies like PayG optimize cloud infrastructure for performance, security, and compliance. We've built an open-source cloud cost tool (c2a.aitorch.com) that gives instant visibility into spend.\n\nWould a 15-minute call make sense to explore if there's a fit?\n\nBest,\nKalyan Battiprolu\nFounder, AITorch\nCertified Google Cloud & Microsoft Azure Partner",
+    "linkedin_note": "Hi Narendra, fellow Hyderabad tech founder here. PayG's RBI PA license is impressive \u2014 we help fintech companies optimize cloud infra for compliance and scale. Would love to connect.",
+    "status": "pending"
+  },
+  {
+    "type": "sales",
+    "date": "2026-04-15",
+    "source": "Apollo CRM",
+    "company": "iZooto",
+    "contact": "Sachin Grover",
+    "title": "Founder and CTO",
+    "email": "sachin@izooto.com",
+    "linkedin_url": "https://www.linkedin.com/in/sachinarc",
+    "industry": "SaaS / AdTech / MarTech",
+    "score": 68,
+    "tier": "B",
+    "service_fit": "Cloud Modernization, AI Development, DevOps",
+    "signal": "SaaS platform sending 150-250B notifications/month \u2014 massive cloud workload with Azure Analysis Services already in stack",
+    "research": "iZooto is an audience marketing platform for publishers, sending 150-250 billion web push notifications monthly to 1,100+ publishers globally. Founded 2016, 24 employees, $8.8M revenue. Tech stack includes Azure Analysis Services, Docker, PostgreSQL, FastAPI, and notably both OpenAI and Claude \u2014 indicating active AI adoption. Uses Google Analytics and HubSpot.",
+    "fit_analysis": "Good fit: SaaS company with massive notification volume creating significant cloud costs. Already uses Azure services \u2014 natural entry point for deeper Azure optimization. Small team (24) means they need external cloud expertise. AI adoption (OpenAI + Claude in stack) opens door for AI consulting. Score docked slightly for small team size limiting deal value.",
+    "email_draft": "Subject: Optimizing cloud costs at 250B notifications/month\n\nHi Sachin,\n\nSending 150-250 billion notifications monthly is no small feat \u2014 the cloud infrastructure behind that must be substantial. I noticed iZooto already uses Azure Analysis Services, and I'm curious how you're managing costs at that scale.\n\nWe're AITorch, a certified Azure & Google Cloud partner. We help SaaS companies like iZooto reduce cloud spend by up to 35% while improving performance. We've built C2A (c2a.aitorch.com), an open-source cloud cost analyzer, specifically for this problem.\n\nWould it be worth a quick chat to see if there's an optimization opportunity?\n\nBest,\nKalyan Battiprolu\nFounder, AITorch",
+    "linkedin_note": "Hi Sachin, 250B notifications/month at iZooto is massive scale. We help SaaS companies optimize cloud costs \u2014 our open-source tool C2A might interest you. Happy to connect.",
+    "status": "pending"
+  },
+  {
+    "type": "sales",
+    "date": "2026-04-15",
+    "source": "Apollo CRM",
+    "company": "CASHe",
+    "contact": "Yashoraj Tyagi",
+    "title": "Chief Operating Officer & CTO",
+    "email": "yashoraj.tyagi@cashe.co.in",
+    "linkedin_url": "https://www.linkedin.com/in/yashoraj",
+    "industry": "FinTech / Digital Lending",
+    "score": 82,
+    "tier": "A",
+    "service_fit": "Cloud Migration, AI Development, Infrastructure Management",
+    "signal": "420 employees, $68M revenue, 30M+ app downloads, currently on AWS \u2014 prime candidate for multi-cloud or migration",
+    "research": "CASHe is a Mumbai-based digital lending platform for millennials, founded 2016. 420 employees, $68M revenue, 30M+ app downloads, 6M+ users, \u20b92,500Cr+ disbursed. Uses AI/ML (Social Loan Quotient) for credit scoring. Currently on AWS (CloudFront, Route 53). Forbes 30U30 CTO Yashoraj leads tech. Series A funded with $8.9M total funding.",
+    "fit_analysis": "Excellent fit: Large fintech (420 emp, $68M revenue) with heavy cloud workload on AWS \u2014 prime candidate for multi-cloud strategy with Google Cloud's BigQuery for their AI credit scoring data. CTO/COO dual role means both tech and business decision-maker. AI-powered credit scoring aligns perfectly with AITorch's AI development services. High score reflects revenue, team size, AI workload, and cloud optimization opportunity.",
+    "email_draft": "Subject: AI credit scoring at scale \u2014 cloud architecture thoughts\n\nHi Yashoraj,\n\nCASHe's AI-powered Social Loan Quotient is a brilliant approach to credit scoring \u2014 processing data for 6M+ users requires serious infrastructure. I noticed you're running on AWS, and I'm curious if you've explored how Google Cloud's BigQuery could accelerate your ML pipeline.\n\nWe're AITorch, a certified Google Cloud & Azure partner. We help fintech companies optimize their AI/ML infrastructure. Companies in your position have seen up to 91% TCO reduction by right-sizing their cloud architecture.\n\nWould a 15-minute call make sense?\n\nBest,\nKalyan Battiprolu\nFounder, AITorch",
+    "linkedin_note": "Hi Yashoraj, CASHe's AI credit scoring for 6M+ users is impressive. We help fintech companies optimize cloud infra for AI workloads \u2014 would love to exchange ideas.",
+    "status": "pending"
+  },
+  {
+    "type": "sales",
+    "date": "2026-04-15",
+    "source": "Apollo CRM",
+    "company": "Serviceaide",
+    "contact": "Chandra Swarna",
+    "title": "VP Engineering and Managing Director",
+    "email": "chandra.swarna@serviceaide.com",
+    "linkedin_url": "https://www.linkedin.com/in/chandraswarna",
+    "industry": "IT Services / Agentic AI / ITSM",
+    "score": 70,
+    "tier": "A",
+    "service_fit": "Cloud Infrastructure, AI Development, DevOps",
+    "signal": "Agentic AI company with $28M funding, Hyderabad MD \u2014 local decision-maker for cloud services",
+    "research": "Serviceaide is a San Jose-based company building Agentic AI-powered IT service management solutions (Luma AI virtual agent). 77 employees, $4.5M revenue, $28M total funding from Decathlon Capital and Arrowroot Capital. Chandra Swarna is VP Engineering AND Managing Director of the Hyderabad office, making him a key local decision-maker. Uses Atlassian Cloud, Pardot, and Slack.",
+    "fit_analysis": "Good fit: Agentic AI company aligns well with AITorch's AI expertise. Chandra runs the Hyderabad office (local to AITorch) and controls engineering decisions. $28M funding signals budget availability. The company is building AI agents \u2014 AITorch can help with cloud infrastructure to support their AI workloads. Score reflects local presence, AI alignment, and decision-maker access.",
+    "email_draft": "Subject: Cloud infra for Luma AI's agentic workloads\n\nHi Chandra,\n\nServiceaide's Luma AI agent is doing impressive work in ITSM automation. Building agentic AI at scale requires robust cloud infrastructure \u2014 something we think about a lot.\n\nWe're AITorch, a Google Cloud & Azure partner based here in Hyderabad. We specialize in cloud architecture for AI workloads. We've built our own multi-agent AI platform (I2P) with 8 collaborating agents, so we deeply understand the infrastructure demands.\n\nSince we're both in Hyderabad, would a coffee chat make sense?\n\nBest,\nKalyan Battiprolu\nFounder, AITorch",
+    "linkedin_note": "Hi Chandra, Serviceaide's Luma AI agent is impressive. We're an AI-focused cloud partner here in Hyderabad \u2014 built our own 8-agent platform. Would love to connect locally.",
+    "status": "pending"
+  },
+  {
+    "type": "sales",
+    "date": "2026-04-15",
+    "source": "Apollo CRM",
+    "company": "Mshah Technologies",
+    "contact": "Shamsher Ali",
+    "title": "Director - IT Infrastructure",
+    "email": "mdshamsherali@mshahtech.com",
+    "linkedin_url": "https://www.linkedin.com/in/shamsher-ali-57810110",
+    "industry": "IT Services / Oracle Consulting",
+    "score": 45,
+    "tier": "C",
+    "service_fit": "Cloud Migration, Infrastructure Management",
+    "signal": "Oracle-focused IT consulting firm in Hyderabad \u2014 potential partner or client for Oracle-to-cloud migration",
+    "research": "Mshah Technologies is a Hyderabad-based IT consulting firm (est. 2010) specializing in Oracle E-Business Suite, Oracle Database, data center solutions, and IT infrastructure consulting. 21 employees. Uses Apache, GoDaddy hosting, WordPress. Focus areas include Oracle RAC, Oracle Data Guard, disaster recovery, and cybersecurity.",
+    "fit_analysis": "Moderate fit: Small Oracle-focused consulting firm could be a partner referral opportunity rather than a direct client. Their Oracle expertise creates potential for co-selling Oracle-to-cloud migration projects. However, small size (21 emp) and IT services focus limits direct deal potential. Better positioned as a partner than a prospect.",
+    "email_draft": "Subject: Oracle-to-cloud migration opportunity\n\nHi Shamsher,\n\nI noticed Mshah Technologies has deep Oracle expertise \u2014 Oracle RAC, Data Guard, EBS. Many of your clients are likely considering cloud migration for their Oracle workloads.\n\nWe're AITorch, a Google Cloud & Azure partner in Hyderabad. We help companies migrate Oracle databases to cloud-native solutions like Google Cloud's AlloyDB or Azure SQL. Rather than competing, I think there's a referral opportunity \u2014 your Oracle consulting + our cloud expertise.\n\nWould a quick call to explore this make sense?\n\nBest,\nKalyan Battiprolu\nFounder, AITorch",
+    "linkedin_note": "Hi Shamsher, fellow Hyderabad IT firm here. Mshah's Oracle expertise + our cloud migration capability could be a great referral match. Open to connecting?",
+    "status": "pending"
+  },
+  {
+    "type": "sales",
+    "date": "2026-04-15",
+    "source": "Apollo Discovery",
+    "company": "Knight FinTech",
+    "contact": "Saurabh Govekar",
+    "title": "Vice President of Engineering",
+    "email": "saurabh.govekar@knightfintech.com",
+    "linkedin_url": "https://www.linkedin.com/in/saurabh-govekar-681a6121",
+    "industry": "FinTech / Banking Technology",
+    "score": 85,
+    "tier": "A",
+    "service_fit": "Cloud Migration, DevOps, AI Development, Infrastructure Management",
+    "signal": "Series A $23.6M (Jan 2026), 350 employees, Azure user with $5B+ assets managed \u2014 high-growth fintech with cloud budget",
+    "research": "Knight FinTech is a Mumbai-based banking technology company (est. 2019) building full-stack solutions for digital lending, co-lending, and treasury management. 350 employees, $4M revenue, manages $5B+ in assets. Just raised $23.6M Series A from Accel, IIFL, and others in Jan 2026. Uses Microsoft Azure Hosting, ASP.NET, SQL, React, Apache Kafka. Serves major banks like Bank of Baroda, ICICI Securities, and Bajaj. Saurabh is a certified Azure architect (AZ-305, AZ-104, AZ-500) with ex-TCS, ex-HDFC Bank experience.",
+    "fit_analysis": "Excellent fit: Fast-growing fintech that just raised $23.6M Series A \u2014 budget available for cloud infrastructure. Already on Azure (Saurabh himself is Azure-certified), creating a natural entry for Azure optimization and managed services. 350 employees with 106 engineers means significant cloud spend. Banking clients demand high availability and security \u2014 consulting opportunity. Top score reflects funding recency, company size, tech alignment, and decision-maker seniority.",
+    "email_draft": "Subject: Azure architecture at Knight FinTech's growth stage\n\nHi Saurabh,\n\nCongratulations on Knight FinTech's $23.6M Series A \u2014 managing $5B+ in banking assets with your lending platform is impressive. I noticed you're running on Azure (your AZ-305 and AZ-500 certs caught my eye).\n\nWe're AITorch, a certified Microsoft Azure partner. We help fintech companies optimize their Azure infrastructure as they scale post-funding. With 106 engineers shipping product, even a 20% improvement in cloud efficiency translates to significant savings.\n\nWe built C2A (c2a.aitorch.com), an open-source cloud cost analyzer. Would a quick look at your Azure spend be useful?\n\nBest,\nKalyan Battiprolu\nFounder, AITorch",
+    "linkedin_note": "Hi Saurabh, congrats on Knight FinTech's $23.6M Series A. Fellow Azure-certified team here \u2014 we help fintech companies optimize cloud infra post-funding. Would love to connect.",
+    "status": "pending"
+  },
+  {
+    "type": "sales",
+    "date": "2026-04-15",
+    "source": "Apollo Discovery",
+    "company": "Peak XV Partners",
+    "contact": "Amardeep Singh",
+    "title": "VP of Engineering",
+    "email": "amardeep@peakxv.com",
+    "linkedin_url": "https://www.linkedin.com/in/amardeeps",
+    "industry": "Venture Capital / Technology",
+    "score": 55,
+    "tier": "B",
+    "service_fit": "Cloud Infrastructure, AI Development",
+    "signal": "Ex-Google, Stanford MSCS, leads engineering at $9B+ VC firm \u2014 potential champion for portfolio company referrals",
+    "research": "Peak XV Partners (formerly Sequoia Capital India) is a premier VC firm managing $9B+ across 13 funds with 400+ investments and 50+ unicorns. Amardeep Singh is VP Engineering \u2014 ex-Google (7 years), Stanford MSCS, IIT Guwahati. Based in Bangalore. Peak XV invests in AI, fintech, healthtech, edtech \u2014 exactly AITorch's ICP verticals. Uses Google Analytics, HubSpot, M365, Slack.",
+    "fit_analysis": "Moderate-high strategic value: Peak XV itself has modest cloud needs (150 emp), but Amardeep's role means he influences technology decisions across 400+ portfolio companies. A relationship here could unlock portfolio referrals worth far more than a single deal. Ex-Google background means he respects technical depth. Score reflects strategic value despite limited direct cloud needs.",
+    "email_draft": "Subject: Cloud partner for Peak XV portfolio companies\n\nHi Amardeep,\n\nPeak XV's portfolio companies often hit cloud infrastructure bottlenecks as they scale \u2014 it's a pattern we see across fintech, healthtech, and edtech startups.\n\nWe're AITorch, a certified Google Cloud & Azure partner. We help startups at the 50-500 employee stage optimize cloud architecture and reduce TCO. We've built open-source tools (C2A for cloud costs, I2P for AI-powered development) that portfolio companies could benefit from.\n\nWould it make sense to chat about how we could support Peak XV's portfolio on the infrastructure side?\n\nBest,\nKalyan Battiprolu\nFounder, AITorch",
+    "linkedin_note": "Hi Amardeep, your Stanford + Google + Peak XV background is impressive. We help startups optimize cloud infra \u2014 could be useful for portfolio companies. Open to connecting?",
+    "status": "pending"
+  },
+  {
+    "type": "sales",
+    "date": "2026-04-15",
+    "source": "Apollo Discovery",
+    "company": "M2P Fintech",
+    "contact": "Sreekanth S",
+    "title": "Vice President of Engineering",
+    "email": "sreekanth.gs@m2pfintech.com",
+    "linkedin_url": "https://www.linkedin.com/in/sreekanthgs",
+    "industry": "FinTech / API Banking Infrastructure",
+    "score": 80,
+    "tier": "A",
+    "service_fit": "Cloud Modernization, DevOps, AI Development, Infrastructure Management",
+    "signal": "Series D $204.8M, 1500 employees, dual Azure+AWS stack, 20B+ transactions processed \u2014 massive cloud optimization opportunity",
+    "research": "M2P Fintech is a Chennai-based API banking infrastructure company (est. 2014) operating in 30+ countries. 1500 employees, $52.9M revenue, $204.8M total funding (Series D from Flourish, Helios). Processes 20B+ transactions for 800+ fintechs, 200+ banks, 300+ lenders. Uses both Azure and AWS, plus MongoDB, PostgreSQL, NestJS. Sreekanth recently joined from Tata Digital where he was Head of Engineering.",
+    "fit_analysis": "Excellent fit: Large-scale fintech infrastructure company with massive cloud workload across Azure and AWS. 436 engineers and 20B+ transactions create enormous cloud spend optimization opportunity. Multi-cloud (Azure + AWS) is exactly where AITorch adds value. Series D funding means enterprise budget. Sreekanth is new to the role (joined 2025) \u2014 likely evaluating and optimizing infrastructure. Score reflects scale, funding, multi-cloud opportunity, and timing.",
+    "email_draft": "Subject: Multi-cloud optimization for 20B+ transactions\n\nHi Sreekanth,\n\nProcessing 20 billion+ transactions across 30 countries on both Azure and AWS \u2014 that's a complex cloud architecture to optimize. Congratulations on the VP Engineering role at M2P.\n\nWe're AITorch, a certified Azure & Google Cloud partner. We help fintech infrastructure companies like M2P optimize multi-cloud architectures. At your scale, even a 10% cost improvement is substantial. We've built C2A (c2a.aitorch.com), an open-source cloud cost analyzer, specifically for this challenge.\n\nWould a 15-minute call to discuss cloud optimization strategies make sense?\n\nBest,\nKalyan Battiprolu\nFounder, AITorch",
+    "linkedin_note": "Hi Sreekanth, M2P's 20B+ transaction scale across multi-cloud is fascinating. We help fintech infra companies optimize Azure + cloud costs. Would love to connect.",
+    "status": "pending"
+  },
+  {
+    "type": "sales",
+    "date": "2026-04-15",
+    "source": "Apollo Discovery",
+    "company": "SigTuple",
+    "contact": "Kundan Kumar",
+    "title": "Chief Technology Officer",
+    "email": "kundan.kumar@sigtuple.com",
+    "linkedin_url": "https://www.linkedin.com/in/kumarkundan",
+    "industry": "HealthTech / AI / Medical Devices",
+    "score": 78,
+    "tier": "A",
+    "service_fit": "Cloud Infrastructure, AI Development, DevOps",
+    "signal": "AI-powered diagnostics with FDA clearance, Google Cloud user, $49M funded, ex-Apple/SAP CTO \u2014 technical buyer who values quality",
+    "research": "SigTuple is a Bangalore-based medtech startup (est. 2015) building AI-powered robotic microscopy for pathology diagnostics. 120 employees, $35.7M revenue, $49.1M total funding (Series C from Accel, Endiya Partners). Has US FDA 510(k) clearance for AI100 blood smear application. Uses Google Cloud Hosting, IoT, AI/ML heavily. CTO Kundan Kumar is ex-Apple, ex-SAP Labs with deep enterprise tech experience.",
+    "fit_analysis": "Strong fit: AI-first healthtech already on Google Cloud \u2014 natural entry for deeper GCP optimization and AI workload management. FDA-cleared medical device means strict compliance requirements (consulting opportunity). Ex-Apple/SAP CTO will appreciate technical depth. $49M funding provides budget. Score reflects AI alignment, Google Cloud usage, regulatory needs, and CTO access.",
+    "email_draft": "Subject: Google Cloud architecture for FDA-cleared AI diagnostics\n\nHi Kundan,\n\nSigTuple's FDA-cleared AI100 platform is groundbreaking \u2014 combining robotic microscopy with cloud-based AI at clinical scale. That requires serious cloud architecture.\n\nWe're AITorch, a certified Google Cloud partner. We help AI-first healthtech companies optimize their GCP infrastructure for compliance, performance, and cost. We've built our own multi-agent AI platform, so we deeply understand the compute demands of ML in production.\n\nWould a 15-minute chat about optimizing SigTuple's cloud architecture make sense?\n\nBest,\nKalyan Battiprolu\nFounder, AITorch",
+    "linkedin_note": "Hi Kundan, SigTuple's FDA-cleared AI diagnostics platform is impressive. We're a Google Cloud partner helping AI healthtech companies optimize cloud infra. Would love to connect.",
+    "status": "pending"
+  },
+  {
+    "type": "sales",
+    "date": "2026-04-15",
+    "source": "Apollo Discovery",
+    "company": "SpeakX.ai",
+    "contact": "Deepank Agarwal",
+    "title": "Chief Technology Officer",
+    "email": "deepank@ivypods.com",
+    "linkedin_url": "https://www.linkedin.com/in/deepank411",
+    "industry": "EdTech / AI / Language Learning",
+    "score": 73,
+    "tier": "A",
+    "service_fit": "Cloud Infrastructure, AI Development, DevOps",
+    "signal": "$23.3M funded, 1M monthly learners, AI-first platform on AWS \u2014 growing fast and likely hitting cloud cost scaling challenges",
+    "research": "SpeakX.ai is a Gurugram-based AI-powered English learning platform (formerly Yellow Class). 64 employees, $23.3M total funding from Elevation Capital and WestBridge Capital. 200K+ paid subscribers, 1M monthly learners. Uses AWS, Nginx, speech recognition AI. CTO Deepank Agarwal is IIT Kanpur, IQ 30U30 \u2014 grew from Senior Engineer to CTO over 5 years at the company.",
+    "fit_analysis": "Good fit: AI-first EdTech with 1M monthly learners on AWS \u2014 significant cloud workload for speech recognition and AI processing. Recent $16M funding (2025) provides budget for infrastructure optimization. Small team (64 emp) means they need external cloud expertise. CTO is technical and growth-oriented. Score reflects AI alignment, funding recency, and scaling challenges.",
+    "email_draft": "Subject: Cloud architecture for 1M monthly AI learners\n\nHi Deepank,\n\nSpeakX's growth to 1M monthly learners running real-time speech AI is remarkable. Processing that much audio through AI models creates interesting cloud architecture challenges.\n\nWe're AITorch, a certified Google Cloud & Azure partner. We help AI-first startups like SpeakX optimize cloud costs as they scale \u2014 especially for compute-heavy AI workloads. Companies in your position have seen up to 35% cloud spend reduction with the right architecture.\n\nWorth a quick chat about how we could help?\n\nBest,\nKalyan Battiprolu\nFounder, AITorch",
+    "linkedin_note": "Hi Deepank, SpeakX's growth to 1M learners with real-time speech AI is impressive. We help AI startups optimize cloud costs at scale. Would love to connect.",
+    "status": "pending"
   }
 ]
