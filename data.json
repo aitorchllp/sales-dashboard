@@ -756,5 +756,115 @@
     "date": "2026-04-14",
     "outreach": "Subject: M365 for TCL India \u2013 Teams + Intune for global coordination | Hi Krunal, managing IT for a 370-person India operation within a global electronics brand means seamless collaboration with headquarters is everything. M365 with Teams, Intune, and Defender keeps India ops secure and synchronized\u2014without heavy management overhead. As a Microsoft Azure partner, AITorch offers up to 15% off standard M365 pricing and handles deployment. Open to a quick call?",
     "linkedin": "Hi Krunal, TCL India's 370-person team coordinating globally is a perfect fit for M365\u2014Teams, Intune, and Defender in one. We're an Azure partner offering up to 15% off licensing. Would love to connect."
+  },
+  {
+    "name": "Srikrishnan Ganesan",
+    "company": "Rocketlane",
+    "title": "Co-Founder & CEO",
+    "email": "sri@rocketlane.com",
+    "type": "sales",
+    "source": "Apollo CRM",
+    "date": "2026-04-14",
+    "outreach": "Subject: How Rocketlane's cloud spend could drop 35%\n\nHi Sri,\n\nRocketlane has done something rare \u2014 built a genuinely delightful product in a crowded category. As you scale past 240 people, cloud infrastructure costs and DevOps complexity tend to catch founders off-guard.\n\nWe're AITorch \u2014 a certified Google Cloud and Microsoft Azure partner. We specialize in helping Indian SaaS companies optimize their cloud spend and ship features faster through automated CI/CD pipelines and AI-assisted workflows. Our clients typically see a 35% drop in cloud spend within 90 days.\n\nWould a 15-minute call next week make sense to see if there's a fit?\n\nBest,\nThe AITorch Team",
+    "linkedin": "Hi Sri, Rocketlane's growth has been impressive \u2014 congrats on building such a strong product. We help Indian SaaS companies like yours cut cloud costs and accelerate DevOps. Would love to connect and explore if there's a fit."
+  },
+  {
+    "name": "Shivakumar Ganesan",
+    "company": "Exotel",
+    "title": "Founder & CEO",
+    "email": "shivku@exotel.com",
+    "type": "sales",
+    "source": "Apollo Discovery",
+    "date": "2026-04-14",
+    "outreach": "Subject: AI agents for Exotel's communication workflows\n\nHi Shivku,\n\nExotel has become the backbone of customer communication for thousands of Indian businesses \u2014 a significant infrastructure responsibility.\n\nWe're AITorch, a certified Google Cloud and Azure partner based in Hyderabad. We help communication-platform companies like Exotel layer AI agents on top of their cloud infra \u2014 think intelligent call-routing, real-time transcription with Vertex AI, and automated compliance checks \u2014 without ripping and replacing your existing stack.\n\nWe've seen similar platforms cut operational overhead by 40%+ after embedding AI into their core workflows. Could we grab 15 minutes to explore what that might look like for Exotel?\n\nBest,\nThe AITorch Team",
+    "linkedin": "Hi Shivku, Exotel's scale of powering enterprise communications across India is impressive. We help platforms like yours embed AI agents into cloud workflows \u2014 Vertex AI, Azure AI Foundry. Happy to share what we've seen work. Worth a quick connect?"
+  },
+  {
+    "name": "Raghu Ravinutala",
+    "company": "Yellow.ai",
+    "title": "Co-Founder & CEO",
+    "email": "raghu@yellow.ai",
+    "type": "sales",
+    "source": "Apollo Discovery",
+    "date": "2026-04-14",
+    "outreach": "Subject: Multi-cloud cost optimization for Yellow.ai\n\nHi Raghu,\n\nYellow.ai is one of the most compelling conversational AI stories out of India \u2014 running AI-native workflows at global scale is no small feat.\n\nWe're AITorch, a Google Cloud and Azure certified partner in Hyderabad. We work with AI-first SaaS companies to optimize multi-cloud spend and modernize their data infrastructure to support next-gen model serving (Vertex AI, Azure AI Foundry). Companies at Yellow.ai's scale often find 20\u201335% in cloud cost savings once the infrastructure is properly tuned.\n\nWould you or your infrastructure lead have 15 minutes next week to explore if we can add value?\n\nBest,\nThe AITorch Team",
+    "linkedin": "Hi Raghu, Yellow.ai's conversational AI platform is impressive \u2014 running it at global scale is a real infrastructure challenge. We help AI-first SaaS companies optimize multi-cloud spend and data infra. Happy to connect and share what's worked for similar companies."
+  },
+  {
+    "name": "Abhinav Asthana",
+    "company": "Postman",
+    "title": "Founder & CEO",
+    "email": "abhinav@postman.com",
+    "type": "sales",
+    "source": "Apollo Discovery",
+    "date": "2026-04-14",
+    "outreach": "Subject: DevOps automation for Postman's engineering org\n\nHi Abhinav,\n\nPostman's developer tooling touches millions of engineers globally \u2014 maintaining that platform with speed and reliability is an extraordinary challenge.\n\nWe're AITorch, a certified Azure and Google Cloud partner. We specialize in DevOps consulting for product companies \u2014 CI/CD automation, containerization on AKS/GKE, and agentic DevOps where AI agents write, test, and validate code automatically. GitHub Copilot integrated with Azure DevOps has helped engineering teams at similar scale ship 30\u201340% faster.\n\nWould it make sense to connect with your VP Engineering for a 15-minute chat?\n\nBest,\nThe AITorch Team",
+    "linkedin": "Hi Abhinav, building and maintaining a developer platform used by millions is a serious DevOps challenge. We help product companies like Postman automate CI/CD and embed AI agents into their engineering workflows. Would be great to connect."
+  },
+  {
+    "name": "Krish Subramanian",
+    "company": "Chargebee",
+    "title": "Co-Founder & CEO",
+    "email": "krish.subramanian@chargebee.com",
+    "type": "sales",
+    "source": "Apollo Discovery",
+    "date": "2026-04-14",
+    "outreach": "Subject: AI-ready data infrastructure for Chargebee\n\nHi Krish,\n\nChargebee processes subscription data for thousands of businesses \u2014 that's a goldmine of data that could power serious AI features if the infrastructure supports it.\n\nWe're AITorch, a certified Google Cloud and Azure partner in Hyderabad. We help SaaS companies modernize their data layer \u2014 migrating from fragmented pipelines to unified platforms like BigQuery or Azure Cosmos DB \u2014 so they can build AI on top of reliable, real-time data. Clients typically see 8\u201316x cost efficiency gains in analytics workloads.\n\nWould you or your CTO have 15 minutes next week to explore this?\n\nBest,\nThe AITorch Team",
+    "linkedin": "Hi Krish, Chargebee sits on top of rich subscription data that could power compelling AI features \u2014 if the data infrastructure is ready. We help SaaS companies build that foundation with Google Cloud and Azure. Would love to connect and share what we've seen work."
+  },
+  {
+    "name": "Avlesh Singh",
+    "company": "WebEngage",
+    "title": "CEO",
+    "email": "avlesh@webengage.com",
+    "type": "sales",
+    "source": "Apollo Discovery",
+    "date": "2026-04-14",
+    "outreach": "Subject: Cloud migration that could cut WebEngage's infrastructure costs by 35%\n\nHi Avlesh,\n\nWebEngage's marketing automation handles billions of customer touchpoints \u2014 that kind of data volume puts serious pressure on infrastructure costs.\n\nWe're AITorch, a Google Cloud and Azure partner based in Hyderabad. We've helped similar marketing-tech companies migrate to managed cloud infrastructure and reduce spend by 35%+ while improving pipeline reliability. For data-heavy platforms, Google Cloud's BigQuery and Dataflow often unlock significant efficiencies.\n\nCan I send you a quick case study? Or would a 15-minute call work better?\n\nBest,\nThe AITorch Team",
+    "linkedin": "Hi Avlesh, running WebEngage's data pipelines at scale must come with serious cloud cost pressure. We help martech companies migrate to optimized cloud infra \u2014 BigQuery, Google Cloud, Azure \u2014 and cut costs 35%+. Based in Hyderabad, happy to connect."
+  },
+  {
+    "name": "Anand Jain",
+    "company": "CleverTap",
+    "title": "Co-Founder",
+    "email": "anand@clevertap.com",
+    "type": "sales",
+    "source": "Apollo Discovery",
+    "date": "2026-04-14",
+    "outreach": "Subject: Real-time data processing modernization for CleverTap\n\nHi Anand,\n\nCleverTap's real-time personalization engine is impressive \u2014 processing behavioral signals at millisecond latency for global brands is a genuinely hard infrastructure problem.\n\nWe're AITorch, a certified Google Cloud and Azure partner. We specialize in modernizing data platforms for analytics-heavy SaaS companies \u2014 moving from legacy streaming setups to managed solutions like Google Dataflow or Azure Event Hubs that scale automatically without the ops overhead. We've helped teams reduce infrastructure management time by 50%+ while improving throughput.\n\nWould a 15-minute conversation with your infrastructure team make sense?\n\nBest,\nThe AITorch Team",
+    "linkedin": "Hi Anand, CleverTap's real-time analytics at global scale is a tough infrastructure challenge. We help data-intensive SaaS companies modernize their streaming and cloud platforms. Google Cloud and Azure partners based in India \u2014 happy to connect."
+  },
+  {
+    "name": "Umesh Sachdev",
+    "company": "Uniphore",
+    "title": "Co-Founder & CEO",
+    "email": "umesh@uniphore.com",
+    "type": "sales",
+    "source": "Apollo Discovery",
+    "date": "2026-04-14",
+    "outreach": "Subject: Scaling Uniphore's AI infra with Vertex AI & Azure AI Foundry\n\nHi Umesh,\n\nUniphore is doing serious work in enterprise conversational AI \u2014 the challenge is keeping model serving costs manageable as you scale to more enterprise customers.\n\nWe're AITorch, a certified Google Cloud and Azure partner based in Hyderabad. We help AI-native companies like Uniphore architect cost-efficient model serving infrastructure using Vertex AI and Azure AI Foundry \u2014 reducing inference costs by up to 40% while maintaining the latency enterprise customers expect.\n\nWould you or your CTO have 15 minutes to explore if we can help?\n\nBest,\nThe AITorch Team",
+    "linkedin": "Hi Umesh, Uniphore's enterprise AI work is impressive. Scaling conversational AI to large enterprises means serious infrastructure challenges around model serving and costs. We help AI-first companies architect this efficiently on Google Cloud and Azure. Happy to connect."
+  },
+  {
+    "name": "Rajesh Jain",
+    "company": "Netcore Cloud",
+    "title": "Founder",
+    "email": "rajeshj@netcorecloud.com",
+    "type": "sales",
+    "source": "Apollo Discovery",
+    "date": "2026-04-14",
+    "outreach": "Subject: Optimizing Netcore's multi-cloud AI stack\n\nHi Rajesh,\n\nNetcore Cloud is already running a sophisticated stack \u2014 Kubernetes, Vertex AI, Kafka, Terraform across AWS, GCP, and Azure. That kind of multi-cloud complexity creates real cost and operational overhead.\n\nWe're AITorch, a certified Google Cloud and Azure partner in Hyderabad. We help companies with exactly this stack consolidate their cloud operations, reduce multi-cloud overhead, and accelerate their Vertex AI/Azure AI workloads. Clients typically find 15\u201330% cost savings just from proper cloud governance and workload placement.\n\nWould a 15-minute call make sense to see what we might unlock for Netcore?\n\nBest,\nThe AITorch Team",
+    "linkedin": "Hi Rajesh, Netcore's multi-cloud stack \u2014 GCP, Azure, Kubernetes, Vertex AI \u2014 is impressive but managing it efficiently across platforms is non-trivial. We help companies like yours optimize multi-cloud operations and cut costs. Google Cloud & Azure partners in Hyderabad. Happy to connect."
+  },
+  {
+    "name": "Vijay Yalamanchili",
+    "company": "Keka HR",
+    "title": "Founder & CEO",
+    "email": "vijay@keka.com",
+    "type": "sales",
+    "source": "Apollo Discovery",
+    "date": "2026-04-14",
+    "outreach": "Subject: AI features for Keka's HR platform using Azure AI Foundry\n\nHi Vijay,\n\nKeka's deep Azure integration \u2014 Cosmos DB, Azure DevOps, Azure AD, Azure Monitor \u2014 puts you in a strong position to add intelligent AI features to your HR platform without a major infrastructure overhaul.\n\nWe're AITorch, a certified Azure partner based in Hyderabad. We help Azure-native SaaS companies like Keka build AI features using Azure AI Foundry and Azure OpenAI \u2014 things like intelligent onboarding assistants, AI-powered performance review summarization, or predictive attrition signals. GitHub Copilot integrated into your existing Azure DevOps workflow can also accelerate your dev team's output by 30\u201340%.\n\nCould we grab 15 minutes to explore what AI could add to Keka's roadmap?\n\nBest,\nThe AITorch Team",
+    "linkedin": "Hi Vijay, Keka's Azure-native stack is a great foundation to build AI HR features on \u2014 Azure AI Foundry, OpenAI, GitHub Copilot. We're an Azure partner in Hyderabad specializing in exactly this. Would love to connect and share what we've built for similar SaaS companies."
   }
 ]
