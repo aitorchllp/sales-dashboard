@@ -156,6 +156,7 @@ tr:hover td{background:#1e293b}
         <th onclick="sortBy('company')">Company</th>
         <th onclick="sortBy('contact')">Contact</th>
         <th onclick="sortBy('email')">Email</th>
+        <th>LinkedIn</th>
         <th onclick="sortBy('score')">Score</th>
         <th onclick="sortBy('tier')">Tier</th>
         <th onclick="sortBy('signal')">Signal / Fit</th>
@@ -279,7 +280,7 @@ function getFiltered() {
   const search = document.getElementById("search").value.toLowerCase();
   const tier = document.getElementById("filter-tier").value;
   const status = document.getElementById("filter-status").value;
-  if (search) d = d.filter(p => (p.company+p.contact+(p.email||"")+p.signal+p.industry).toLowerCase().includes(search));
+  if (search) d = d.filter(p => (p.company+(p.contact||p.name||"")+(p.email||"")+(p.signal||"")+(p.industry||"")+(p.title||"")).toLowerCase().includes(search));
   if (tier) d = d.filter(p => p.tier === tier);
   if (status) d = d.filter(p => (p.status||"pending") === status);
   d.sort((a,b) => {
@@ -311,28 +312,46 @@ function renderStats() {
     '<div class="stat-card blue"><div class="label">Avg Score</div><div class="value">'+avg+'</div></div>';
 }
 
+/* ---- Normalize schema across report types ---- */
+function norm(p) {
+  return {
+    ...p,
+    contact: p.contact || p.name || "",
+    email_draft: p.email_draft || p.outreach || "",
+    linkedin_note: p.linkedin_note || (typeof p.linkedin === "string" && !p.linkedin.startsWith("http") ? p.linkedin : "") || "",
+    linkedin_url: p.linkedin_url || (typeof p.linkedin === "string" && p.linkedin.startsWith("http") ? p.linkedin : "") || "",
+    score: p.score == null ? null : +p.score,
+    tier: p.tier || ""
+  };
+}
+
 /* ---- Table ---- */
 function renderTable() {
-  const filtered = getFiltered();
+  const filtered = getFiltered().map(norm);
   const tbody = document.getElementById("tbody");
   document.getElementById("empty-state").style.display = filtered.length ? "none" : "block";
   tbody.innerHTML = "";
   filtered.forEach((p,i) => {
-    const tc = p.tier==="A"?"tier-a":"tier-b";
+    const tc = p.tier==="A"?"tier-a":p.tier==="B"?"tier-b":"";
     const sc = p.score>=70?"score-high":p.score>=50?"score-mid":"score-low";
     const st = p.status||"pending";
     const em = p.email ? '<a class="email-link" href="mailto:'+esc(p.email)+'">'+esc(p.email)+'</a>' : '<span class="no-email">In Apollo</span>';
+    const li = p.linkedin_url ? '<a class="email-link" href="'+esc(p.linkedin_url)+'" target="_blank" rel="noopener">Profile</a>' : '<span class="no-email">—</span>';
+    const scoreDisplay = p.score != null ? '<span class="score '+sc+'">'+p.score+'</span>' : '<span class="no-email">—</span>';
+    const tierDisplay = p.tier ? '<span class="'+tc+'">'+p.tier+'</span>' : '<span class="no-email">—</span>';
     const tr = document.createElement("tr");
     tr.innerHTML =
       '<td>'+esc(p.date)+'</td>'+
       '<td><strong>'+esc(p.company)+'</strong><br><span style="color:#64748b;font-size:10px">'+esc(p.industry||"")+'</span></td>'+
       '<td>'+esc(p.contact)+'<br><span style="color:#64748b;font-size:10px">'+esc(p.title||"")+'</span></td>'+
       '<td>'+em+'</td>'+
-      '<td><span class="score '+sc+'">'+p.score+'</span></td>'+
-      '<td><span class="'+tc+'">'+p.tier+'</span></td>'+
-      '<td style="max-width:220px">'+esc(p.signal||"")+'</td>'+
+      '<td>'+li+'</td>'+
+      '<td>'+scoreDisplay+'</td>'+
+      '<td>'+tierDisplay+'</td>'+
+      '<td style="max-width:220px">'+esc(p.signal||p.service_fit||"")+'</td>'+
       '<td><select class="status-select" onchange="updateStatus(\''+esc(p.company)+'\',\''+esc(p.date)+'\',this.value)">'+
         '<option value="pending"'+(st==="pending"?" selected":"")+'>Pending</option>'+
+        '<option value="approved"'+(st==="approved"?" selected":"")+'>Approved</option>'+
         '<option value="sent"'+(st==="sent"?" selected":"")+'>Sent</option>'+
         '<option value="replied"'+(st==="replied"?" selected":"")+'>Replied</option>'+
         '<option value="meeting"'+(st==="meeting"?" selected":"")+'>Meeting</option>'+
@@ -343,11 +362,11 @@ function renderTable() {
     const dr = document.createElement("tr");
     dr.className = "detail-row";
     dr.id = "d-"+(p.company||"").replace(/[^a-zA-Z0-9]/g,"");
-    dr.innerHTML = '<td colspan="9"><div class="detail-content">'+
+    dr.innerHTML = '<td colspan="10"><div class="detail-content">'+
       '<div class="detail-section"><h4>Email Draft</h4><pre>'+esc(p.email_draft||"No draft available")+'</pre></div>'+
       '<div class="detail-section"><h4>LinkedIn Note</h4><pre>'+esc(p.linkedin_note||"N/A")+'</pre>'+(p.inmail?'<h4 style="margin-top:10px">InMail</h4><pre>'+esc(p.inmail)+'</pre>':'')+'</div>'+
       '<div class="detail-section"><h4>Research</h4><pre>'+esc(p.research||"N/A")+'</pre></div>'+
-      '<div class="detail-section"><h4>Fit Analysis</h4><pre>'+esc(p.fit_analysis||"Score: "+p.score)+'</pre></div>'+
+      '<div class="detail-section"><h4>Fit Analysis</h4><pre>'+esc(p.fit_analysis||(p.score!=null?"Score: "+p.score:"N/A"))+'</pre></div>'+
     '</div></td>';
     tbody.appendChild(dr);
   });
